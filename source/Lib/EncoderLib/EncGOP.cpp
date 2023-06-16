@@ -38,6 +38,7 @@
 #include <list>
 #include <algorithm>
 #include <functional>
+#include <numeric>
 
 #include "EncLib.h"
 #include "EncGOP.h"
@@ -46,6 +47,7 @@
 #include "CommonLib/SEI.h"
 #include "CommonLib/NAL.h"
 #include "NALwrite.h"
+#include "CommonLib/Coleta.h"
 
 #include <math.h>
 #include <deque>
@@ -60,6 +62,7 @@
 #include "DecoderLib/DecLib.h"
 
 using namespace std;
+float _outMin, _outMax, _outSum, _outAvg;
 
 //! \ingroup EncoderLib
 //! \{
@@ -4866,6 +4869,33 @@ void EncGOP::xCalculateAddPSNR(Picture* pcPic, PelUnitBuf cPicD, const AccessUni
   {
     c = 'E';
   }
+
+  _outMin = accumulate(_avgMin.begin(), _avgMin.end(), 0.0) / _avgMin.size();
+  _outMax = accumulate(_avgMax.begin(), _avgMax.end(), 0.0) / _avgMax.size();
+  _outSum = accumulate(_avgSum.begin(), _avgSum.end(), 0.0) / _avgSum.size();
+  _outAvg = accumulate(_avgAvg.begin(), _avgAvg.end(), 0.0) / _avgAvg.size();
+  /*for (int contador = 0; contador < _avgMax.size(); contador++)
+  {
+    std::cout << _avgMax[contador] << ", ";
+  }
+  std::cout << endl;
+  std::cout << endl;
+  std::cout << endl;
+  std::cout << endl;
+  std::cout << endl;
+
+  for (int contador = 0; contador < _avgSum.size(); contador++)
+  {
+    std::cout << _avgSum[contador] << ", ";
+  }*/
+  //std::cout << _avgMin.size() << ", " << _avgMax.size() << ", " << _avgSum.size() << ", " << _avgAvg.size() << std::endl;
+  //std::cout << endl;
+  
+  std::cout << pcSlice->getPOC() << ", " << _outMin << ", " << _outMax << ", " << _outSum << ", " << _outAvg << std::endl;
+  _avgMin.clear();
+  _avgMax.clear();
+  _avgSum.clear();
+  _avgAvg.clear();
 
   if( g_verbosity >= NOTICE )
   {

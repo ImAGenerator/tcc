@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles /home/dudabosel/VVCSoftware_VTM/build/source/App/Parcat//CMakeFiles/progress.marks
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/Parcat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles /home/dudabosel/TCC/TCC/build/source/App/Parcat//CMakeFiles/progress.marks
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/Parcat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/Parcat/clean
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/Parcat/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/Parcat/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/Parcat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/Parcat/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/Parcat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/App/Parcat/CMakeFiles/parcat.dir/rule:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/Parcat/CMakeFiles/parcat.dir/rule
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/Parcat/CMakeFiles/parcat.dir/rule
 .PHONY : source/App/Parcat/CMakeFiles/parcat.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ parcat: source/App/Parcat/CMakeFiles/parcat.dir/rule
 
 # fast build rule for target.
 parcat/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/Parcat/CMakeFiles/parcat.dir/build.make source/App/Parcat/CMakeFiles/parcat.dir/build
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/Parcat/CMakeFiles/parcat.dir/build.make source/App/Parcat/CMakeFiles/parcat.dir/build
 .PHONY : parcat/fast
 
 parcat.o: parcat.cpp.o
@@ -135,7 +135,7 @@ parcat.o: parcat.cpp.o
 
 # target to build an object file
 parcat.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/Parcat/CMakeFiles/parcat.dir/build.make source/App/Parcat/CMakeFiles/parcat.dir/parcat.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/Parcat/CMakeFiles/parcat.dir/build.make source/App/Parcat/CMakeFiles/parcat.dir/parcat.cpp.o
 .PHONY : parcat.cpp.o
 
 parcat.i: parcat.cpp.i
@@ -143,7 +143,7 @@ parcat.i: parcat.cpp.i
 
 # target to preprocess a source file
 parcat.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/Parcat/CMakeFiles/parcat.dir/build.make source/App/Parcat/CMakeFiles/parcat.dir/parcat.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/Parcat/CMakeFiles/parcat.dir/build.make source/App/Parcat/CMakeFiles/parcat.dir/parcat.cpp.i
 .PHONY : parcat.cpp.i
 
 parcat.s: parcat.cpp.s
@@ -151,7 +151,7 @@ parcat.s: parcat.cpp.s
 
 # target to generate assembly for a file
 parcat.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/Parcat/CMakeFiles/parcat.dir/build.make source/App/Parcat/CMakeFiles/parcat.dir/parcat.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/Parcat/CMakeFiles/parcat.dir/build.make source/App/Parcat/CMakeFiles/parcat.dir/parcat.cpp.s
 .PHONY : parcat.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

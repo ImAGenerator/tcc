@@ -1,5 +1,5 @@
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o: \
- /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp/SEIRemovalApp.cpp \
+ /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp/SEIRemovalApp.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/list \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -74,7 +74,7 @@ source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
- /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp/SEIRemovalApp.h \
+ /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp/SEIRemovalApp.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/postypes.h \
@@ -169,7 +169,7 @@ source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/iostream \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/CommonDef.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -186,17 +186,17 @@ source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o: \
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/limits \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/TypeDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/TypeDef.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /usr/include/c++/11/cstddef /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/assert.h /usr/include/c++/11/cassert \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/version.h \
- /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp/SEIRemovalAppCfg.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../DecoderLib/AnnexBread.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../DecoderLib/NALread.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/BitStream.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/CommonDef.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/NAL.h
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/version.h \
+ /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp/SEIRemovalAppCfg.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../DecoderLib/AnnexBread.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../DecoderLib/NALread.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/BitStream.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/NAL.h

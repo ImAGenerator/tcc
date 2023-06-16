@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles /home/dudabosel/VVCSoftware_VTM/build/source/App/BitstreamExtractorApp//CMakeFiles/progress.marks
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/BitstreamExtractorApp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles /home/dudabosel/TCC/TCC/build/source/App/BitstreamExtractorApp//CMakeFiles/progress.marks
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/BitstreamExtractorApp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/BitstreamExtractorApp/clean
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/BitstreamExtractorApp/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/BitstreamExtractorApp/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/BitstreamExtractorApp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/BitstreamExtractorApp/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/BitstreamExtractorApp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/rule:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/rule
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/rule
 .PHONY : source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ BitstreamExtractorApp: source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtr
 
 # fast build rule for target.
 BitstreamExtractorApp/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build
 .PHONY : BitstreamExtractorApp/fast
 
 BitstreamExtractorApp.o: BitstreamExtractorApp.cpp.o
@@ -135,7 +135,7 @@ BitstreamExtractorApp.o: BitstreamExtractorApp.cpp.o
 
 # target to build an object file
 BitstreamExtractorApp.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorApp.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorApp.cpp.o
 .PHONY : BitstreamExtractorApp.cpp.o
 
 BitstreamExtractorApp.i: BitstreamExtractorApp.cpp.i
@@ -143,7 +143,7 @@ BitstreamExtractorApp.i: BitstreamExtractorApp.cpp.i
 
 # target to preprocess a source file
 BitstreamExtractorApp.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorApp.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorApp.cpp.i
 .PHONY : BitstreamExtractorApp.cpp.i
 
 BitstreamExtractorApp.s: BitstreamExtractorApp.cpp.s
@@ -151,7 +151,7 @@ BitstreamExtractorApp.s: BitstreamExtractorApp.cpp.s
 
 # target to generate assembly for a file
 BitstreamExtractorApp.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorApp.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorApp.cpp.s
 .PHONY : BitstreamExtractorApp.cpp.s
 
 BitstreamExtractorAppCfg.o: BitstreamExtractorAppCfg.cpp.o
@@ -159,7 +159,7 @@ BitstreamExtractorAppCfg.o: BitstreamExtractorAppCfg.cpp.o
 
 # target to build an object file
 BitstreamExtractorAppCfg.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorAppCfg.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorAppCfg.cpp.o
 .PHONY : BitstreamExtractorAppCfg.cpp.o
 
 BitstreamExtractorAppCfg.i: BitstreamExtractorAppCfg.cpp.i
@@ -167,7 +167,7 @@ BitstreamExtractorAppCfg.i: BitstreamExtractorAppCfg.cpp.i
 
 # target to preprocess a source file
 BitstreamExtractorAppCfg.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorAppCfg.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorAppCfg.cpp.i
 .PHONY : BitstreamExtractorAppCfg.cpp.i
 
 BitstreamExtractorAppCfg.s: BitstreamExtractorAppCfg.cpp.s
@@ -175,7 +175,7 @@ BitstreamExtractorAppCfg.s: BitstreamExtractorAppCfg.cpp.s
 
 # target to generate assembly for a file
 BitstreamExtractorAppCfg.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorAppCfg.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorAppCfg.cpp.s
 .PHONY : BitstreamExtractorAppCfg.cpp.s
 
 bitstreamextractormain.o: bitstreamextractormain.cpp.o
@@ -183,7 +183,7 @@ bitstreamextractormain.o: bitstreamextractormain.cpp.o
 
 # target to build an object file
 bitstreamextractormain.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/bitstreamextractormain.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/bitstreamextractormain.cpp.o
 .PHONY : bitstreamextractormain.cpp.o
 
 bitstreamextractormain.i: bitstreamextractormain.cpp.i
@@ -191,7 +191,7 @@ bitstreamextractormain.i: bitstreamextractormain.cpp.i
 
 # target to preprocess a source file
 bitstreamextractormain.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/bitstreamextractormain.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/bitstreamextractormain.cpp.i
 .PHONY : bitstreamextractormain.cpp.i
 
 bitstreamextractormain.s: bitstreamextractormain.cpp.s
@@ -199,7 +199,7 @@ bitstreamextractormain.s: bitstreamextractormain.cpp.s
 
 # target to generate assembly for a file
 bitstreamextractormain.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/bitstreamextractormain.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/bitstreamextractormain.cpp.s
 .PHONY : bitstreamextractormain.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,5 +1,5 @@
 source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/NALread.cpp.o: \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/NALread.cpp \
+ /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/NALread.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -159,8 +159,8 @@ source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/NALread.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/NALread.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/NALread.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/CommonDef.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/iomanip \
  /usr/include/c++/11/locale \
@@ -173,25 +173,25 @@ source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/NALread.cpp.o: \
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/limits \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/TypeDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/TypeDef.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /usr/include/c++/11/cstddef /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/assert.h /usr/include/c++/11/cassert \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/version.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/BitStream.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/CommonDef.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/NAL.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/version.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/BitStream.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/NAL.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Rom.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Common.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/dtrace_next.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/dtrace.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Rom.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Common.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/dtrace_next.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/dtrace.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \

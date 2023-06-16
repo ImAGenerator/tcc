@@ -1,5 +1,5 @@
 source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o: \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/program_options_lite.cpp \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/program_options_lite.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/stdlib.h \
  /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -173,4 +173,4 @@ source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/program_options_lite.h
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/program_options_lite.h

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 # Include any dependencies generated for this target.
 include source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/depend.make
@@ -72,44 +72,44 @@ include source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/flags.make
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o: source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/flags.make
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o: ../source/App/SEIRemovalApp/SEIRemovalApp.cpp
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o: source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o -MF CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o.d -o CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp/SEIRemovalApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o -MF CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o.d -o CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o -c /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp/SEIRemovalApp.cpp
 
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp/SEIRemovalApp.cpp > CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp/SEIRemovalApp.cpp > CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.i
 
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp/SEIRemovalApp.cpp -o CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp/SEIRemovalApp.cpp -o CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.s
 
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o: source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/flags.make
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o: ../source/App/SEIRemovalApp/SEIRemovalAppCfg.cpp
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o: source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o -MF CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o.d -o CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp/SEIRemovalAppCfg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o -MF CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o.d -o CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o -c /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp/SEIRemovalAppCfg.cpp
 
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp/SEIRemovalAppCfg.cpp > CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp/SEIRemovalAppCfg.cpp > CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.i
 
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp/SEIRemovalAppCfg.cpp -o CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp/SEIRemovalAppCfg.cpp -o CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.s
 
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o: source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/flags.make
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o: ../source/App/SEIRemovalApp/seiremovalmain.cpp
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o: source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o -MF CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o.d -o CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp/seiremovalmain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o -MF CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o.d -o CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o -c /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp/seiremovalmain.cpp
 
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp/seiremovalmain.cpp > CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp/seiremovalmain.cpp > CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.i
 
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp/seiremovalmain.cpp -o CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp/seiremovalmain.cpp -o CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.s
 
 # Object files for target SEIRemovalApp
 SEIRemovalApp_OBJECTS = \
@@ -129,19 +129,19 @@ SEIRemovalApp_EXTERNAL_OBJECTS =
 ../bin/umake/gcc-11.3/x86_64/release/SEIRemovalApp: ../lib/umake/gcc-11.3/x86_64/release/libUtilities.a
 ../bin/umake/gcc-11.3/x86_64/release/SEIRemovalApp: ../lib/umake/gcc-11.3/x86_64/release/libCommonLib.a
 ../bin/umake/gcc-11.3/x86_64/release/SEIRemovalApp: source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../../bin/umake/gcc-11.3/x86_64/release/SEIRemovalApp"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SEIRemovalApp.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp && /usr/bin/cmake -E copy  /home/dudabosel/VVCSoftware_VTM/bin/umake/gcc-11.3/x86_64/release/SEIRemovalApp    /home/dudabosel/VVCSoftware_VTM/bin/SEIRemovalAppStatic  
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../../bin/umake/gcc-11.3/x86_64/release/SEIRemovalApp"
+	cd /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SEIRemovalApp.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp && /usr/bin/cmake -E copy  /home/dudabosel/TCC/TCC/bin/umake/gcc-11.3/x86_64/release/SEIRemovalApp    /home/dudabosel/TCC/TCC/bin/SEIRemovalAppStatic  
 
 # Rule to build all files generated by this target.
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build: ../bin/umake/gcc-11.3/x86_64/release/SEIRemovalApp
 .PHONY : source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build
 
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp && $(CMAKE_COMMAND) -P CMakeFiles/SEIRemovalApp.dir/cmake_clean.cmake
+	cd /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp && $(CMAKE_COMMAND) -P CMakeFiles/SEIRemovalApp.dir/cmake_clean.cmake
 .PHONY : source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/clean
 
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dudabosel/VVCSoftware_VTM /home/dudabosel/VVCSoftware_VTM/source/App/SEIRemovalApp /home/dudabosel/VVCSoftware_VTM/build /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dudabosel/TCC/TCC /home/dudabosel/TCC/TCC/source/App/SEIRemovalApp /home/dudabosel/TCC/TCC/build /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/depend
 

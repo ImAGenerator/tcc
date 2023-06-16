@@ -1,5 +1,5 @@
 source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/__/CommonLib/BitStream.cpp.o: \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/BitStream.cpp \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/BitStream.cpp \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -50,7 +50,7 @@ source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/__/CommonLib/BitSt
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/BitStream.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/BitStream.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -65,7 +65,7 @@ source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/__/CommonLib/BitSt
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/CommonDef.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h /usr/include/c++/11/cstdlib \
@@ -173,12 +173,12 @@ source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/__/CommonLib/BitSt
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/limits \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/TypeDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/TypeDef.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /usr/include/c++/11/cstddef /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/assert.h /usr/include/c++/11/cassert \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/version.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/version.h \
  /usr/include/memory.h

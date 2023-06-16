@@ -1,9 +1,9 @@
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o: \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/BinDecoder.cpp \
+ /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/BinDecoder.cpp \
  /usr/include/stdc-predef.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/BinDecoder.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Contexts.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/BinDecoder.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Contexts.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CommonDef.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -169,7 +169,7 @@ source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/Bi
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/limits \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/TypeDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/TypeDef.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
@@ -179,8 +179,8 @@ source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/Bi
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/assert.h /usr/include/c++/11/cassert \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/version.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Slice.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/version.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Slice.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
@@ -188,23 +188,23 @@ source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/Bi
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Rom.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Common.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/ChromaFormat.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/HRD.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/SEI.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../libmd5/MD5.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../libmd5/libmd5.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Rom.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Common.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/ChromaFormat.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/HRD.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/SEI.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../libmd5/MD5.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../libmd5/libmd5.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/AlfParameters.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/MotionInfo.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Mv.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/BitStream.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Rom.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CodingStatistics.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/AlfParameters.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/MotionInfo.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Mv.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/BitStream.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Rom.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CodingStatistics.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -216,8 +216,8 @@ source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/Bi
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
  /usr/include/c++/11/cinttypes /usr/include/inttypes.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/dtrace_next.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/dtrace.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/dtrace_next.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/dtrace.h \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/cstdarg \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CommonDef.h
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CommonDef.h

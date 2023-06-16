@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib//CMakeFiles/progress.marks
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/DecoderAnalyserLib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib//CMakeFiles/progress.marks
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/DecoderAnalyserLib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/DecoderAnalyserLib/clean
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/DecoderAnalyserLib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/DecoderAnalyserLib/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/DecoderAnalyserLib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/DecoderAnalyserLib/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/DecoderAnalyserLib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/rule:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/rule
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/rule
 .PHONY : source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ DecoderAnalyserLib: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.
 
 # fast build rule for target.
 DecoderAnalyserLib/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build
 .PHONY : DecoderAnalyserLib/fast
 
 __/DecoderLib/AnnexBread.o: __/DecoderLib/AnnexBread.cpp.o
@@ -135,7 +135,7 @@ __/DecoderLib/AnnexBread.o: __/DecoderLib/AnnexBread.cpp.o
 
 # target to build an object file
 __/DecoderLib/AnnexBread.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o
 .PHONY : __/DecoderLib/AnnexBread.cpp.o
 
 __/DecoderLib/AnnexBread.i: __/DecoderLib/AnnexBread.cpp.i
@@ -143,7 +143,7 @@ __/DecoderLib/AnnexBread.i: __/DecoderLib/AnnexBread.cpp.i
 
 # target to preprocess a source file
 __/DecoderLib/AnnexBread.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.i
 .PHONY : __/DecoderLib/AnnexBread.cpp.i
 
 __/DecoderLib/AnnexBread.s: __/DecoderLib/AnnexBread.cpp.s
@@ -151,7 +151,7 @@ __/DecoderLib/AnnexBread.s: __/DecoderLib/AnnexBread.cpp.s
 
 # target to generate assembly for a file
 __/DecoderLib/AnnexBread.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.s
 .PHONY : __/DecoderLib/AnnexBread.cpp.s
 
 __/DecoderLib/BinDecoder.o: __/DecoderLib/BinDecoder.cpp.o
@@ -159,7 +159,7 @@ __/DecoderLib/BinDecoder.o: __/DecoderLib/BinDecoder.cpp.o
 
 # target to build an object file
 __/DecoderLib/BinDecoder.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o
 .PHONY : __/DecoderLib/BinDecoder.cpp.o
 
 __/DecoderLib/BinDecoder.i: __/DecoderLib/BinDecoder.cpp.i
@@ -167,7 +167,7 @@ __/DecoderLib/BinDecoder.i: __/DecoderLib/BinDecoder.cpp.i
 
 # target to preprocess a source file
 __/DecoderLib/BinDecoder.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.i
 .PHONY : __/DecoderLib/BinDecoder.cpp.i
 
 __/DecoderLib/BinDecoder.s: __/DecoderLib/BinDecoder.cpp.s
@@ -175,7 +175,7 @@ __/DecoderLib/BinDecoder.s: __/DecoderLib/BinDecoder.cpp.s
 
 # target to generate assembly for a file
 __/DecoderLib/BinDecoder.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.s
 .PHONY : __/DecoderLib/BinDecoder.cpp.s
 
 __/DecoderLib/CABACReader.o: __/DecoderLib/CABACReader.cpp.o
@@ -183,7 +183,7 @@ __/DecoderLib/CABACReader.o: __/DecoderLib/CABACReader.cpp.o
 
 # target to build an object file
 __/DecoderLib/CABACReader.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o
 .PHONY : __/DecoderLib/CABACReader.cpp.o
 
 __/DecoderLib/CABACReader.i: __/DecoderLib/CABACReader.cpp.i
@@ -191,7 +191,7 @@ __/DecoderLib/CABACReader.i: __/DecoderLib/CABACReader.cpp.i
 
 # target to preprocess a source file
 __/DecoderLib/CABACReader.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.i
 .PHONY : __/DecoderLib/CABACReader.cpp.i
 
 __/DecoderLib/CABACReader.s: __/DecoderLib/CABACReader.cpp.s
@@ -199,7 +199,7 @@ __/DecoderLib/CABACReader.s: __/DecoderLib/CABACReader.cpp.s
 
 # target to generate assembly for a file
 __/DecoderLib/CABACReader.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.s
 .PHONY : __/DecoderLib/CABACReader.cpp.s
 
 __/DecoderLib/DecCu.o: __/DecoderLib/DecCu.cpp.o
@@ -207,7 +207,7 @@ __/DecoderLib/DecCu.o: __/DecoderLib/DecCu.cpp.o
 
 # target to build an object file
 __/DecoderLib/DecCu.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o
 .PHONY : __/DecoderLib/DecCu.cpp.o
 
 __/DecoderLib/DecCu.i: __/DecoderLib/DecCu.cpp.i
@@ -215,7 +215,7 @@ __/DecoderLib/DecCu.i: __/DecoderLib/DecCu.cpp.i
 
 # target to preprocess a source file
 __/DecoderLib/DecCu.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.i
 .PHONY : __/DecoderLib/DecCu.cpp.i
 
 __/DecoderLib/DecCu.s: __/DecoderLib/DecCu.cpp.s
@@ -223,7 +223,7 @@ __/DecoderLib/DecCu.s: __/DecoderLib/DecCu.cpp.s
 
 # target to generate assembly for a file
 __/DecoderLib/DecCu.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.s
 .PHONY : __/DecoderLib/DecCu.cpp.s
 
 __/DecoderLib/DecLib.o: __/DecoderLib/DecLib.cpp.o
@@ -231,7 +231,7 @@ __/DecoderLib/DecLib.o: __/DecoderLib/DecLib.cpp.o
 
 # target to build an object file
 __/DecoderLib/DecLib.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o
 .PHONY : __/DecoderLib/DecLib.cpp.o
 
 __/DecoderLib/DecLib.i: __/DecoderLib/DecLib.cpp.i
@@ -239,7 +239,7 @@ __/DecoderLib/DecLib.i: __/DecoderLib/DecLib.cpp.i
 
 # target to preprocess a source file
 __/DecoderLib/DecLib.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.i
 .PHONY : __/DecoderLib/DecLib.cpp.i
 
 __/DecoderLib/DecLib.s: __/DecoderLib/DecLib.cpp.s
@@ -247,7 +247,7 @@ __/DecoderLib/DecLib.s: __/DecoderLib/DecLib.cpp.s
 
 # target to generate assembly for a file
 __/DecoderLib/DecLib.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.s
 .PHONY : __/DecoderLib/DecLib.cpp.s
 
 __/DecoderLib/DecSlice.o: __/DecoderLib/DecSlice.cpp.o
@@ -255,7 +255,7 @@ __/DecoderLib/DecSlice.o: __/DecoderLib/DecSlice.cpp.o
 
 # target to build an object file
 __/DecoderLib/DecSlice.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o
 .PHONY : __/DecoderLib/DecSlice.cpp.o
 
 __/DecoderLib/DecSlice.i: __/DecoderLib/DecSlice.cpp.i
@@ -263,7 +263,7 @@ __/DecoderLib/DecSlice.i: __/DecoderLib/DecSlice.cpp.i
 
 # target to preprocess a source file
 __/DecoderLib/DecSlice.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.i
 .PHONY : __/DecoderLib/DecSlice.cpp.i
 
 __/DecoderLib/DecSlice.s: __/DecoderLib/DecSlice.cpp.s
@@ -271,7 +271,7 @@ __/DecoderLib/DecSlice.s: __/DecoderLib/DecSlice.cpp.s
 
 # target to generate assembly for a file
 __/DecoderLib/DecSlice.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.s
 .PHONY : __/DecoderLib/DecSlice.cpp.s
 
 __/DecoderLib/NALread.o: __/DecoderLib/NALread.cpp.o
@@ -279,7 +279,7 @@ __/DecoderLib/NALread.o: __/DecoderLib/NALread.cpp.o
 
 # target to build an object file
 __/DecoderLib/NALread.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o
 .PHONY : __/DecoderLib/NALread.cpp.o
 
 __/DecoderLib/NALread.i: __/DecoderLib/NALread.cpp.i
@@ -287,7 +287,7 @@ __/DecoderLib/NALread.i: __/DecoderLib/NALread.cpp.i
 
 # target to preprocess a source file
 __/DecoderLib/NALread.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.i
 .PHONY : __/DecoderLib/NALread.cpp.i
 
 __/DecoderLib/NALread.s: __/DecoderLib/NALread.cpp.s
@@ -295,7 +295,7 @@ __/DecoderLib/NALread.s: __/DecoderLib/NALread.cpp.s
 
 # target to generate assembly for a file
 __/DecoderLib/NALread.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.s
 .PHONY : __/DecoderLib/NALread.cpp.s
 
 __/DecoderLib/SEIread.o: __/DecoderLib/SEIread.cpp.o
@@ -303,7 +303,7 @@ __/DecoderLib/SEIread.o: __/DecoderLib/SEIread.cpp.o
 
 # target to build an object file
 __/DecoderLib/SEIread.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o
 .PHONY : __/DecoderLib/SEIread.cpp.o
 
 __/DecoderLib/SEIread.i: __/DecoderLib/SEIread.cpp.i
@@ -311,7 +311,7 @@ __/DecoderLib/SEIread.i: __/DecoderLib/SEIread.cpp.i
 
 # target to preprocess a source file
 __/DecoderLib/SEIread.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.i
 .PHONY : __/DecoderLib/SEIread.cpp.i
 
 __/DecoderLib/SEIread.s: __/DecoderLib/SEIread.cpp.s
@@ -319,7 +319,7 @@ __/DecoderLib/SEIread.s: __/DecoderLib/SEIread.cpp.s
 
 # target to generate assembly for a file
 __/DecoderLib/SEIread.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.s
 .PHONY : __/DecoderLib/SEIread.cpp.s
 
 __/DecoderLib/VLCReader.o: __/DecoderLib/VLCReader.cpp.o
@@ -327,7 +327,7 @@ __/DecoderLib/VLCReader.o: __/DecoderLib/VLCReader.cpp.o
 
 # target to build an object file
 __/DecoderLib/VLCReader.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o
 .PHONY : __/DecoderLib/VLCReader.cpp.o
 
 __/DecoderLib/VLCReader.i: __/DecoderLib/VLCReader.cpp.i
@@ -335,7 +335,7 @@ __/DecoderLib/VLCReader.i: __/DecoderLib/VLCReader.cpp.i
 
 # target to preprocess a source file
 __/DecoderLib/VLCReader.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.i
 .PHONY : __/DecoderLib/VLCReader.cpp.i
 
 __/DecoderLib/VLCReader.s: __/DecoderLib/VLCReader.cpp.s
@@ -343,7 +343,7 @@ __/DecoderLib/VLCReader.s: __/DecoderLib/VLCReader.cpp.s
 
 # target to generate assembly for a file
 __/DecoderLib/VLCReader.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.s
 .PHONY : __/DecoderLib/VLCReader.cpp.s
 
 # Help Target
@@ -393,6 +393,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

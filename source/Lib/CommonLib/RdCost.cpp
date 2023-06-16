@@ -43,6 +43,7 @@
 #include "UnitPartitioner.h"
 
 #include <limits>
+#include "Coleta.h"
 
 //! \ingroup CommonLib
 //! \{
@@ -2252,6 +2253,7 @@ Distortion RdCost::xCalcHADs8x8( const Pel *piOrg, const Pel *piCur, int iStride
   int k, i, j, jj;
   Distortion sad = 0;
   TCoeff diff[64], m1[8][8], m2[8][8], m3[8][8];
+  float _max = -99999999999999999, _min = 9999999999999, _sum = 0, _avg;
   CHECK( iStep != 1, "Invalid step" );
   for( k = 0; k < 64; k += 8 )
   {
@@ -2266,7 +2268,21 @@ Distortion RdCost::xCalcHADs8x8( const Pel *piOrg, const Pel *piCur, int iStride
 
     piCur += iStrideCur;
     piOrg += iStrideOrg;
+
+    for ( j = 0; j < 8; j ++ )
+    {
+      _max = (diff[k+j] >= _max) * diff[k+j] + (diff[k+j] < _max) * _max;
+      _min = (diff[k+j] <= _min) * diff[k+j] + (diff[k+j] > _min) * _min;
+      _sum += diff[k+j];
+    }
   }
+
+  _avg = _sum / 64;
+  //std::cout << _min << ", " << _max << ", " << _sum << ", " << _avg << std::endl;
+  _avgMax.push_back(_max);
+  _avgMin.push_back(_min);
+  _avgSum.push_back(_sum);
+  _avgAvg.push_back(_avg);
 
   //horizontal
   for (j=0; j < 8; j++)

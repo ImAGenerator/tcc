@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles /home/dudabosel/VVCSoftware_VTM/build/source/App/EncoderApp//CMakeFiles/progress.marks
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/EncoderApp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles /home/dudabosel/TCC/TCC/build/source/App/EncoderApp//CMakeFiles/progress.marks
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/EncoderApp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/EncoderApp/clean
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/EncoderApp/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/EncoderApp/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/EncoderApp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/EncoderApp/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/EncoderApp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/App/EncoderApp/CMakeFiles/EncoderApp.dir/rule:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/EncoderApp/CMakeFiles/EncoderApp.dir/rule
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/EncoderApp/CMakeFiles/EncoderApp.dir/rule
 .PHONY : source/App/EncoderApp/CMakeFiles/EncoderApp.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ EncoderApp: source/App/EncoderApp/CMakeFiles/EncoderApp.dir/rule
 
 # fast build rule for target.
 EncoderApp/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build
 .PHONY : EncoderApp/fast
 
 EncApp.o: EncApp.cpp.o
@@ -135,7 +135,7 @@ EncApp.o: EncApp.cpp.o
 
 # target to build an object file
 EncApp.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/EncApp.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/EncApp.cpp.o
 .PHONY : EncApp.cpp.o
 
 EncApp.i: EncApp.cpp.i
@@ -143,7 +143,7 @@ EncApp.i: EncApp.cpp.i
 
 # target to preprocess a source file
 EncApp.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/EncApp.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/EncApp.cpp.i
 .PHONY : EncApp.cpp.i
 
 EncApp.s: EncApp.cpp.s
@@ -151,7 +151,7 @@ EncApp.s: EncApp.cpp.s
 
 # target to generate assembly for a file
 EncApp.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/EncApp.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/EncApp.cpp.s
 .PHONY : EncApp.cpp.s
 
 EncAppCfg.o: EncAppCfg.cpp.o
@@ -159,7 +159,7 @@ EncAppCfg.o: EncAppCfg.cpp.o
 
 # target to build an object file
 EncAppCfg.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/EncAppCfg.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/EncAppCfg.cpp.o
 .PHONY : EncAppCfg.cpp.o
 
 EncAppCfg.i: EncAppCfg.cpp.i
@@ -167,7 +167,7 @@ EncAppCfg.i: EncAppCfg.cpp.i
 
 # target to preprocess a source file
 EncAppCfg.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/EncAppCfg.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/EncAppCfg.cpp.i
 .PHONY : EncAppCfg.cpp.i
 
 EncAppCfg.s: EncAppCfg.cpp.s
@@ -175,7 +175,7 @@ EncAppCfg.s: EncAppCfg.cpp.s
 
 # target to generate assembly for a file
 EncAppCfg.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/EncAppCfg.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/EncAppCfg.cpp.s
 .PHONY : EncAppCfg.cpp.s
 
 encmain.o: encmain.cpp.o
@@ -183,7 +183,7 @@ encmain.o: encmain.cpp.o
 
 # target to build an object file
 encmain.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/encmain.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/encmain.cpp.o
 .PHONY : encmain.cpp.o
 
 encmain.i: encmain.cpp.i
@@ -191,7 +191,7 @@ encmain.i: encmain.cpp.i
 
 # target to preprocess a source file
 encmain.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/encmain.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/encmain.cpp.i
 .PHONY : encmain.cpp.i
 
 encmain.s: encmain.cpp.s
@@ -199,7 +199,7 @@ encmain.s: encmain.cpp.s
 
 # target to generate assembly for a file
 encmain.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/encmain.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/encmain.cpp.s
 .PHONY : encmain.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

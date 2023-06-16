@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -330,14 +330,14 @@ source/Lib/Utilities/clean: source/Lib/Utilities/CMakeFiles/Utilities.dir/clean
 source/Lib/CommonLib/CMakeFiles/CommonLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target CommonLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target CommonLib"
 .PHONY : source/Lib/CommonLib/CMakeFiles/CommonLib.dir/all
 
 # Build rule for subdir invocation for target.
 source/Lib/CommonLib/CMakeFiles/CommonLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/CommonLib/CMakeFiles/CommonLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/Lib/CommonLib/CMakeFiles/CommonLib.dir/rule
 
 # Convenience name for target.
@@ -356,14 +356,14 @@ source/Lib/CommonLib/CMakeFiles/CommonLib.dir/clean:
 source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/build.make source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/build.make source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target CommonAnalyserLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target CommonAnalyserLib"
 .PHONY : source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/all
 
 # Build rule for subdir invocation for target.
 source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/rule
 
 # Convenience name for target.
@@ -382,14 +382,14 @@ source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/clean:
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/all: source/Lib/CommonAnalyserLib/CMakeFiles/CommonAnalyserLib.dir/all
 	$(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=67,68,69,70,71 "Built target DecoderAnalyserLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=68,69,70,71,72 "Built target DecoderAnalyserLib"
 .PHONY : source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/all
 
 # Build rule for subdir invocation for target.
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/rule
 
 # Convenience name for target.
@@ -408,14 +408,14 @@ source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/clean:
 source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/all: source/Lib/CommonLib/CMakeFiles/CommonLib.dir/all
 	$(MAKE) $(MAKESILENT) -f source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/build.make source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/build.make source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=74,75,76,77,78 "Built target DecoderLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=75,76,77,78,79 "Built target DecoderLib"
 .PHONY : source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/all
 
 # Build rule for subdir invocation for target.
 source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/rule
 
 # Convenience name for target.
@@ -434,14 +434,14 @@ source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/clean:
 source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/all: source/Lib/CommonLib/CMakeFiles/CommonLib.dir/all
 	$(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=81,82,83,84,85,86,87,88,89,90,91,92 "Built target EncoderLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=81,82,83,84,85,86,87,88,89,90,91,92 "Built target EncoderLib"
 .PHONY : source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/all
 
 # Build rule for subdir invocation for target.
 source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/rule
 
 # Convenience name for target.
@@ -460,14 +460,14 @@ source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/clean:
 source/Lib/Utilities/CMakeFiles/Utilities.dir/all: source/Lib/CommonLib/CMakeFiles/CommonLib.dir/all
 	$(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=98,99 "Built target Utilities"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=98,99 "Built target Utilities"
 .PHONY : source/Lib/Utilities/CMakeFiles/Utilities.dir/all
 
 # Build rule for subdir invocation for target.
 source/Lib/Utilities/CMakeFiles/Utilities.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/Utilities/CMakeFiles/Utilities.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/Lib/Utilities/CMakeFiles/Utilities.dir/rule
 
 # Convenience name for target.
@@ -489,14 +489,14 @@ source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/all: source/Lib/
 source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/all: source/Lib/Utilities/CMakeFiles/Utilities.dir/all
 	$(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=66 "Built target DecoderAnalyserApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=66,67 "Built target DecoderAnalyserApp"
 .PHONY : source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/all
 
 # Build rule for subdir invocation for target.
 source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 72
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 73
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/rule
 
 # Convenience name for target.
@@ -517,14 +517,14 @@ source/App/DecoderApp/CMakeFiles/DecoderApp.dir/all: source/Lib/DecoderLib/CMake
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/all: source/Lib/Utilities/CMakeFiles/Utilities.dir/all
 	$(MAKE) $(MAKESILENT) -f source/App/DecoderApp/CMakeFiles/DecoderApp.dir/build.make source/App/DecoderApp/CMakeFiles/DecoderApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/App/DecoderApp/CMakeFiles/DecoderApp.dir/build.make source/App/DecoderApp/CMakeFiles/DecoderApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=72,73 "Built target DecoderApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=73,74 "Built target DecoderApp"
 .PHONY : source/App/DecoderApp/CMakeFiles/DecoderApp.dir/all
 
 # Build rule for subdir invocation for target.
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/App/DecoderApp/CMakeFiles/DecoderApp.dir/rule
 
 # Convenience name for target.
@@ -546,14 +546,14 @@ source/App/EncoderApp/CMakeFiles/EncoderApp.dir/all: source/Lib/EncoderLib/CMake
 source/App/EncoderApp/CMakeFiles/EncoderApp.dir/all: source/Lib/Utilities/CMakeFiles/Utilities.dir/all
 	$(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build.make source/App/EncoderApp/CMakeFiles/EncoderApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=79,80 "Built target EncoderApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=80 "Built target EncoderApp"
 .PHONY : source/App/EncoderApp/CMakeFiles/EncoderApp.dir/all
 
 # Build rule for subdir invocation for target.
 source/App/EncoderApp/CMakeFiles/EncoderApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 52
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/EncoderApp/CMakeFiles/EncoderApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/App/EncoderApp/CMakeFiles/EncoderApp.dir/rule
 
 # Convenience name for target.
@@ -574,14 +574,14 @@ source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/all: source/Lib/DecoderLib
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/all: source/Lib/Utilities/CMakeFiles/Utilities.dir/all
 	$(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=93,94 "Built target SEIRemovalApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=93,94 "Built target SEIRemovalApp"
 .PHONY : source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/all
 
 # Build rule for subdir invocation for target.
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/rule
 
 # Convenience name for target.
@@ -602,14 +602,14 @@ source/App/Parcat/CMakeFiles/parcat.dir/all: source/Lib/DecoderLib/CMakeFiles/De
 source/App/Parcat/CMakeFiles/parcat.dir/all: source/Lib/Utilities/CMakeFiles/Utilities.dir/all
 	$(MAKE) $(MAKESILENT) -f source/App/Parcat/CMakeFiles/parcat.dir/build.make source/App/Parcat/CMakeFiles/parcat.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/App/Parcat/CMakeFiles/parcat.dir/build.make source/App/Parcat/CMakeFiles/parcat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=100 "Built target parcat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=100 "Built target parcat"
 .PHONY : source/App/Parcat/CMakeFiles/parcat.dir/all
 
 # Build rule for subdir invocation for target.
 source/App/Parcat/CMakeFiles/parcat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/Parcat/CMakeFiles/parcat.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/App/Parcat/CMakeFiles/parcat.dir/rule
 
 # Convenience name for target.
@@ -631,14 +631,14 @@ source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/all: source/Lib/EncoderL
 source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/all: source/Lib/Utilities/CMakeFiles/Utilities.dir/all
 	$(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=95,96 "Built target StreamMergeApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=95,96 "Built target StreamMergeApp"
 .PHONY : source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/all
 
 # Build rule for subdir invocation for target.
 source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 53
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/rule
 
 # Convenience name for target.
@@ -660,14 +660,14 @@ source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/all: sourc
 source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/all: source/Lib/Utilities/CMakeFiles/Utilities.dir/all
 	$(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build.make source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=1 "Built target BitstreamExtractorApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=1 "Built target BitstreamExtractorApp"
 .PHONY : source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/all
 
 # Build rule for subdir invocation for target.
 source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 52
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/rule
 
 # Convenience name for target.
@@ -689,14 +689,14 @@ source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/all: source/Lib/EncoderL
 source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/all: source/Lib/Utilities/CMakeFiles/Utilities.dir/all
 	$(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=97 "Built target SubpicMergeApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=97 "Built target SubpicMergeApp"
 .PHONY : source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/all
 
 # Build rule for subdir invocation for target.
 source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 52
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/rule
 
 # Convenience name for target.

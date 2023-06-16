@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles /home/dudabosel/VVCSoftware_VTM/build/source/Lib/CommonLib//CMakeFiles/progress.marks
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/CommonLib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles /home/dudabosel/TCC/TCC/build/source/Lib/CommonLib//CMakeFiles/progress.marks
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/CommonLib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/CommonLib/clean
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/CommonLib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/CommonLib/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/CommonLib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/CommonLib/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/CommonLib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/Lib/CommonLib/CMakeFiles/CommonLib.dir/rule:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/CommonLib/CMakeFiles/CommonLib.dir/rule
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/CommonLib/CMakeFiles/CommonLib.dir/rule
 .PHONY : source/Lib/CommonLib/CMakeFiles/CommonLib.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ CommonLib: source/Lib/CommonLib/CMakeFiles/CommonLib.dir/rule
 
 # fast build rule for target.
 CommonLib/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build
 .PHONY : CommonLib/fast
 
 AdaptiveLoopFilter.o: AdaptiveLoopFilter.cpp.o
@@ -135,7 +135,7 @@ AdaptiveLoopFilter.o: AdaptiveLoopFilter.cpp.o
 
 # target to build an object file
 AdaptiveLoopFilter.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/AdaptiveLoopFilter.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/AdaptiveLoopFilter.cpp.o
 .PHONY : AdaptiveLoopFilter.cpp.o
 
 AdaptiveLoopFilter.i: AdaptiveLoopFilter.cpp.i
@@ -143,7 +143,7 @@ AdaptiveLoopFilter.i: AdaptiveLoopFilter.cpp.i
 
 # target to preprocess a source file
 AdaptiveLoopFilter.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/AdaptiveLoopFilter.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/AdaptiveLoopFilter.cpp.i
 .PHONY : AdaptiveLoopFilter.cpp.i
 
 AdaptiveLoopFilter.s: AdaptiveLoopFilter.cpp.s
@@ -151,7 +151,7 @@ AdaptiveLoopFilter.s: AdaptiveLoopFilter.cpp.s
 
 # target to generate assembly for a file
 AdaptiveLoopFilter.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/AdaptiveLoopFilter.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/AdaptiveLoopFilter.cpp.s
 .PHONY : AdaptiveLoopFilter.cpp.s
 
 AffineGradientSearch.o: AffineGradientSearch.cpp.o
@@ -159,7 +159,7 @@ AffineGradientSearch.o: AffineGradientSearch.cpp.o
 
 # target to build an object file
 AffineGradientSearch.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/AffineGradientSearch.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/AffineGradientSearch.cpp.o
 .PHONY : AffineGradientSearch.cpp.o
 
 AffineGradientSearch.i: AffineGradientSearch.cpp.i
@@ -167,7 +167,7 @@ AffineGradientSearch.i: AffineGradientSearch.cpp.i
 
 # target to preprocess a source file
 AffineGradientSearch.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/AffineGradientSearch.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/AffineGradientSearch.cpp.i
 .PHONY : AffineGradientSearch.cpp.i
 
 AffineGradientSearch.s: AffineGradientSearch.cpp.s
@@ -175,7 +175,7 @@ AffineGradientSearch.s: AffineGradientSearch.cpp.s
 
 # target to generate assembly for a file
 AffineGradientSearch.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/AffineGradientSearch.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/AffineGradientSearch.cpp.s
 .PHONY : AffineGradientSearch.cpp.s
 
 BitStream.o: BitStream.cpp.o
@@ -183,7 +183,7 @@ BitStream.o: BitStream.cpp.o
 
 # target to build an object file
 BitStream.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/BitStream.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/BitStream.cpp.o
 .PHONY : BitStream.cpp.o
 
 BitStream.i: BitStream.cpp.i
@@ -191,7 +191,7 @@ BitStream.i: BitStream.cpp.i
 
 # target to preprocess a source file
 BitStream.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/BitStream.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/BitStream.cpp.i
 .PHONY : BitStream.cpp.i
 
 BitStream.s: BitStream.cpp.s
@@ -199,7 +199,7 @@ BitStream.s: BitStream.cpp.s
 
 # target to generate assembly for a file
 BitStream.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/BitStream.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/BitStream.cpp.s
 .PHONY : BitStream.cpp.s
 
 Buffer.o: Buffer.cpp.o
@@ -207,7 +207,7 @@ Buffer.o: Buffer.cpp.o
 
 # target to build an object file
 Buffer.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Buffer.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Buffer.cpp.o
 .PHONY : Buffer.cpp.o
 
 Buffer.i: Buffer.cpp.i
@@ -215,7 +215,7 @@ Buffer.i: Buffer.cpp.i
 
 # target to preprocess a source file
 Buffer.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Buffer.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Buffer.cpp.i
 .PHONY : Buffer.cpp.i
 
 Buffer.s: Buffer.cpp.s
@@ -223,7 +223,7 @@ Buffer.s: Buffer.cpp.s
 
 # target to generate assembly for a file
 Buffer.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Buffer.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Buffer.cpp.s
 .PHONY : Buffer.cpp.s
 
 CacheModel.o: CacheModel.cpp.o
@@ -231,7 +231,7 @@ CacheModel.o: CacheModel.cpp.o
 
 # target to build an object file
 CacheModel.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/CacheModel.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/CacheModel.cpp.o
 .PHONY : CacheModel.cpp.o
 
 CacheModel.i: CacheModel.cpp.i
@@ -239,7 +239,7 @@ CacheModel.i: CacheModel.cpp.i
 
 # target to preprocess a source file
 CacheModel.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/CacheModel.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/CacheModel.cpp.i
 .PHONY : CacheModel.cpp.i
 
 CacheModel.s: CacheModel.cpp.s
@@ -247,7 +247,7 @@ CacheModel.s: CacheModel.cpp.s
 
 # target to generate assembly for a file
 CacheModel.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/CacheModel.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/CacheModel.cpp.s
 .PHONY : CacheModel.cpp.s
 
 ChromaFormat.o: ChromaFormat.cpp.o
@@ -255,7 +255,7 @@ ChromaFormat.o: ChromaFormat.cpp.o
 
 # target to build an object file
 ChromaFormat.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ChromaFormat.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ChromaFormat.cpp.o
 .PHONY : ChromaFormat.cpp.o
 
 ChromaFormat.i: ChromaFormat.cpp.i
@@ -263,7 +263,7 @@ ChromaFormat.i: ChromaFormat.cpp.i
 
 # target to preprocess a source file
 ChromaFormat.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ChromaFormat.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ChromaFormat.cpp.i
 .PHONY : ChromaFormat.cpp.i
 
 ChromaFormat.s: ChromaFormat.cpp.s
@@ -271,7 +271,7 @@ ChromaFormat.s: ChromaFormat.cpp.s
 
 # target to generate assembly for a file
 ChromaFormat.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ChromaFormat.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ChromaFormat.cpp.s
 .PHONY : ChromaFormat.cpp.s
 
 CodingStructure.o: CodingStructure.cpp.o
@@ -279,7 +279,7 @@ CodingStructure.o: CodingStructure.cpp.o
 
 # target to build an object file
 CodingStructure.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/CodingStructure.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/CodingStructure.cpp.o
 .PHONY : CodingStructure.cpp.o
 
 CodingStructure.i: CodingStructure.cpp.i
@@ -287,7 +287,7 @@ CodingStructure.i: CodingStructure.cpp.i
 
 # target to preprocess a source file
 CodingStructure.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/CodingStructure.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/CodingStructure.cpp.i
 .PHONY : CodingStructure.cpp.i
 
 CodingStructure.s: CodingStructure.cpp.s
@@ -295,15 +295,39 @@ CodingStructure.s: CodingStructure.cpp.s
 
 # target to generate assembly for a file
 CodingStructure.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/CodingStructure.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/CodingStructure.cpp.s
 .PHONY : CodingStructure.cpp.s
+
+Coleta.o: Coleta.cpp.o
+.PHONY : Coleta.o
+
+# target to build an object file
+Coleta.cpp.o:
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Coleta.cpp.o
+.PHONY : Coleta.cpp.o
+
+Coleta.i: Coleta.cpp.i
+.PHONY : Coleta.i
+
+# target to preprocess a source file
+Coleta.cpp.i:
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Coleta.cpp.i
+.PHONY : Coleta.cpp.i
+
+Coleta.s: Coleta.cpp.s
+.PHONY : Coleta.s
+
+# target to generate assembly for a file
+Coleta.cpp.s:
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Coleta.cpp.s
+.PHONY : Coleta.cpp.s
 
 ContextModelling.o: ContextModelling.cpp.o
 .PHONY : ContextModelling.o
 
 # target to build an object file
 ContextModelling.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ContextModelling.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ContextModelling.cpp.o
 .PHONY : ContextModelling.cpp.o
 
 ContextModelling.i: ContextModelling.cpp.i
@@ -311,7 +335,7 @@ ContextModelling.i: ContextModelling.cpp.i
 
 # target to preprocess a source file
 ContextModelling.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ContextModelling.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ContextModelling.cpp.i
 .PHONY : ContextModelling.cpp.i
 
 ContextModelling.s: ContextModelling.cpp.s
@@ -319,7 +343,7 @@ ContextModelling.s: ContextModelling.cpp.s
 
 # target to generate assembly for a file
 ContextModelling.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ContextModelling.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ContextModelling.cpp.s
 .PHONY : ContextModelling.cpp.s
 
 Contexts.o: Contexts.cpp.o
@@ -327,7 +351,7 @@ Contexts.o: Contexts.cpp.o
 
 # target to build an object file
 Contexts.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Contexts.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Contexts.cpp.o
 .PHONY : Contexts.cpp.o
 
 Contexts.i: Contexts.cpp.i
@@ -335,7 +359,7 @@ Contexts.i: Contexts.cpp.i
 
 # target to preprocess a source file
 Contexts.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Contexts.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Contexts.cpp.i
 .PHONY : Contexts.cpp.i
 
 Contexts.s: Contexts.cpp.s
@@ -343,7 +367,7 @@ Contexts.s: Contexts.cpp.s
 
 # target to generate assembly for a file
 Contexts.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Contexts.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Contexts.cpp.s
 .PHONY : Contexts.cpp.s
 
 DeblockingFilter.o: DeblockingFilter.cpp.o
@@ -351,7 +375,7 @@ DeblockingFilter.o: DeblockingFilter.cpp.o
 
 # target to build an object file
 DeblockingFilter.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DeblockingFilter.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DeblockingFilter.cpp.o
 .PHONY : DeblockingFilter.cpp.o
 
 DeblockingFilter.i: DeblockingFilter.cpp.i
@@ -359,7 +383,7 @@ DeblockingFilter.i: DeblockingFilter.cpp.i
 
 # target to preprocess a source file
 DeblockingFilter.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DeblockingFilter.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DeblockingFilter.cpp.i
 .PHONY : DeblockingFilter.cpp.i
 
 DeblockingFilter.s: DeblockingFilter.cpp.s
@@ -367,7 +391,7 @@ DeblockingFilter.s: DeblockingFilter.cpp.s
 
 # target to generate assembly for a file
 DeblockingFilter.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DeblockingFilter.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DeblockingFilter.cpp.s
 .PHONY : DeblockingFilter.cpp.s
 
 DepQuant.o: DepQuant.cpp.o
@@ -375,7 +399,7 @@ DepQuant.o: DepQuant.cpp.o
 
 # target to build an object file
 DepQuant.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DepQuant.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DepQuant.cpp.o
 .PHONY : DepQuant.cpp.o
 
 DepQuant.i: DepQuant.cpp.i
@@ -383,7 +407,7 @@ DepQuant.i: DepQuant.cpp.i
 
 # target to preprocess a source file
 DepQuant.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DepQuant.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DepQuant.cpp.i
 .PHONY : DepQuant.cpp.i
 
 DepQuant.s: DepQuant.cpp.s
@@ -391,7 +415,7 @@ DepQuant.s: DepQuant.cpp.s
 
 # target to generate assembly for a file
 DepQuant.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DepQuant.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DepQuant.cpp.s
 .PHONY : DepQuant.cpp.s
 
 HRD.o: HRD.cpp.o
@@ -399,7 +423,7 @@ HRD.o: HRD.cpp.o
 
 # target to build an object file
 HRD.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/HRD.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/HRD.cpp.o
 .PHONY : HRD.cpp.o
 
 HRD.i: HRD.cpp.i
@@ -407,7 +431,7 @@ HRD.i: HRD.cpp.i
 
 # target to preprocess a source file
 HRD.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/HRD.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/HRD.cpp.i
 .PHONY : HRD.cpp.i
 
 HRD.s: HRD.cpp.s
@@ -415,7 +439,7 @@ HRD.s: HRD.cpp.s
 
 # target to generate assembly for a file
 HRD.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/HRD.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/HRD.cpp.s
 .PHONY : HRD.cpp.s
 
 Hash.o: Hash.cpp.o
@@ -423,7 +447,7 @@ Hash.o: Hash.cpp.o
 
 # target to build an object file
 Hash.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Hash.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Hash.cpp.o
 .PHONY : Hash.cpp.o
 
 Hash.i: Hash.cpp.i
@@ -431,7 +455,7 @@ Hash.i: Hash.cpp.i
 
 # target to preprocess a source file
 Hash.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Hash.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Hash.cpp.i
 .PHONY : Hash.cpp.i
 
 Hash.s: Hash.cpp.s
@@ -439,7 +463,7 @@ Hash.s: Hash.cpp.s
 
 # target to generate assembly for a file
 Hash.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Hash.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Hash.cpp.s
 .PHONY : Hash.cpp.s
 
 IbcHashMap.o: IbcHashMap.cpp.o
@@ -447,7 +471,7 @@ IbcHashMap.o: IbcHashMap.cpp.o
 
 # target to build an object file
 IbcHashMap.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/IbcHashMap.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/IbcHashMap.cpp.o
 .PHONY : IbcHashMap.cpp.o
 
 IbcHashMap.i: IbcHashMap.cpp.i
@@ -455,7 +479,7 @@ IbcHashMap.i: IbcHashMap.cpp.i
 
 # target to preprocess a source file
 IbcHashMap.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/IbcHashMap.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/IbcHashMap.cpp.i
 .PHONY : IbcHashMap.cpp.i
 
 IbcHashMap.s: IbcHashMap.cpp.s
@@ -463,7 +487,7 @@ IbcHashMap.s: IbcHashMap.cpp.s
 
 # target to generate assembly for a file
 IbcHashMap.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/IbcHashMap.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/IbcHashMap.cpp.s
 .PHONY : IbcHashMap.cpp.s
 
 InterPrediction.o: InterPrediction.cpp.o
@@ -471,7 +495,7 @@ InterPrediction.o: InterPrediction.cpp.o
 
 # target to build an object file
 InterPrediction.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/InterPrediction.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/InterPrediction.cpp.o
 .PHONY : InterPrediction.cpp.o
 
 InterPrediction.i: InterPrediction.cpp.i
@@ -479,7 +503,7 @@ InterPrediction.i: InterPrediction.cpp.i
 
 # target to preprocess a source file
 InterPrediction.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/InterPrediction.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/InterPrediction.cpp.i
 .PHONY : InterPrediction.cpp.i
 
 InterPrediction.s: InterPrediction.cpp.s
@@ -487,7 +511,7 @@ InterPrediction.s: InterPrediction.cpp.s
 
 # target to generate assembly for a file
 InterPrediction.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/InterPrediction.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/InterPrediction.cpp.s
 .PHONY : InterPrediction.cpp.s
 
 InterpolationFilter.o: InterpolationFilter.cpp.o
@@ -495,7 +519,7 @@ InterpolationFilter.o: InterpolationFilter.cpp.o
 
 # target to build an object file
 InterpolationFilter.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/InterpolationFilter.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/InterpolationFilter.cpp.o
 .PHONY : InterpolationFilter.cpp.o
 
 InterpolationFilter.i: InterpolationFilter.cpp.i
@@ -503,7 +527,7 @@ InterpolationFilter.i: InterpolationFilter.cpp.i
 
 # target to preprocess a source file
 InterpolationFilter.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/InterpolationFilter.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/InterpolationFilter.cpp.i
 .PHONY : InterpolationFilter.cpp.i
 
 InterpolationFilter.s: InterpolationFilter.cpp.s
@@ -511,7 +535,7 @@ InterpolationFilter.s: InterpolationFilter.cpp.s
 
 # target to generate assembly for a file
 InterpolationFilter.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/InterpolationFilter.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/InterpolationFilter.cpp.s
 .PHONY : InterpolationFilter.cpp.s
 
 IntraPrediction.o: IntraPrediction.cpp.o
@@ -519,7 +543,7 @@ IntraPrediction.o: IntraPrediction.cpp.o
 
 # target to build an object file
 IntraPrediction.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/IntraPrediction.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/IntraPrediction.cpp.o
 .PHONY : IntraPrediction.cpp.o
 
 IntraPrediction.i: IntraPrediction.cpp.i
@@ -527,7 +551,7 @@ IntraPrediction.i: IntraPrediction.cpp.i
 
 # target to preprocess a source file
 IntraPrediction.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/IntraPrediction.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/IntraPrediction.cpp.i
 .PHONY : IntraPrediction.cpp.i
 
 IntraPrediction.s: IntraPrediction.cpp.s
@@ -535,7 +559,7 @@ IntraPrediction.s: IntraPrediction.cpp.s
 
 # target to generate assembly for a file
 IntraPrediction.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/IntraPrediction.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/IntraPrediction.cpp.s
 .PHONY : IntraPrediction.cpp.s
 
 MCTS.o: MCTS.cpp.o
@@ -543,7 +567,7 @@ MCTS.o: MCTS.cpp.o
 
 # target to build an object file
 MCTS.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/MCTS.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/MCTS.cpp.o
 .PHONY : MCTS.cpp.o
 
 MCTS.i: MCTS.cpp.i
@@ -551,7 +575,7 @@ MCTS.i: MCTS.cpp.i
 
 # target to preprocess a source file
 MCTS.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/MCTS.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/MCTS.cpp.i
 .PHONY : MCTS.cpp.i
 
 MCTS.s: MCTS.cpp.s
@@ -559,7 +583,7 @@ MCTS.s: MCTS.cpp.s
 
 # target to generate assembly for a file
 MCTS.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/MCTS.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/MCTS.cpp.s
 .PHONY : MCTS.cpp.s
 
 MatrixIntraPrediction.o: MatrixIntraPrediction.cpp.o
@@ -567,7 +591,7 @@ MatrixIntraPrediction.o: MatrixIntraPrediction.cpp.o
 
 # target to build an object file
 MatrixIntraPrediction.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/MatrixIntraPrediction.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/MatrixIntraPrediction.cpp.o
 .PHONY : MatrixIntraPrediction.cpp.o
 
 MatrixIntraPrediction.i: MatrixIntraPrediction.cpp.i
@@ -575,7 +599,7 @@ MatrixIntraPrediction.i: MatrixIntraPrediction.cpp.i
 
 # target to preprocess a source file
 MatrixIntraPrediction.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/MatrixIntraPrediction.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/MatrixIntraPrediction.cpp.i
 .PHONY : MatrixIntraPrediction.cpp.i
 
 MatrixIntraPrediction.s: MatrixIntraPrediction.cpp.s
@@ -583,7 +607,7 @@ MatrixIntraPrediction.s: MatrixIntraPrediction.cpp.s
 
 # target to generate assembly for a file
 MatrixIntraPrediction.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/MatrixIntraPrediction.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/MatrixIntraPrediction.cpp.s
 .PHONY : MatrixIntraPrediction.cpp.s
 
 Mv.o: Mv.cpp.o
@@ -591,7 +615,7 @@ Mv.o: Mv.cpp.o
 
 # target to build an object file
 Mv.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Mv.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Mv.cpp.o
 .PHONY : Mv.cpp.o
 
 Mv.i: Mv.cpp.i
@@ -599,7 +623,7 @@ Mv.i: Mv.cpp.i
 
 # target to preprocess a source file
 Mv.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Mv.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Mv.cpp.i
 .PHONY : Mv.cpp.i
 
 Mv.s: Mv.cpp.s
@@ -607,7 +631,7 @@ Mv.s: Mv.cpp.s
 
 # target to generate assembly for a file
 Mv.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Mv.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Mv.cpp.s
 .PHONY : Mv.cpp.s
 
 ParameterSetManager.o: ParameterSetManager.cpp.o
@@ -615,7 +639,7 @@ ParameterSetManager.o: ParameterSetManager.cpp.o
 
 # target to build an object file
 ParameterSetManager.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ParameterSetManager.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ParameterSetManager.cpp.o
 .PHONY : ParameterSetManager.cpp.o
 
 ParameterSetManager.i: ParameterSetManager.cpp.i
@@ -623,7 +647,7 @@ ParameterSetManager.i: ParameterSetManager.cpp.i
 
 # target to preprocess a source file
 ParameterSetManager.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ParameterSetManager.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ParameterSetManager.cpp.i
 .PHONY : ParameterSetManager.cpp.i
 
 ParameterSetManager.s: ParameterSetManager.cpp.s
@@ -631,7 +655,7 @@ ParameterSetManager.s: ParameterSetManager.cpp.s
 
 # target to generate assembly for a file
 ParameterSetManager.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ParameterSetManager.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ParameterSetManager.cpp.s
 .PHONY : ParameterSetManager.cpp.s
 
 PicYuvMD5.o: PicYuvMD5.cpp.o
@@ -639,7 +663,7 @@ PicYuvMD5.o: PicYuvMD5.cpp.o
 
 # target to build an object file
 PicYuvMD5.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/PicYuvMD5.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/PicYuvMD5.cpp.o
 .PHONY : PicYuvMD5.cpp.o
 
 PicYuvMD5.i: PicYuvMD5.cpp.i
@@ -647,7 +671,7 @@ PicYuvMD5.i: PicYuvMD5.cpp.i
 
 # target to preprocess a source file
 PicYuvMD5.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/PicYuvMD5.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/PicYuvMD5.cpp.i
 .PHONY : PicYuvMD5.cpp.i
 
 PicYuvMD5.s: PicYuvMD5.cpp.s
@@ -655,7 +679,7 @@ PicYuvMD5.s: PicYuvMD5.cpp.s
 
 # target to generate assembly for a file
 PicYuvMD5.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/PicYuvMD5.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/PicYuvMD5.cpp.s
 .PHONY : PicYuvMD5.cpp.s
 
 Picture.o: Picture.cpp.o
@@ -663,7 +687,7 @@ Picture.o: Picture.cpp.o
 
 # target to build an object file
 Picture.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Picture.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Picture.cpp.o
 .PHONY : Picture.cpp.o
 
 Picture.i: Picture.cpp.i
@@ -671,7 +695,7 @@ Picture.i: Picture.cpp.i
 
 # target to preprocess a source file
 Picture.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Picture.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Picture.cpp.i
 .PHONY : Picture.cpp.i
 
 Picture.s: Picture.cpp.s
@@ -679,7 +703,7 @@ Picture.s: Picture.cpp.s
 
 # target to generate assembly for a file
 Picture.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Picture.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Picture.cpp.s
 .PHONY : Picture.cpp.s
 
 ProfileLevelTier.o: ProfileLevelTier.cpp.o
@@ -687,7 +711,7 @@ ProfileLevelTier.o: ProfileLevelTier.cpp.o
 
 # target to build an object file
 ProfileLevelTier.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ProfileLevelTier.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ProfileLevelTier.cpp.o
 .PHONY : ProfileLevelTier.cpp.o
 
 ProfileLevelTier.i: ProfileLevelTier.cpp.i
@@ -695,7 +719,7 @@ ProfileLevelTier.i: ProfileLevelTier.cpp.i
 
 # target to preprocess a source file
 ProfileLevelTier.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ProfileLevelTier.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ProfileLevelTier.cpp.i
 .PHONY : ProfileLevelTier.cpp.i
 
 ProfileLevelTier.s: ProfileLevelTier.cpp.s
@@ -703,7 +727,7 @@ ProfileLevelTier.s: ProfileLevelTier.cpp.s
 
 # target to generate assembly for a file
 ProfileLevelTier.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ProfileLevelTier.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/ProfileLevelTier.cpp.s
 .PHONY : ProfileLevelTier.cpp.s
 
 Quant.o: Quant.cpp.o
@@ -711,7 +735,7 @@ Quant.o: Quant.cpp.o
 
 # target to build an object file
 Quant.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Quant.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Quant.cpp.o
 .PHONY : Quant.cpp.o
 
 Quant.i: Quant.cpp.i
@@ -719,7 +743,7 @@ Quant.i: Quant.cpp.i
 
 # target to preprocess a source file
 Quant.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Quant.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Quant.cpp.i
 .PHONY : Quant.cpp.i
 
 Quant.s: Quant.cpp.s
@@ -727,7 +751,7 @@ Quant.s: Quant.cpp.s
 
 # target to generate assembly for a file
 Quant.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Quant.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Quant.cpp.s
 .PHONY : Quant.cpp.s
 
 QuantRDOQ.o: QuantRDOQ.cpp.o
@@ -735,7 +759,7 @@ QuantRDOQ.o: QuantRDOQ.cpp.o
 
 # target to build an object file
 QuantRDOQ.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/QuantRDOQ.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/QuantRDOQ.cpp.o
 .PHONY : QuantRDOQ.cpp.o
 
 QuantRDOQ.i: QuantRDOQ.cpp.i
@@ -743,7 +767,7 @@ QuantRDOQ.i: QuantRDOQ.cpp.i
 
 # target to preprocess a source file
 QuantRDOQ.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/QuantRDOQ.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/QuantRDOQ.cpp.i
 .PHONY : QuantRDOQ.cpp.i
 
 QuantRDOQ.s: QuantRDOQ.cpp.s
@@ -751,7 +775,7 @@ QuantRDOQ.s: QuantRDOQ.cpp.s
 
 # target to generate assembly for a file
 QuantRDOQ.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/QuantRDOQ.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/QuantRDOQ.cpp.s
 .PHONY : QuantRDOQ.cpp.s
 
 RdCost.o: RdCost.cpp.o
@@ -759,7 +783,7 @@ RdCost.o: RdCost.cpp.o
 
 # target to build an object file
 RdCost.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RdCost.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RdCost.cpp.o
 .PHONY : RdCost.cpp.o
 
 RdCost.i: RdCost.cpp.i
@@ -767,7 +791,7 @@ RdCost.i: RdCost.cpp.i
 
 # target to preprocess a source file
 RdCost.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RdCost.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RdCost.cpp.i
 .PHONY : RdCost.cpp.i
 
 RdCost.s: RdCost.cpp.s
@@ -775,7 +799,7 @@ RdCost.s: RdCost.cpp.s
 
 # target to generate assembly for a file
 RdCost.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RdCost.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RdCost.cpp.s
 .PHONY : RdCost.cpp.s
 
 RdCostWeightPrediction.o: RdCostWeightPrediction.cpp.o
@@ -783,7 +807,7 @@ RdCostWeightPrediction.o: RdCostWeightPrediction.cpp.o
 
 # target to build an object file
 RdCostWeightPrediction.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RdCostWeightPrediction.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RdCostWeightPrediction.cpp.o
 .PHONY : RdCostWeightPrediction.cpp.o
 
 RdCostWeightPrediction.i: RdCostWeightPrediction.cpp.i
@@ -791,7 +815,7 @@ RdCostWeightPrediction.i: RdCostWeightPrediction.cpp.i
 
 # target to preprocess a source file
 RdCostWeightPrediction.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RdCostWeightPrediction.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RdCostWeightPrediction.cpp.i
 .PHONY : RdCostWeightPrediction.cpp.i
 
 RdCostWeightPrediction.s: RdCostWeightPrediction.cpp.s
@@ -799,7 +823,7 @@ RdCostWeightPrediction.s: RdCostWeightPrediction.cpp.s
 
 # target to generate assembly for a file
 RdCostWeightPrediction.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RdCostWeightPrediction.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RdCostWeightPrediction.cpp.s
 .PHONY : RdCostWeightPrediction.cpp.s
 
 Reshape.o: Reshape.cpp.o
@@ -807,7 +831,7 @@ Reshape.o: Reshape.cpp.o
 
 # target to build an object file
 Reshape.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Reshape.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Reshape.cpp.o
 .PHONY : Reshape.cpp.o
 
 Reshape.i: Reshape.cpp.i
@@ -815,7 +839,7 @@ Reshape.i: Reshape.cpp.i
 
 # target to preprocess a source file
 Reshape.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Reshape.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Reshape.cpp.i
 .PHONY : Reshape.cpp.i
 
 Reshape.s: Reshape.cpp.s
@@ -823,7 +847,7 @@ Reshape.s: Reshape.cpp.s
 
 # target to generate assembly for a file
 Reshape.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Reshape.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Reshape.cpp.s
 .PHONY : Reshape.cpp.s
 
 Rom.o: Rom.cpp.o
@@ -831,7 +855,7 @@ Rom.o: Rom.cpp.o
 
 # target to build an object file
 Rom.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Rom.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Rom.cpp.o
 .PHONY : Rom.cpp.o
 
 Rom.i: Rom.cpp.i
@@ -839,7 +863,7 @@ Rom.i: Rom.cpp.i
 
 # target to preprocess a source file
 Rom.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Rom.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Rom.cpp.i
 .PHONY : Rom.cpp.i
 
 Rom.s: Rom.cpp.s
@@ -847,7 +871,7 @@ Rom.s: Rom.cpp.s
 
 # target to generate assembly for a file
 Rom.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Rom.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Rom.cpp.s
 .PHONY : Rom.cpp.s
 
 RomLFNST.o: RomLFNST.cpp.o
@@ -855,7 +879,7 @@ RomLFNST.o: RomLFNST.cpp.o
 
 # target to build an object file
 RomLFNST.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RomLFNST.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RomLFNST.cpp.o
 .PHONY : RomLFNST.cpp.o
 
 RomLFNST.i: RomLFNST.cpp.i
@@ -863,7 +887,7 @@ RomLFNST.i: RomLFNST.cpp.i
 
 # target to preprocess a source file
 RomLFNST.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RomLFNST.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RomLFNST.cpp.i
 .PHONY : RomLFNST.cpp.i
 
 RomLFNST.s: RomLFNST.cpp.s
@@ -871,7 +895,7 @@ RomLFNST.s: RomLFNST.cpp.s
 
 # target to generate assembly for a file
 RomLFNST.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RomLFNST.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RomLFNST.cpp.s
 .PHONY : RomLFNST.cpp.s
 
 RomTr.o: RomTr.cpp.o
@@ -879,7 +903,7 @@ RomTr.o: RomTr.cpp.o
 
 # target to build an object file
 RomTr.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RomTr.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RomTr.cpp.o
 .PHONY : RomTr.cpp.o
 
 RomTr.i: RomTr.cpp.i
@@ -887,7 +911,7 @@ RomTr.i: RomTr.cpp.i
 
 # target to preprocess a source file
 RomTr.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RomTr.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RomTr.cpp.i
 .PHONY : RomTr.cpp.i
 
 RomTr.s: RomTr.cpp.s
@@ -895,7 +919,7 @@ RomTr.s: RomTr.cpp.s
 
 # target to generate assembly for a file
 RomTr.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RomTr.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/RomTr.cpp.s
 .PHONY : RomTr.cpp.s
 
 SEI.o: SEI.cpp.o
@@ -903,7 +927,7 @@ SEI.o: SEI.cpp.o
 
 # target to build an object file
 SEI.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SEI.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SEI.cpp.o
 .PHONY : SEI.cpp.o
 
 SEI.i: SEI.cpp.i
@@ -911,7 +935,7 @@ SEI.i: SEI.cpp.i
 
 # target to preprocess a source file
 SEI.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SEI.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SEI.cpp.i
 .PHONY : SEI.cpp.i
 
 SEI.s: SEI.cpp.s
@@ -919,7 +943,7 @@ SEI.s: SEI.cpp.s
 
 # target to generate assembly for a file
 SEI.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SEI.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SEI.cpp.s
 .PHONY : SEI.cpp.s
 
 SEIColourTransform.o: SEIColourTransform.cpp.o
@@ -927,7 +951,7 @@ SEIColourTransform.o: SEIColourTransform.cpp.o
 
 # target to build an object file
 SEIColourTransform.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SEIColourTransform.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SEIColourTransform.cpp.o
 .PHONY : SEIColourTransform.cpp.o
 
 SEIColourTransform.i: SEIColourTransform.cpp.i
@@ -935,7 +959,7 @@ SEIColourTransform.i: SEIColourTransform.cpp.i
 
 # target to preprocess a source file
 SEIColourTransform.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SEIColourTransform.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SEIColourTransform.cpp.i
 .PHONY : SEIColourTransform.cpp.i
 
 SEIColourTransform.s: SEIColourTransform.cpp.s
@@ -943,7 +967,7 @@ SEIColourTransform.s: SEIColourTransform.cpp.s
 
 # target to generate assembly for a file
 SEIColourTransform.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SEIColourTransform.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SEIColourTransform.cpp.s
 .PHONY : SEIColourTransform.cpp.s
 
 SampleAdaptiveOffset.o: SampleAdaptiveOffset.cpp.o
@@ -951,7 +975,7 @@ SampleAdaptiveOffset.o: SampleAdaptiveOffset.cpp.o
 
 # target to build an object file
 SampleAdaptiveOffset.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SampleAdaptiveOffset.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SampleAdaptiveOffset.cpp.o
 .PHONY : SampleAdaptiveOffset.cpp.o
 
 SampleAdaptiveOffset.i: SampleAdaptiveOffset.cpp.i
@@ -959,7 +983,7 @@ SampleAdaptiveOffset.i: SampleAdaptiveOffset.cpp.i
 
 # target to preprocess a source file
 SampleAdaptiveOffset.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SampleAdaptiveOffset.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SampleAdaptiveOffset.cpp.i
 .PHONY : SampleAdaptiveOffset.cpp.i
 
 SampleAdaptiveOffset.s: SampleAdaptiveOffset.cpp.s
@@ -967,7 +991,7 @@ SampleAdaptiveOffset.s: SampleAdaptiveOffset.cpp.s
 
 # target to generate assembly for a file
 SampleAdaptiveOffset.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SampleAdaptiveOffset.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/SampleAdaptiveOffset.cpp.s
 .PHONY : SampleAdaptiveOffset.cpp.s
 
 Slice.o: Slice.cpp.o
@@ -975,7 +999,7 @@ Slice.o: Slice.cpp.o
 
 # target to build an object file
 Slice.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Slice.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Slice.cpp.o
 .PHONY : Slice.cpp.o
 
 Slice.i: Slice.cpp.i
@@ -983,7 +1007,7 @@ Slice.i: Slice.cpp.i
 
 # target to preprocess a source file
 Slice.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Slice.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Slice.cpp.i
 .PHONY : Slice.cpp.i
 
 Slice.s: Slice.cpp.s
@@ -991,7 +1015,7 @@ Slice.s: Slice.cpp.s
 
 # target to generate assembly for a file
 Slice.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Slice.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Slice.cpp.s
 .PHONY : Slice.cpp.s
 
 TrQuant.o: TrQuant.cpp.o
@@ -999,7 +1023,7 @@ TrQuant.o: TrQuant.cpp.o
 
 # target to build an object file
 TrQuant.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant.cpp.o
 .PHONY : TrQuant.cpp.o
 
 TrQuant.i: TrQuant.cpp.i
@@ -1007,7 +1031,7 @@ TrQuant.i: TrQuant.cpp.i
 
 # target to preprocess a source file
 TrQuant.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant.cpp.i
 .PHONY : TrQuant.cpp.i
 
 TrQuant.s: TrQuant.cpp.s
@@ -1015,7 +1039,7 @@ TrQuant.s: TrQuant.cpp.s
 
 # target to generate assembly for a file
 TrQuant.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant.cpp.s
 .PHONY : TrQuant.cpp.s
 
 TrQuant_EMT.o: TrQuant_EMT.cpp.o
@@ -1023,7 +1047,7 @@ TrQuant_EMT.o: TrQuant_EMT.cpp.o
 
 # target to build an object file
 TrQuant_EMT.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant_EMT.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant_EMT.cpp.o
 .PHONY : TrQuant_EMT.cpp.o
 
 TrQuant_EMT.i: TrQuant_EMT.cpp.i
@@ -1031,7 +1055,7 @@ TrQuant_EMT.i: TrQuant_EMT.cpp.i
 
 # target to preprocess a source file
 TrQuant_EMT.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant_EMT.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant_EMT.cpp.i
 .PHONY : TrQuant_EMT.cpp.i
 
 TrQuant_EMT.s: TrQuant_EMT.cpp.s
@@ -1039,7 +1063,7 @@ TrQuant_EMT.s: TrQuant_EMT.cpp.s
 
 # target to generate assembly for a file
 TrQuant_EMT.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant_EMT.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant_EMT.cpp.s
 .PHONY : TrQuant_EMT.cpp.s
 
 Unit.o: Unit.cpp.o
@@ -1047,7 +1071,7 @@ Unit.o: Unit.cpp.o
 
 # target to build an object file
 Unit.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Unit.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Unit.cpp.o
 .PHONY : Unit.cpp.o
 
 Unit.i: Unit.cpp.i
@@ -1055,7 +1079,7 @@ Unit.i: Unit.cpp.i
 
 # target to preprocess a source file
 Unit.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Unit.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Unit.cpp.i
 .PHONY : Unit.cpp.i
 
 Unit.s: Unit.cpp.s
@@ -1063,7 +1087,7 @@ Unit.s: Unit.cpp.s
 
 # target to generate assembly for a file
 Unit.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Unit.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/Unit.cpp.s
 .PHONY : Unit.cpp.s
 
 UnitPartitioner.o: UnitPartitioner.cpp.o
@@ -1071,7 +1095,7 @@ UnitPartitioner.o: UnitPartitioner.cpp.o
 
 # target to build an object file
 UnitPartitioner.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/UnitPartitioner.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/UnitPartitioner.cpp.o
 .PHONY : UnitPartitioner.cpp.o
 
 UnitPartitioner.i: UnitPartitioner.cpp.i
@@ -1079,7 +1103,7 @@ UnitPartitioner.i: UnitPartitioner.cpp.i
 
 # target to preprocess a source file
 UnitPartitioner.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/UnitPartitioner.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/UnitPartitioner.cpp.i
 .PHONY : UnitPartitioner.cpp.i
 
 UnitPartitioner.s: UnitPartitioner.cpp.s
@@ -1087,7 +1111,7 @@ UnitPartitioner.s: UnitPartitioner.cpp.s
 
 # target to generate assembly for a file
 UnitPartitioner.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/UnitPartitioner.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/UnitPartitioner.cpp.s
 .PHONY : UnitPartitioner.cpp.s
 
 UnitTools.o: UnitTools.cpp.o
@@ -1095,7 +1119,7 @@ UnitTools.o: UnitTools.cpp.o
 
 # target to build an object file
 UnitTools.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/UnitTools.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/UnitTools.cpp.o
 .PHONY : UnitTools.cpp.o
 
 UnitTools.i: UnitTools.cpp.i
@@ -1103,7 +1127,7 @@ UnitTools.i: UnitTools.cpp.i
 
 # target to preprocess a source file
 UnitTools.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/UnitTools.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/UnitTools.cpp.i
 .PHONY : UnitTools.cpp.i
 
 UnitTools.s: UnitTools.cpp.s
@@ -1111,7 +1135,7 @@ UnitTools.s: UnitTools.cpp.s
 
 # target to generate assembly for a file
 UnitTools.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/UnitTools.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/UnitTools.cpp.s
 .PHONY : UnitTools.cpp.s
 
 WeightPrediction.o: WeightPrediction.cpp.o
@@ -1119,7 +1143,7 @@ WeightPrediction.o: WeightPrediction.cpp.o
 
 # target to build an object file
 WeightPrediction.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/WeightPrediction.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/WeightPrediction.cpp.o
 .PHONY : WeightPrediction.cpp.o
 
 WeightPrediction.i: WeightPrediction.cpp.i
@@ -1127,7 +1151,7 @@ WeightPrediction.i: WeightPrediction.cpp.i
 
 # target to preprocess a source file
 WeightPrediction.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/WeightPrediction.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/WeightPrediction.cpp.i
 .PHONY : WeightPrediction.cpp.i
 
 WeightPrediction.s: WeightPrediction.cpp.s
@@ -1135,7 +1159,7 @@ WeightPrediction.s: WeightPrediction.cpp.s
 
 # target to generate assembly for a file
 WeightPrediction.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/WeightPrediction.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/WeightPrediction.cpp.s
 .PHONY : WeightPrediction.cpp.s
 
 __/libmd5/libmd5.o: __/libmd5/libmd5.cpp.o
@@ -1143,7 +1167,7 @@ __/libmd5/libmd5.o: __/libmd5/libmd5.cpp.o
 
 # target to build an object file
 __/libmd5/libmd5.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/__/libmd5/libmd5.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/__/libmd5/libmd5.cpp.o
 .PHONY : __/libmd5/libmd5.cpp.o
 
 __/libmd5/libmd5.i: __/libmd5/libmd5.cpp.i
@@ -1151,7 +1175,7 @@ __/libmd5/libmd5.i: __/libmd5/libmd5.cpp.i
 
 # target to preprocess a source file
 __/libmd5/libmd5.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/__/libmd5/libmd5.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/__/libmd5/libmd5.cpp.i
 .PHONY : __/libmd5/libmd5.cpp.i
 
 __/libmd5/libmd5.s: __/libmd5/libmd5.cpp.s
@@ -1159,7 +1183,7 @@ __/libmd5/libmd5.s: __/libmd5/libmd5.cpp.s
 
 # target to generate assembly for a file
 __/libmd5/libmd5.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/__/libmd5/libmd5.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/__/libmd5/libmd5.cpp.s
 .PHONY : __/libmd5/libmd5.cpp.s
 
 dtrace.o: dtrace.cpp.o
@@ -1167,7 +1191,7 @@ dtrace.o: dtrace.cpp.o
 
 # target to build an object file
 dtrace.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/dtrace.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/dtrace.cpp.o
 .PHONY : dtrace.cpp.o
 
 dtrace.i: dtrace.cpp.i
@@ -1175,7 +1199,7 @@ dtrace.i: dtrace.cpp.i
 
 # target to preprocess a source file
 dtrace.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/dtrace.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/dtrace.cpp.i
 .PHONY : dtrace.cpp.i
 
 dtrace.s: dtrace.cpp.s
@@ -1183,7 +1207,7 @@ dtrace.s: dtrace.cpp.s
 
 # target to generate assembly for a file
 dtrace.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/dtrace.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/dtrace.cpp.s
 .PHONY : dtrace.cpp.s
 
 dtrace_blockstatistics.o: dtrace_blockstatistics.cpp.o
@@ -1191,7 +1215,7 @@ dtrace_blockstatistics.o: dtrace_blockstatistics.cpp.o
 
 # target to build an object file
 dtrace_blockstatistics.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/dtrace_blockstatistics.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/dtrace_blockstatistics.cpp.o
 .PHONY : dtrace_blockstatistics.cpp.o
 
 dtrace_blockstatistics.i: dtrace_blockstatistics.cpp.i
@@ -1199,7 +1223,7 @@ dtrace_blockstatistics.i: dtrace_blockstatistics.cpp.i
 
 # target to preprocess a source file
 dtrace_blockstatistics.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/dtrace_blockstatistics.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/dtrace_blockstatistics.cpp.i
 .PHONY : dtrace_blockstatistics.cpp.i
 
 dtrace_blockstatistics.s: dtrace_blockstatistics.cpp.s
@@ -1207,7 +1231,7 @@ dtrace_blockstatistics.s: dtrace_blockstatistics.cpp.s
 
 # target to generate assembly for a file
 dtrace_blockstatistics.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/dtrace_blockstatistics.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/dtrace_blockstatistics.cpp.s
 .PHONY : dtrace_blockstatistics.cpp.s
 
 x86/CommonDefX86.o: x86/CommonDefX86.cpp.o
@@ -1215,7 +1239,7 @@ x86/CommonDefX86.o: x86/CommonDefX86.cpp.o
 
 # target to build an object file
 x86/CommonDefX86.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/CommonDefX86.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/CommonDefX86.cpp.o
 .PHONY : x86/CommonDefX86.cpp.o
 
 x86/CommonDefX86.i: x86/CommonDefX86.cpp.i
@@ -1223,7 +1247,7 @@ x86/CommonDefX86.i: x86/CommonDefX86.cpp.i
 
 # target to preprocess a source file
 x86/CommonDefX86.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/CommonDefX86.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/CommonDefX86.cpp.i
 .PHONY : x86/CommonDefX86.cpp.i
 
 x86/CommonDefX86.s: x86/CommonDefX86.cpp.s
@@ -1231,7 +1255,7 @@ x86/CommonDefX86.s: x86/CommonDefX86.cpp.s
 
 # target to generate assembly for a file
 x86/CommonDefX86.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/CommonDefX86.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/CommonDefX86.cpp.s
 .PHONY : x86/CommonDefX86.cpp.s
 
 x86/InitX86.o: x86/InitX86.cpp.o
@@ -1239,7 +1263,7 @@ x86/InitX86.o: x86/InitX86.cpp.o
 
 # target to build an object file
 x86/InitX86.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/InitX86.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/InitX86.cpp.o
 .PHONY : x86/InitX86.cpp.o
 
 x86/InitX86.i: x86/InitX86.cpp.i
@@ -1247,7 +1271,7 @@ x86/InitX86.i: x86/InitX86.cpp.i
 
 # target to preprocess a source file
 x86/InitX86.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/InitX86.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/InitX86.cpp.i
 .PHONY : x86/InitX86.cpp.i
 
 x86/InitX86.s: x86/InitX86.cpp.s
@@ -1255,7 +1279,7 @@ x86/InitX86.s: x86/InitX86.cpp.s
 
 # target to generate assembly for a file
 x86/InitX86.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/InitX86.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/InitX86.cpp.s
 .PHONY : x86/InitX86.cpp.s
 
 x86/avx/AdaptiveLoopFilter_avx.o: x86/avx/AdaptiveLoopFilter_avx.cpp.o
@@ -1263,7 +1287,7 @@ x86/avx/AdaptiveLoopFilter_avx.o: x86/avx/AdaptiveLoopFilter_avx.cpp.o
 
 # target to build an object file
 x86/avx/AdaptiveLoopFilter_avx.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/AdaptiveLoopFilter_avx.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/AdaptiveLoopFilter_avx.cpp.o
 .PHONY : x86/avx/AdaptiveLoopFilter_avx.cpp.o
 
 x86/avx/AdaptiveLoopFilter_avx.i: x86/avx/AdaptiveLoopFilter_avx.cpp.i
@@ -1271,7 +1295,7 @@ x86/avx/AdaptiveLoopFilter_avx.i: x86/avx/AdaptiveLoopFilter_avx.cpp.i
 
 # target to preprocess a source file
 x86/avx/AdaptiveLoopFilter_avx.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/AdaptiveLoopFilter_avx.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/AdaptiveLoopFilter_avx.cpp.i
 .PHONY : x86/avx/AdaptiveLoopFilter_avx.cpp.i
 
 x86/avx/AdaptiveLoopFilter_avx.s: x86/avx/AdaptiveLoopFilter_avx.cpp.s
@@ -1279,7 +1303,7 @@ x86/avx/AdaptiveLoopFilter_avx.s: x86/avx/AdaptiveLoopFilter_avx.cpp.s
 
 # target to generate assembly for a file
 x86/avx/AdaptiveLoopFilter_avx.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/AdaptiveLoopFilter_avx.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/AdaptiveLoopFilter_avx.cpp.s
 .PHONY : x86/avx/AdaptiveLoopFilter_avx.cpp.s
 
 x86/avx/AffineGradientSearch_avx.o: x86/avx/AffineGradientSearch_avx.cpp.o
@@ -1287,7 +1311,7 @@ x86/avx/AffineGradientSearch_avx.o: x86/avx/AffineGradientSearch_avx.cpp.o
 
 # target to build an object file
 x86/avx/AffineGradientSearch_avx.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/AffineGradientSearch_avx.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/AffineGradientSearch_avx.cpp.o
 .PHONY : x86/avx/AffineGradientSearch_avx.cpp.o
 
 x86/avx/AffineGradientSearch_avx.i: x86/avx/AffineGradientSearch_avx.cpp.i
@@ -1295,7 +1319,7 @@ x86/avx/AffineGradientSearch_avx.i: x86/avx/AffineGradientSearch_avx.cpp.i
 
 # target to preprocess a source file
 x86/avx/AffineGradientSearch_avx.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/AffineGradientSearch_avx.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/AffineGradientSearch_avx.cpp.i
 .PHONY : x86/avx/AffineGradientSearch_avx.cpp.i
 
 x86/avx/AffineGradientSearch_avx.s: x86/avx/AffineGradientSearch_avx.cpp.s
@@ -1303,7 +1327,7 @@ x86/avx/AffineGradientSearch_avx.s: x86/avx/AffineGradientSearch_avx.cpp.s
 
 # target to generate assembly for a file
 x86/avx/AffineGradientSearch_avx.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/AffineGradientSearch_avx.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/AffineGradientSearch_avx.cpp.s
 .PHONY : x86/avx/AffineGradientSearch_avx.cpp.s
 
 x86/avx/Buffer_avx.o: x86/avx/Buffer_avx.cpp.o
@@ -1311,7 +1335,7 @@ x86/avx/Buffer_avx.o: x86/avx/Buffer_avx.cpp.o
 
 # target to build an object file
 x86/avx/Buffer_avx.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/Buffer_avx.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/Buffer_avx.cpp.o
 .PHONY : x86/avx/Buffer_avx.cpp.o
 
 x86/avx/Buffer_avx.i: x86/avx/Buffer_avx.cpp.i
@@ -1319,7 +1343,7 @@ x86/avx/Buffer_avx.i: x86/avx/Buffer_avx.cpp.i
 
 # target to preprocess a source file
 x86/avx/Buffer_avx.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/Buffer_avx.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/Buffer_avx.cpp.i
 .PHONY : x86/avx/Buffer_avx.cpp.i
 
 x86/avx/Buffer_avx.s: x86/avx/Buffer_avx.cpp.s
@@ -1327,7 +1351,7 @@ x86/avx/Buffer_avx.s: x86/avx/Buffer_avx.cpp.s
 
 # target to generate assembly for a file
 x86/avx/Buffer_avx.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/Buffer_avx.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/Buffer_avx.cpp.s
 .PHONY : x86/avx/Buffer_avx.cpp.s
 
 x86/avx/InterpolationFilter_avx.o: x86/avx/InterpolationFilter_avx.cpp.o
@@ -1335,7 +1359,7 @@ x86/avx/InterpolationFilter_avx.o: x86/avx/InterpolationFilter_avx.cpp.o
 
 # target to build an object file
 x86/avx/InterpolationFilter_avx.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/InterpolationFilter_avx.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/InterpolationFilter_avx.cpp.o
 .PHONY : x86/avx/InterpolationFilter_avx.cpp.o
 
 x86/avx/InterpolationFilter_avx.i: x86/avx/InterpolationFilter_avx.cpp.i
@@ -1343,7 +1367,7 @@ x86/avx/InterpolationFilter_avx.i: x86/avx/InterpolationFilter_avx.cpp.i
 
 # target to preprocess a source file
 x86/avx/InterpolationFilter_avx.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/InterpolationFilter_avx.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/InterpolationFilter_avx.cpp.i
 .PHONY : x86/avx/InterpolationFilter_avx.cpp.i
 
 x86/avx/InterpolationFilter_avx.s: x86/avx/InterpolationFilter_avx.cpp.s
@@ -1351,7 +1375,7 @@ x86/avx/InterpolationFilter_avx.s: x86/avx/InterpolationFilter_avx.cpp.s
 
 # target to generate assembly for a file
 x86/avx/InterpolationFilter_avx.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/InterpolationFilter_avx.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/InterpolationFilter_avx.cpp.s
 .PHONY : x86/avx/InterpolationFilter_avx.cpp.s
 
 x86/avx/RdCost_avx.o: x86/avx/RdCost_avx.cpp.o
@@ -1359,7 +1383,7 @@ x86/avx/RdCost_avx.o: x86/avx/RdCost_avx.cpp.o
 
 # target to build an object file
 x86/avx/RdCost_avx.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/RdCost_avx.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/RdCost_avx.cpp.o
 .PHONY : x86/avx/RdCost_avx.cpp.o
 
 x86/avx/RdCost_avx.i: x86/avx/RdCost_avx.cpp.i
@@ -1367,7 +1391,7 @@ x86/avx/RdCost_avx.i: x86/avx/RdCost_avx.cpp.i
 
 # target to preprocess a source file
 x86/avx/RdCost_avx.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/RdCost_avx.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/RdCost_avx.cpp.i
 .PHONY : x86/avx/RdCost_avx.cpp.i
 
 x86/avx/RdCost_avx.s: x86/avx/RdCost_avx.cpp.s
@@ -1375,7 +1399,7 @@ x86/avx/RdCost_avx.s: x86/avx/RdCost_avx.cpp.s
 
 # target to generate assembly for a file
 x86/avx/RdCost_avx.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/RdCost_avx.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx/RdCost_avx.cpp.s
 .PHONY : x86/avx/RdCost_avx.cpp.s
 
 x86/avx2/AdaptiveLoopFilter_avx2.o: x86/avx2/AdaptiveLoopFilter_avx2.cpp.o
@@ -1383,7 +1407,7 @@ x86/avx2/AdaptiveLoopFilter_avx2.o: x86/avx2/AdaptiveLoopFilter_avx2.cpp.o
 
 # target to build an object file
 x86/avx2/AdaptiveLoopFilter_avx2.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/AdaptiveLoopFilter_avx2.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/AdaptiveLoopFilter_avx2.cpp.o
 .PHONY : x86/avx2/AdaptiveLoopFilter_avx2.cpp.o
 
 x86/avx2/AdaptiveLoopFilter_avx2.i: x86/avx2/AdaptiveLoopFilter_avx2.cpp.i
@@ -1391,7 +1415,7 @@ x86/avx2/AdaptiveLoopFilter_avx2.i: x86/avx2/AdaptiveLoopFilter_avx2.cpp.i
 
 # target to preprocess a source file
 x86/avx2/AdaptiveLoopFilter_avx2.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/AdaptiveLoopFilter_avx2.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/AdaptiveLoopFilter_avx2.cpp.i
 .PHONY : x86/avx2/AdaptiveLoopFilter_avx2.cpp.i
 
 x86/avx2/AdaptiveLoopFilter_avx2.s: x86/avx2/AdaptiveLoopFilter_avx2.cpp.s
@@ -1399,7 +1423,7 @@ x86/avx2/AdaptiveLoopFilter_avx2.s: x86/avx2/AdaptiveLoopFilter_avx2.cpp.s
 
 # target to generate assembly for a file
 x86/avx2/AdaptiveLoopFilter_avx2.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/AdaptiveLoopFilter_avx2.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/AdaptiveLoopFilter_avx2.cpp.s
 .PHONY : x86/avx2/AdaptiveLoopFilter_avx2.cpp.s
 
 x86/avx2/AffineGradientSearch_avx2.o: x86/avx2/AffineGradientSearch_avx2.cpp.o
@@ -1407,7 +1431,7 @@ x86/avx2/AffineGradientSearch_avx2.o: x86/avx2/AffineGradientSearch_avx2.cpp.o
 
 # target to build an object file
 x86/avx2/AffineGradientSearch_avx2.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/AffineGradientSearch_avx2.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/AffineGradientSearch_avx2.cpp.o
 .PHONY : x86/avx2/AffineGradientSearch_avx2.cpp.o
 
 x86/avx2/AffineGradientSearch_avx2.i: x86/avx2/AffineGradientSearch_avx2.cpp.i
@@ -1415,7 +1439,7 @@ x86/avx2/AffineGradientSearch_avx2.i: x86/avx2/AffineGradientSearch_avx2.cpp.i
 
 # target to preprocess a source file
 x86/avx2/AffineGradientSearch_avx2.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/AffineGradientSearch_avx2.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/AffineGradientSearch_avx2.cpp.i
 .PHONY : x86/avx2/AffineGradientSearch_avx2.cpp.i
 
 x86/avx2/AffineGradientSearch_avx2.s: x86/avx2/AffineGradientSearch_avx2.cpp.s
@@ -1423,7 +1447,7 @@ x86/avx2/AffineGradientSearch_avx2.s: x86/avx2/AffineGradientSearch_avx2.cpp.s
 
 # target to generate assembly for a file
 x86/avx2/AffineGradientSearch_avx2.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/AffineGradientSearch_avx2.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/AffineGradientSearch_avx2.cpp.s
 .PHONY : x86/avx2/AffineGradientSearch_avx2.cpp.s
 
 x86/avx2/Buffer_avx2.o: x86/avx2/Buffer_avx2.cpp.o
@@ -1431,7 +1455,7 @@ x86/avx2/Buffer_avx2.o: x86/avx2/Buffer_avx2.cpp.o
 
 # target to build an object file
 x86/avx2/Buffer_avx2.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/Buffer_avx2.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/Buffer_avx2.cpp.o
 .PHONY : x86/avx2/Buffer_avx2.cpp.o
 
 x86/avx2/Buffer_avx2.i: x86/avx2/Buffer_avx2.cpp.i
@@ -1439,7 +1463,7 @@ x86/avx2/Buffer_avx2.i: x86/avx2/Buffer_avx2.cpp.i
 
 # target to preprocess a source file
 x86/avx2/Buffer_avx2.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/Buffer_avx2.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/Buffer_avx2.cpp.i
 .PHONY : x86/avx2/Buffer_avx2.cpp.i
 
 x86/avx2/Buffer_avx2.s: x86/avx2/Buffer_avx2.cpp.s
@@ -1447,7 +1471,7 @@ x86/avx2/Buffer_avx2.s: x86/avx2/Buffer_avx2.cpp.s
 
 # target to generate assembly for a file
 x86/avx2/Buffer_avx2.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/Buffer_avx2.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/Buffer_avx2.cpp.s
 .PHONY : x86/avx2/Buffer_avx2.cpp.s
 
 x86/avx2/InterpolationFilter_avx2.o: x86/avx2/InterpolationFilter_avx2.cpp.o
@@ -1455,7 +1479,7 @@ x86/avx2/InterpolationFilter_avx2.o: x86/avx2/InterpolationFilter_avx2.cpp.o
 
 # target to build an object file
 x86/avx2/InterpolationFilter_avx2.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/InterpolationFilter_avx2.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/InterpolationFilter_avx2.cpp.o
 .PHONY : x86/avx2/InterpolationFilter_avx2.cpp.o
 
 x86/avx2/InterpolationFilter_avx2.i: x86/avx2/InterpolationFilter_avx2.cpp.i
@@ -1463,7 +1487,7 @@ x86/avx2/InterpolationFilter_avx2.i: x86/avx2/InterpolationFilter_avx2.cpp.i
 
 # target to preprocess a source file
 x86/avx2/InterpolationFilter_avx2.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/InterpolationFilter_avx2.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/InterpolationFilter_avx2.cpp.i
 .PHONY : x86/avx2/InterpolationFilter_avx2.cpp.i
 
 x86/avx2/InterpolationFilter_avx2.s: x86/avx2/InterpolationFilter_avx2.cpp.s
@@ -1471,7 +1495,7 @@ x86/avx2/InterpolationFilter_avx2.s: x86/avx2/InterpolationFilter_avx2.cpp.s
 
 # target to generate assembly for a file
 x86/avx2/InterpolationFilter_avx2.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/InterpolationFilter_avx2.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/InterpolationFilter_avx2.cpp.s
 .PHONY : x86/avx2/InterpolationFilter_avx2.cpp.s
 
 x86/avx2/RdCost_avx2.o: x86/avx2/RdCost_avx2.cpp.o
@@ -1479,7 +1503,7 @@ x86/avx2/RdCost_avx2.o: x86/avx2/RdCost_avx2.cpp.o
 
 # target to build an object file
 x86/avx2/RdCost_avx2.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/RdCost_avx2.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/RdCost_avx2.cpp.o
 .PHONY : x86/avx2/RdCost_avx2.cpp.o
 
 x86/avx2/RdCost_avx2.i: x86/avx2/RdCost_avx2.cpp.i
@@ -1487,7 +1511,7 @@ x86/avx2/RdCost_avx2.i: x86/avx2/RdCost_avx2.cpp.i
 
 # target to preprocess a source file
 x86/avx2/RdCost_avx2.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/RdCost_avx2.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/RdCost_avx2.cpp.i
 .PHONY : x86/avx2/RdCost_avx2.cpp.i
 
 x86/avx2/RdCost_avx2.s: x86/avx2/RdCost_avx2.cpp.s
@@ -1495,7 +1519,7 @@ x86/avx2/RdCost_avx2.s: x86/avx2/RdCost_avx2.cpp.s
 
 # target to generate assembly for a file
 x86/avx2/RdCost_avx2.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/RdCost_avx2.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/avx2/RdCost_avx2.cpp.s
 .PHONY : x86/avx2/RdCost_avx2.cpp.s
 
 x86/sse41/AdaptiveLoopFilter_sse41.o: x86/sse41/AdaptiveLoopFilter_sse41.cpp.o
@@ -1503,7 +1527,7 @@ x86/sse41/AdaptiveLoopFilter_sse41.o: x86/sse41/AdaptiveLoopFilter_sse41.cpp.o
 
 # target to build an object file
 x86/sse41/AdaptiveLoopFilter_sse41.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/AdaptiveLoopFilter_sse41.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/AdaptiveLoopFilter_sse41.cpp.o
 .PHONY : x86/sse41/AdaptiveLoopFilter_sse41.cpp.o
 
 x86/sse41/AdaptiveLoopFilter_sse41.i: x86/sse41/AdaptiveLoopFilter_sse41.cpp.i
@@ -1511,7 +1535,7 @@ x86/sse41/AdaptiveLoopFilter_sse41.i: x86/sse41/AdaptiveLoopFilter_sse41.cpp.i
 
 # target to preprocess a source file
 x86/sse41/AdaptiveLoopFilter_sse41.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/AdaptiveLoopFilter_sse41.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/AdaptiveLoopFilter_sse41.cpp.i
 .PHONY : x86/sse41/AdaptiveLoopFilter_sse41.cpp.i
 
 x86/sse41/AdaptiveLoopFilter_sse41.s: x86/sse41/AdaptiveLoopFilter_sse41.cpp.s
@@ -1519,7 +1543,7 @@ x86/sse41/AdaptiveLoopFilter_sse41.s: x86/sse41/AdaptiveLoopFilter_sse41.cpp.s
 
 # target to generate assembly for a file
 x86/sse41/AdaptiveLoopFilter_sse41.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/AdaptiveLoopFilter_sse41.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/AdaptiveLoopFilter_sse41.cpp.s
 .PHONY : x86/sse41/AdaptiveLoopFilter_sse41.cpp.s
 
 x86/sse41/AffineGradientSearch_sse41.o: x86/sse41/AffineGradientSearch_sse41.cpp.o
@@ -1527,7 +1551,7 @@ x86/sse41/AffineGradientSearch_sse41.o: x86/sse41/AffineGradientSearch_sse41.cpp
 
 # target to build an object file
 x86/sse41/AffineGradientSearch_sse41.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/AffineGradientSearch_sse41.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/AffineGradientSearch_sse41.cpp.o
 .PHONY : x86/sse41/AffineGradientSearch_sse41.cpp.o
 
 x86/sse41/AffineGradientSearch_sse41.i: x86/sse41/AffineGradientSearch_sse41.cpp.i
@@ -1535,7 +1559,7 @@ x86/sse41/AffineGradientSearch_sse41.i: x86/sse41/AffineGradientSearch_sse41.cpp
 
 # target to preprocess a source file
 x86/sse41/AffineGradientSearch_sse41.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/AffineGradientSearch_sse41.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/AffineGradientSearch_sse41.cpp.i
 .PHONY : x86/sse41/AffineGradientSearch_sse41.cpp.i
 
 x86/sse41/AffineGradientSearch_sse41.s: x86/sse41/AffineGradientSearch_sse41.cpp.s
@@ -1543,7 +1567,7 @@ x86/sse41/AffineGradientSearch_sse41.s: x86/sse41/AffineGradientSearch_sse41.cpp
 
 # target to generate assembly for a file
 x86/sse41/AffineGradientSearch_sse41.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/AffineGradientSearch_sse41.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/AffineGradientSearch_sse41.cpp.s
 .PHONY : x86/sse41/AffineGradientSearch_sse41.cpp.s
 
 x86/sse41/Buffer_sse41.o: x86/sse41/Buffer_sse41.cpp.o
@@ -1551,7 +1575,7 @@ x86/sse41/Buffer_sse41.o: x86/sse41/Buffer_sse41.cpp.o
 
 # target to build an object file
 x86/sse41/Buffer_sse41.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/Buffer_sse41.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/Buffer_sse41.cpp.o
 .PHONY : x86/sse41/Buffer_sse41.cpp.o
 
 x86/sse41/Buffer_sse41.i: x86/sse41/Buffer_sse41.cpp.i
@@ -1559,7 +1583,7 @@ x86/sse41/Buffer_sse41.i: x86/sse41/Buffer_sse41.cpp.i
 
 # target to preprocess a source file
 x86/sse41/Buffer_sse41.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/Buffer_sse41.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/Buffer_sse41.cpp.i
 .PHONY : x86/sse41/Buffer_sse41.cpp.i
 
 x86/sse41/Buffer_sse41.s: x86/sse41/Buffer_sse41.cpp.s
@@ -1567,7 +1591,7 @@ x86/sse41/Buffer_sse41.s: x86/sse41/Buffer_sse41.cpp.s
 
 # target to generate assembly for a file
 x86/sse41/Buffer_sse41.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/Buffer_sse41.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/Buffer_sse41.cpp.s
 .PHONY : x86/sse41/Buffer_sse41.cpp.s
 
 x86/sse41/InterpolationFilter_sse41.o: x86/sse41/InterpolationFilter_sse41.cpp.o
@@ -1575,7 +1599,7 @@ x86/sse41/InterpolationFilter_sse41.o: x86/sse41/InterpolationFilter_sse41.cpp.o
 
 # target to build an object file
 x86/sse41/InterpolationFilter_sse41.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/InterpolationFilter_sse41.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/InterpolationFilter_sse41.cpp.o
 .PHONY : x86/sse41/InterpolationFilter_sse41.cpp.o
 
 x86/sse41/InterpolationFilter_sse41.i: x86/sse41/InterpolationFilter_sse41.cpp.i
@@ -1583,7 +1607,7 @@ x86/sse41/InterpolationFilter_sse41.i: x86/sse41/InterpolationFilter_sse41.cpp.i
 
 # target to preprocess a source file
 x86/sse41/InterpolationFilter_sse41.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/InterpolationFilter_sse41.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/InterpolationFilter_sse41.cpp.i
 .PHONY : x86/sse41/InterpolationFilter_sse41.cpp.i
 
 x86/sse41/InterpolationFilter_sse41.s: x86/sse41/InterpolationFilter_sse41.cpp.s
@@ -1591,7 +1615,7 @@ x86/sse41/InterpolationFilter_sse41.s: x86/sse41/InterpolationFilter_sse41.cpp.s
 
 # target to generate assembly for a file
 x86/sse41/InterpolationFilter_sse41.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/InterpolationFilter_sse41.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/InterpolationFilter_sse41.cpp.s
 .PHONY : x86/sse41/InterpolationFilter_sse41.cpp.s
 
 x86/sse41/RdCost_sse41.o: x86/sse41/RdCost_sse41.cpp.o
@@ -1599,7 +1623,7 @@ x86/sse41/RdCost_sse41.o: x86/sse41/RdCost_sse41.cpp.o
 
 # target to build an object file
 x86/sse41/RdCost_sse41.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/RdCost_sse41.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/RdCost_sse41.cpp.o
 .PHONY : x86/sse41/RdCost_sse41.cpp.o
 
 x86/sse41/RdCost_sse41.i: x86/sse41/RdCost_sse41.cpp.i
@@ -1607,7 +1631,7 @@ x86/sse41/RdCost_sse41.i: x86/sse41/RdCost_sse41.cpp.i
 
 # target to preprocess a source file
 x86/sse41/RdCost_sse41.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/RdCost_sse41.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/RdCost_sse41.cpp.i
 .PHONY : x86/sse41/RdCost_sse41.cpp.i
 
 x86/sse41/RdCost_sse41.s: x86/sse41/RdCost_sse41.cpp.s
@@ -1615,7 +1639,7 @@ x86/sse41/RdCost_sse41.s: x86/sse41/RdCost_sse41.cpp.s
 
 # target to generate assembly for a file
 x86/sse41/RdCost_sse41.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/RdCost_sse41.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse41/RdCost_sse41.cpp.s
 .PHONY : x86/sse41/RdCost_sse41.cpp.s
 
 x86/sse42/IbcHashmap_sse42.o: x86/sse42/IbcHashmap_sse42.cpp.o
@@ -1623,7 +1647,7 @@ x86/sse42/IbcHashmap_sse42.o: x86/sse42/IbcHashmap_sse42.cpp.o
 
 # target to build an object file
 x86/sse42/IbcHashmap_sse42.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse42/IbcHashmap_sse42.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse42/IbcHashmap_sse42.cpp.o
 .PHONY : x86/sse42/IbcHashmap_sse42.cpp.o
 
 x86/sse42/IbcHashmap_sse42.i: x86/sse42/IbcHashmap_sse42.cpp.i
@@ -1631,7 +1655,7 @@ x86/sse42/IbcHashmap_sse42.i: x86/sse42/IbcHashmap_sse42.cpp.i
 
 # target to preprocess a source file
 x86/sse42/IbcHashmap_sse42.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse42/IbcHashmap_sse42.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse42/IbcHashmap_sse42.cpp.i
 .PHONY : x86/sse42/IbcHashmap_sse42.cpp.i
 
 x86/sse42/IbcHashmap_sse42.s: x86/sse42/IbcHashmap_sse42.cpp.s
@@ -1639,7 +1663,7 @@ x86/sse42/IbcHashmap_sse42.s: x86/sse42/IbcHashmap_sse42.cpp.s
 
 # target to generate assembly for a file
 x86/sse42/IbcHashmap_sse42.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse42/IbcHashmap_sse42.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/CommonLib/CMakeFiles/CommonLib.dir/build.make source/Lib/CommonLib/CMakeFiles/CommonLib.dir/x86/sse42/IbcHashmap_sse42.cpp.s
 .PHONY : x86/sse42/IbcHashmap_sse42.cpp.s
 
 # Help Target
@@ -1672,6 +1696,9 @@ help:
 	@echo "... CodingStructure.o"
 	@echo "... CodingStructure.i"
 	@echo "... CodingStructure.s"
+	@echo "... Coleta.o"
+	@echo "... Coleta.i"
+	@echo "... Coleta.s"
 	@echo "... ContextModelling.o"
 	@echo "... ContextModelling.i"
 	@echo "... ContextModelling.s"
@@ -1851,6 +1878,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

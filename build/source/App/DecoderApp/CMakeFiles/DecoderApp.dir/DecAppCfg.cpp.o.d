@@ -1,5 +1,5 @@
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o: \
- /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/DecAppCfg.cpp \
+ /home/dudabosel/TCC/TCC/source/App/DecoderApp/DecAppCfg.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -134,8 +134,8 @@ source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o: \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/DecAppCfg.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/App/DecoderApp/DecAppCfg.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/CommonDef.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -174,15 +174,15 @@ source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o: \
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/limits \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/TypeDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/TypeDef.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/cstddef \
  /usr/include/assert.h /usr/include/c++/11/cassert \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/version.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../Utilities/program_options_lite.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/version.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../Utilities/program_options_lite.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
@@ -190,15 +190,15 @@ source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o: \
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/ChromaFormat.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Common.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/CommonDef.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Rom.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/dtrace_next.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/dtrace.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/ChromaFormat.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Common.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Rom.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/dtrace_next.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/dtrace.h \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/cstdarg \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Rom.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Rom.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

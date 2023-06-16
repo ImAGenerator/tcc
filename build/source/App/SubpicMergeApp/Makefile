@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles /home/dudabosel/VVCSoftware_VTM/build/source/App/SubpicMergeApp//CMakeFiles/progress.marks
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SubpicMergeApp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles /home/dudabosel/TCC/TCC/build/source/App/SubpicMergeApp//CMakeFiles/progress.marks
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SubpicMergeApp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SubpicMergeApp/clean
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SubpicMergeApp/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SubpicMergeApp/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SubpicMergeApp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SubpicMergeApp/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SubpicMergeApp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/rule:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/rule
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/rule
 .PHONY : source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ SubpicMergeApp: source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/rule
 
 # fast build rule for target.
 SubpicMergeApp/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build
 .PHONY : SubpicMergeApp/fast
 
 SubpicMergeApp.o: SubpicMergeApp.cpp.o
@@ -135,7 +135,7 @@ SubpicMergeApp.o: SubpicMergeApp.cpp.o
 
 # target to build an object file
 SubpicMergeApp.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeApp.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeApp.cpp.o
 .PHONY : SubpicMergeApp.cpp.o
 
 SubpicMergeApp.i: SubpicMergeApp.cpp.i
@@ -143,7 +143,7 @@ SubpicMergeApp.i: SubpicMergeApp.cpp.i
 
 # target to preprocess a source file
 SubpicMergeApp.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeApp.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeApp.cpp.i
 .PHONY : SubpicMergeApp.cpp.i
 
 SubpicMergeApp.s: SubpicMergeApp.cpp.s
@@ -151,7 +151,7 @@ SubpicMergeApp.s: SubpicMergeApp.cpp.s
 
 # target to generate assembly for a file
 SubpicMergeApp.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeApp.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeApp.cpp.s
 .PHONY : SubpicMergeApp.cpp.s
 
 SubpicMergeMain.o: SubpicMergeMain.cpp.o
@@ -159,7 +159,7 @@ SubpicMergeMain.o: SubpicMergeMain.cpp.o
 
 # target to build an object file
 SubpicMergeMain.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeMain.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeMain.cpp.o
 .PHONY : SubpicMergeMain.cpp.o
 
 SubpicMergeMain.i: SubpicMergeMain.cpp.i
@@ -167,7 +167,7 @@ SubpicMergeMain.i: SubpicMergeMain.cpp.i
 
 # target to preprocess a source file
 SubpicMergeMain.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeMain.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeMain.cpp.i
 .PHONY : SubpicMergeMain.cpp.i
 
 SubpicMergeMain.s: SubpicMergeMain.cpp.s
@@ -175,7 +175,7 @@ SubpicMergeMain.s: SubpicMergeMain.cpp.s
 
 # target to generate assembly for a file
 SubpicMergeMain.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeMain.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/build.make source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeMain.cpp.s
 .PHONY : SubpicMergeMain.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

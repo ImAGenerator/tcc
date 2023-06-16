@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 # Include any dependencies generated for this target.
 include source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/depend.make
@@ -72,128 +72,128 @@ include source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/flags.ma
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/flags.make
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o: ../source/Lib/DecoderLib/AnnexBread.cpp
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/AnnexBread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.o -c /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/AnnexBread.cpp
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/AnnexBread.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/AnnexBread.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.i
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/AnnexBread.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/AnnexBread.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/AnnexBread.cpp.s
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/flags.make
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o: ../source/Lib/DecoderLib/BinDecoder.cpp
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/BinDecoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.o -c /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/BinDecoder.cpp
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/BinDecoder.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/BinDecoder.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.i
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/BinDecoder.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/BinDecoder.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/BinDecoder.cpp.s
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/flags.make
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o: ../source/Lib/DecoderLib/CABACReader.cpp
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/CABACReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.o -c /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/CABACReader.cpp
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/CABACReader.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/CABACReader.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.i
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/CABACReader.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/CABACReader.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/CABACReader.cpp.s
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/flags.make
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o: ../source/Lib/DecoderLib/DecCu.cpp
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/DecCu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.o -c /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/DecCu.cpp
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/DecCu.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/DecCu.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.i
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/DecCu.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/DecCu.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecCu.cpp.s
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/flags.make
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o: ../source/Lib/DecoderLib/DecLib.cpp
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/DecLib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.o -c /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/DecLib.cpp
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/DecLib.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/DecLib.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.i
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/DecLib.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/DecLib.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecLib.cpp.s
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/flags.make
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o: ../source/Lib/DecoderLib/DecSlice.cpp
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/DecSlice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.o -c /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/DecSlice.cpp
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/DecSlice.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/DecSlice.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.i
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/DecSlice.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/DecSlice.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/DecSlice.cpp.s
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/flags.make
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o: ../source/Lib/DecoderLib/NALread.cpp
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/NALread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.o -c /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/NALread.cpp
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/NALread.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/NALread.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.i
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/NALread.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/NALread.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/NALread.cpp.s
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/flags.make
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o: ../source/Lib/DecoderLib/SEIread.cpp
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/SEIread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.o -c /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/SEIread.cpp
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/SEIread.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/SEIread.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.i
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/SEIread.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/SEIread.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/SEIread.cpp.s
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/flags.make
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o: ../source/Lib/DecoderLib/VLCReader.cpp
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/VLCReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o -MF CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o.d -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o -c /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/VLCReader.cpp
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/VLCReader.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/VLCReader.cpp > CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.i
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/VLCReader.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/VLCReader.cpp -o CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.s
 
 # Object files for target DecoderAnalyserLib
 DecoderAnalyserLib_OBJECTS = \
@@ -221,19 +221,19 @@ DecoderAnalyserLib_EXTERNAL_OBJECTS =
 ../lib/umake/gcc-11.3/x86_64/release/libDecoderAnalyserLib.a: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VLCReader.cpp.o
 ../lib/umake/gcc-11.3/x86_64/release/libDecoderAnalyserLib.a: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build.make
 ../lib/umake/gcc-11.3/x86_64/release/libDecoderAnalyserLib.a: source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library ../../../../lib/umake/gcc-11.3/x86_64/release/libDecoderAnalyserLib.a"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && $(CMAKE_COMMAND) -P CMakeFiles/DecoderAnalyserLib.dir/cmake_clean_target.cmake
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DecoderAnalyserLib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library ../../../../lib/umake/gcc-11.3/x86_64/release/libDecoderAnalyserLib.a"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && $(CMAKE_COMMAND) -P CMakeFiles/DecoderAnalyserLib.dir/cmake_clean_target.cmake
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DecoderAnalyserLib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build: ../lib/umake/gcc-11.3/x86_64/release/libDecoderAnalyserLib.a
 .PHONY : source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/build
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib && $(CMAKE_COMMAND) -P CMakeFiles/DecoderAnalyserLib.dir/cmake_clean.cmake
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib && $(CMAKE_COMMAND) -P CMakeFiles/DecoderAnalyserLib.dir/cmake_clean.cmake
 .PHONY : source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/clean
 
 source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dudabosel/VVCSoftware_VTM /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderAnalyserLib /home/dudabosel/VVCSoftware_VTM/build /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib /home/dudabosel/VVCSoftware_VTM/build/source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dudabosel/TCC/TCC /home/dudabosel/TCC/TCC/source/Lib/DecoderAnalyserLib /home/dudabosel/TCC/TCC/build /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib /home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/depend
 

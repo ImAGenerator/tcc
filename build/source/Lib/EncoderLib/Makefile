@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles /home/dudabosel/VVCSoftware_VTM/build/source/Lib/EncoderLib//CMakeFiles/progress.marks
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/EncoderLib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles /home/dudabosel/TCC/TCC/build/source/Lib/EncoderLib//CMakeFiles/progress.marks
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/EncoderLib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/EncoderLib/clean
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/EncoderLib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/EncoderLib/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/EncoderLib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/EncoderLib/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/EncoderLib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/rule:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/rule
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/rule
 .PHONY : source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ EncoderLib: source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/rule
 
 # fast build rule for target.
 EncoderLib/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build
 .PHONY : EncoderLib/fast
 
 AQp.o: AQp.cpp.o
@@ -135,7 +135,7 @@ AQp.o: AQp.cpp.o
 
 # target to build an object file
 AQp.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/AQp.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/AQp.cpp.o
 .PHONY : AQp.cpp.o
 
 AQp.i: AQp.cpp.i
@@ -143,7 +143,7 @@ AQp.i: AQp.cpp.i
 
 # target to preprocess a source file
 AQp.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/AQp.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/AQp.cpp.i
 .PHONY : AQp.cpp.i
 
 AQp.s: AQp.cpp.s
@@ -151,7 +151,7 @@ AQp.s: AQp.cpp.s
 
 # target to generate assembly for a file
 AQp.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/AQp.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/AQp.cpp.s
 .PHONY : AQp.cpp.s
 
 BinEncoder.o: BinEncoder.cpp.o
@@ -159,7 +159,7 @@ BinEncoder.o: BinEncoder.cpp.o
 
 # target to build an object file
 BinEncoder.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/BinEncoder.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/BinEncoder.cpp.o
 .PHONY : BinEncoder.cpp.o
 
 BinEncoder.i: BinEncoder.cpp.i
@@ -167,7 +167,7 @@ BinEncoder.i: BinEncoder.cpp.i
 
 # target to preprocess a source file
 BinEncoder.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/BinEncoder.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/BinEncoder.cpp.i
 .PHONY : BinEncoder.cpp.i
 
 BinEncoder.s: BinEncoder.cpp.s
@@ -175,7 +175,7 @@ BinEncoder.s: BinEncoder.cpp.s
 
 # target to generate assembly for a file
 BinEncoder.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/BinEncoder.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/BinEncoder.cpp.s
 .PHONY : BinEncoder.cpp.s
 
 CABACWriter.o: CABACWriter.cpp.o
@@ -183,7 +183,7 @@ CABACWriter.o: CABACWriter.cpp.o
 
 # target to build an object file
 CABACWriter.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/CABACWriter.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/CABACWriter.cpp.o
 .PHONY : CABACWriter.cpp.o
 
 CABACWriter.i: CABACWriter.cpp.i
@@ -191,7 +191,7 @@ CABACWriter.i: CABACWriter.cpp.i
 
 # target to preprocess a source file
 CABACWriter.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/CABACWriter.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/CABACWriter.cpp.i
 .PHONY : CABACWriter.cpp.i
 
 CABACWriter.s: CABACWriter.cpp.s
@@ -199,7 +199,7 @@ CABACWriter.s: CABACWriter.cpp.s
 
 # target to generate assembly for a file
 CABACWriter.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/CABACWriter.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/CABACWriter.cpp.s
 .PHONY : CABACWriter.cpp.s
 
 EncAdaptiveLoopFilter.o: EncAdaptiveLoopFilter.cpp.o
@@ -207,7 +207,7 @@ EncAdaptiveLoopFilter.o: EncAdaptiveLoopFilter.cpp.o
 
 # target to build an object file
 EncAdaptiveLoopFilter.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncAdaptiveLoopFilter.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncAdaptiveLoopFilter.cpp.o
 .PHONY : EncAdaptiveLoopFilter.cpp.o
 
 EncAdaptiveLoopFilter.i: EncAdaptiveLoopFilter.cpp.i
@@ -215,7 +215,7 @@ EncAdaptiveLoopFilter.i: EncAdaptiveLoopFilter.cpp.i
 
 # target to preprocess a source file
 EncAdaptiveLoopFilter.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncAdaptiveLoopFilter.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncAdaptiveLoopFilter.cpp.i
 .PHONY : EncAdaptiveLoopFilter.cpp.i
 
 EncAdaptiveLoopFilter.s: EncAdaptiveLoopFilter.cpp.s
@@ -223,7 +223,7 @@ EncAdaptiveLoopFilter.s: EncAdaptiveLoopFilter.cpp.s
 
 # target to generate assembly for a file
 EncAdaptiveLoopFilter.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncAdaptiveLoopFilter.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncAdaptiveLoopFilter.cpp.s
 .PHONY : EncAdaptiveLoopFilter.cpp.s
 
 EncCu.o: EncCu.cpp.o
@@ -231,7 +231,7 @@ EncCu.o: EncCu.cpp.o
 
 # target to build an object file
 EncCu.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncCu.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncCu.cpp.o
 .PHONY : EncCu.cpp.o
 
 EncCu.i: EncCu.cpp.i
@@ -239,7 +239,7 @@ EncCu.i: EncCu.cpp.i
 
 # target to preprocess a source file
 EncCu.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncCu.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncCu.cpp.i
 .PHONY : EncCu.cpp.i
 
 EncCu.s: EncCu.cpp.s
@@ -247,7 +247,7 @@ EncCu.s: EncCu.cpp.s
 
 # target to generate assembly for a file
 EncCu.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncCu.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncCu.cpp.s
 .PHONY : EncCu.cpp.s
 
 EncGOP.o: EncGOP.cpp.o
@@ -255,7 +255,7 @@ EncGOP.o: EncGOP.cpp.o
 
 # target to build an object file
 EncGOP.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncGOP.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncGOP.cpp.o
 .PHONY : EncGOP.cpp.o
 
 EncGOP.i: EncGOP.cpp.i
@@ -263,7 +263,7 @@ EncGOP.i: EncGOP.cpp.i
 
 # target to preprocess a source file
 EncGOP.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncGOP.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncGOP.cpp.i
 .PHONY : EncGOP.cpp.i
 
 EncGOP.s: EncGOP.cpp.s
@@ -271,7 +271,7 @@ EncGOP.s: EncGOP.cpp.s
 
 # target to generate assembly for a file
 EncGOP.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncGOP.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncGOP.cpp.s
 .PHONY : EncGOP.cpp.s
 
 EncHRD.o: EncHRD.cpp.o
@@ -279,7 +279,7 @@ EncHRD.o: EncHRD.cpp.o
 
 # target to build an object file
 EncHRD.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncHRD.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncHRD.cpp.o
 .PHONY : EncHRD.cpp.o
 
 EncHRD.i: EncHRD.cpp.i
@@ -287,7 +287,7 @@ EncHRD.i: EncHRD.cpp.i
 
 # target to preprocess a source file
 EncHRD.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncHRD.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncHRD.cpp.i
 .PHONY : EncHRD.cpp.i
 
 EncHRD.s: EncHRD.cpp.s
@@ -295,7 +295,7 @@ EncHRD.s: EncHRD.cpp.s
 
 # target to generate assembly for a file
 EncHRD.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncHRD.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncHRD.cpp.s
 .PHONY : EncHRD.cpp.s
 
 EncLib.o: EncLib.cpp.o
@@ -303,7 +303,7 @@ EncLib.o: EncLib.cpp.o
 
 # target to build an object file
 EncLib.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLib.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLib.cpp.o
 .PHONY : EncLib.cpp.o
 
 EncLib.i: EncLib.cpp.i
@@ -311,7 +311,7 @@ EncLib.i: EncLib.cpp.i
 
 # target to preprocess a source file
 EncLib.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLib.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLib.cpp.i
 .PHONY : EncLib.cpp.i
 
 EncLib.s: EncLib.cpp.s
@@ -319,7 +319,7 @@ EncLib.s: EncLib.cpp.s
 
 # target to generate assembly for a file
 EncLib.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLib.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLib.cpp.s
 .PHONY : EncLib.cpp.s
 
 EncLibCommon.o: EncLibCommon.cpp.o
@@ -327,7 +327,7 @@ EncLibCommon.o: EncLibCommon.cpp.o
 
 # target to build an object file
 EncLibCommon.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLibCommon.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLibCommon.cpp.o
 .PHONY : EncLibCommon.cpp.o
 
 EncLibCommon.i: EncLibCommon.cpp.i
@@ -335,7 +335,7 @@ EncLibCommon.i: EncLibCommon.cpp.i
 
 # target to preprocess a source file
 EncLibCommon.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLibCommon.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLibCommon.cpp.i
 .PHONY : EncLibCommon.cpp.i
 
 EncLibCommon.s: EncLibCommon.cpp.s
@@ -343,7 +343,7 @@ EncLibCommon.s: EncLibCommon.cpp.s
 
 # target to generate assembly for a file
 EncLibCommon.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLibCommon.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLibCommon.cpp.s
 .PHONY : EncLibCommon.cpp.s
 
 EncModeCtrl.o: EncModeCtrl.cpp.o
@@ -351,7 +351,7 @@ EncModeCtrl.o: EncModeCtrl.cpp.o
 
 # target to build an object file
 EncModeCtrl.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncModeCtrl.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncModeCtrl.cpp.o
 .PHONY : EncModeCtrl.cpp.o
 
 EncModeCtrl.i: EncModeCtrl.cpp.i
@@ -359,7 +359,7 @@ EncModeCtrl.i: EncModeCtrl.cpp.i
 
 # target to preprocess a source file
 EncModeCtrl.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncModeCtrl.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncModeCtrl.cpp.i
 .PHONY : EncModeCtrl.cpp.i
 
 EncModeCtrl.s: EncModeCtrl.cpp.s
@@ -367,7 +367,7 @@ EncModeCtrl.s: EncModeCtrl.cpp.s
 
 # target to generate assembly for a file
 EncModeCtrl.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncModeCtrl.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncModeCtrl.cpp.s
 .PHONY : EncModeCtrl.cpp.s
 
 EncReshape.o: EncReshape.cpp.o
@@ -375,7 +375,7 @@ EncReshape.o: EncReshape.cpp.o
 
 # target to build an object file
 EncReshape.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncReshape.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncReshape.cpp.o
 .PHONY : EncReshape.cpp.o
 
 EncReshape.i: EncReshape.cpp.i
@@ -383,7 +383,7 @@ EncReshape.i: EncReshape.cpp.i
 
 # target to preprocess a source file
 EncReshape.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncReshape.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncReshape.cpp.i
 .PHONY : EncReshape.cpp.i
 
 EncReshape.s: EncReshape.cpp.s
@@ -391,7 +391,7 @@ EncReshape.s: EncReshape.cpp.s
 
 # target to generate assembly for a file
 EncReshape.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncReshape.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncReshape.cpp.s
 .PHONY : EncReshape.cpp.s
 
 EncSampleAdaptiveOffset.o: EncSampleAdaptiveOffset.cpp.o
@@ -399,7 +399,7 @@ EncSampleAdaptiveOffset.o: EncSampleAdaptiveOffset.cpp.o
 
 # target to build an object file
 EncSampleAdaptiveOffset.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSampleAdaptiveOffset.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSampleAdaptiveOffset.cpp.o
 .PHONY : EncSampleAdaptiveOffset.cpp.o
 
 EncSampleAdaptiveOffset.i: EncSampleAdaptiveOffset.cpp.i
@@ -407,7 +407,7 @@ EncSampleAdaptiveOffset.i: EncSampleAdaptiveOffset.cpp.i
 
 # target to preprocess a source file
 EncSampleAdaptiveOffset.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSampleAdaptiveOffset.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSampleAdaptiveOffset.cpp.i
 .PHONY : EncSampleAdaptiveOffset.cpp.i
 
 EncSampleAdaptiveOffset.s: EncSampleAdaptiveOffset.cpp.s
@@ -415,7 +415,7 @@ EncSampleAdaptiveOffset.s: EncSampleAdaptiveOffset.cpp.s
 
 # target to generate assembly for a file
 EncSampleAdaptiveOffset.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSampleAdaptiveOffset.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSampleAdaptiveOffset.cpp.s
 .PHONY : EncSampleAdaptiveOffset.cpp.s
 
 EncSlice.o: EncSlice.cpp.o
@@ -423,7 +423,7 @@ EncSlice.o: EncSlice.cpp.o
 
 # target to build an object file
 EncSlice.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSlice.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSlice.cpp.o
 .PHONY : EncSlice.cpp.o
 
 EncSlice.i: EncSlice.cpp.i
@@ -431,7 +431,7 @@ EncSlice.i: EncSlice.cpp.i
 
 # target to preprocess a source file
 EncSlice.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSlice.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSlice.cpp.i
 .PHONY : EncSlice.cpp.i
 
 EncSlice.s: EncSlice.cpp.s
@@ -439,7 +439,7 @@ EncSlice.s: EncSlice.cpp.s
 
 # target to generate assembly for a file
 EncSlice.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSlice.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSlice.cpp.s
 .PHONY : EncSlice.cpp.s
 
 EncTemporalFilter.o: EncTemporalFilter.cpp.o
@@ -447,7 +447,7 @@ EncTemporalFilter.o: EncTemporalFilter.cpp.o
 
 # target to build an object file
 EncTemporalFilter.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncTemporalFilter.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncTemporalFilter.cpp.o
 .PHONY : EncTemporalFilter.cpp.o
 
 EncTemporalFilter.i: EncTemporalFilter.cpp.i
@@ -455,7 +455,7 @@ EncTemporalFilter.i: EncTemporalFilter.cpp.i
 
 # target to preprocess a source file
 EncTemporalFilter.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncTemporalFilter.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncTemporalFilter.cpp.i
 .PHONY : EncTemporalFilter.cpp.i
 
 EncTemporalFilter.s: EncTemporalFilter.cpp.s
@@ -463,7 +463,7 @@ EncTemporalFilter.s: EncTemporalFilter.cpp.s
 
 # target to generate assembly for a file
 EncTemporalFilter.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncTemporalFilter.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncTemporalFilter.cpp.s
 .PHONY : EncTemporalFilter.cpp.s
 
 InterSearch.o: InterSearch.cpp.o
@@ -471,7 +471,7 @@ InterSearch.o: InterSearch.cpp.o
 
 # target to build an object file
 InterSearch.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/InterSearch.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/InterSearch.cpp.o
 .PHONY : InterSearch.cpp.o
 
 InterSearch.i: InterSearch.cpp.i
@@ -479,7 +479,7 @@ InterSearch.i: InterSearch.cpp.i
 
 # target to preprocess a source file
 InterSearch.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/InterSearch.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/InterSearch.cpp.i
 .PHONY : InterSearch.cpp.i
 
 InterSearch.s: InterSearch.cpp.s
@@ -487,7 +487,7 @@ InterSearch.s: InterSearch.cpp.s
 
 # target to generate assembly for a file
 InterSearch.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/InterSearch.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/InterSearch.cpp.s
 .PHONY : InterSearch.cpp.s
 
 IntraSearch.o: IntraSearch.cpp.o
@@ -495,7 +495,7 @@ IntraSearch.o: IntraSearch.cpp.o
 
 # target to build an object file
 IntraSearch.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/IntraSearch.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/IntraSearch.cpp.o
 .PHONY : IntraSearch.cpp.o
 
 IntraSearch.i: IntraSearch.cpp.i
@@ -503,7 +503,7 @@ IntraSearch.i: IntraSearch.cpp.i
 
 # target to preprocess a source file
 IntraSearch.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/IntraSearch.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/IntraSearch.cpp.i
 .PHONY : IntraSearch.cpp.i
 
 IntraSearch.s: IntraSearch.cpp.s
@@ -511,7 +511,7 @@ IntraSearch.s: IntraSearch.cpp.s
 
 # target to generate assembly for a file
 IntraSearch.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/IntraSearch.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/IntraSearch.cpp.s
 .PHONY : IntraSearch.cpp.s
 
 NALwrite.o: NALwrite.cpp.o
@@ -519,7 +519,7 @@ NALwrite.o: NALwrite.cpp.o
 
 # target to build an object file
 NALwrite.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/NALwrite.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/NALwrite.cpp.o
 .PHONY : NALwrite.cpp.o
 
 NALwrite.i: NALwrite.cpp.i
@@ -527,7 +527,7 @@ NALwrite.i: NALwrite.cpp.i
 
 # target to preprocess a source file
 NALwrite.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/NALwrite.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/NALwrite.cpp.i
 .PHONY : NALwrite.cpp.i
 
 NALwrite.s: NALwrite.cpp.s
@@ -535,7 +535,7 @@ NALwrite.s: NALwrite.cpp.s
 
 # target to generate assembly for a file
 NALwrite.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/NALwrite.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/NALwrite.cpp.s
 .PHONY : NALwrite.cpp.s
 
 RateCtrl.o: RateCtrl.cpp.o
@@ -543,7 +543,7 @@ RateCtrl.o: RateCtrl.cpp.o
 
 # target to build an object file
 RateCtrl.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/RateCtrl.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/RateCtrl.cpp.o
 .PHONY : RateCtrl.cpp.o
 
 RateCtrl.i: RateCtrl.cpp.i
@@ -551,7 +551,7 @@ RateCtrl.i: RateCtrl.cpp.i
 
 # target to preprocess a source file
 RateCtrl.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/RateCtrl.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/RateCtrl.cpp.i
 .PHONY : RateCtrl.cpp.i
 
 RateCtrl.s: RateCtrl.cpp.s
@@ -559,7 +559,7 @@ RateCtrl.s: RateCtrl.cpp.s
 
 # target to generate assembly for a file
 RateCtrl.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/RateCtrl.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/RateCtrl.cpp.s
 .PHONY : RateCtrl.cpp.s
 
 SEIEncoder.o: SEIEncoder.cpp.o
@@ -567,7 +567,7 @@ SEIEncoder.o: SEIEncoder.cpp.o
 
 # target to build an object file
 SEIEncoder.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIEncoder.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIEncoder.cpp.o
 .PHONY : SEIEncoder.cpp.o
 
 SEIEncoder.i: SEIEncoder.cpp.i
@@ -575,7 +575,7 @@ SEIEncoder.i: SEIEncoder.cpp.i
 
 # target to preprocess a source file
 SEIEncoder.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIEncoder.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIEncoder.cpp.i
 .PHONY : SEIEncoder.cpp.i
 
 SEIEncoder.s: SEIEncoder.cpp.s
@@ -583,7 +583,7 @@ SEIEncoder.s: SEIEncoder.cpp.s
 
 # target to generate assembly for a file
 SEIEncoder.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIEncoder.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIEncoder.cpp.s
 .PHONY : SEIEncoder.cpp.s
 
 SEIwrite.o: SEIwrite.cpp.o
@@ -591,7 +591,7 @@ SEIwrite.o: SEIwrite.cpp.o
 
 # target to build an object file
 SEIwrite.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIwrite.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIwrite.cpp.o
 .PHONY : SEIwrite.cpp.o
 
 SEIwrite.i: SEIwrite.cpp.i
@@ -599,7 +599,7 @@ SEIwrite.i: SEIwrite.cpp.i
 
 # target to preprocess a source file
 SEIwrite.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIwrite.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIwrite.cpp.i
 .PHONY : SEIwrite.cpp.i
 
 SEIwrite.s: SEIwrite.cpp.s
@@ -607,7 +607,7 @@ SEIwrite.s: SEIwrite.cpp.s
 
 # target to generate assembly for a file
 SEIwrite.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIwrite.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIwrite.cpp.s
 .PHONY : SEIwrite.cpp.s
 
 VLCWriter.o: VLCWriter.cpp.o
@@ -615,7 +615,7 @@ VLCWriter.o: VLCWriter.cpp.o
 
 # target to build an object file
 VLCWriter.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/VLCWriter.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/VLCWriter.cpp.o
 .PHONY : VLCWriter.cpp.o
 
 VLCWriter.i: VLCWriter.cpp.i
@@ -623,7 +623,7 @@ VLCWriter.i: VLCWriter.cpp.i
 
 # target to preprocess a source file
 VLCWriter.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/VLCWriter.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/VLCWriter.cpp.i
 .PHONY : VLCWriter.cpp.i
 
 VLCWriter.s: VLCWriter.cpp.s
@@ -631,7 +631,7 @@ VLCWriter.s: VLCWriter.cpp.s
 
 # target to generate assembly for a file
 VLCWriter.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/VLCWriter.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/VLCWriter.cpp.s
 .PHONY : VLCWriter.cpp.s
 
 WeightPredAnalysis.o: WeightPredAnalysis.cpp.o
@@ -639,7 +639,7 @@ WeightPredAnalysis.o: WeightPredAnalysis.cpp.o
 
 # target to build an object file
 WeightPredAnalysis.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/WeightPredAnalysis.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/WeightPredAnalysis.cpp.o
 .PHONY : WeightPredAnalysis.cpp.o
 
 WeightPredAnalysis.i: WeightPredAnalysis.cpp.i
@@ -647,7 +647,7 @@ WeightPredAnalysis.i: WeightPredAnalysis.cpp.i
 
 # target to preprocess a source file
 WeightPredAnalysis.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/WeightPredAnalysis.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/WeightPredAnalysis.cpp.i
 .PHONY : WeightPredAnalysis.cpp.i
 
 WeightPredAnalysis.s: WeightPredAnalysis.cpp.s
@@ -655,7 +655,7 @@ WeightPredAnalysis.s: WeightPredAnalysis.cpp.s
 
 # target to generate assembly for a file
 WeightPredAnalysis.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/WeightPredAnalysis.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/build.make source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/WeightPredAnalysis.cpp.s
 .PHONY : WeightPredAnalysis.cpp.s
 
 # Help Target
@@ -744,6 +744,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

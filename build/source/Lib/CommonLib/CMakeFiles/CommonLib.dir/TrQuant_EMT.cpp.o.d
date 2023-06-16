@@ -1,8 +1,8 @@
 source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant_EMT.cpp.o: \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/TrQuant_EMT.cpp \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/TrQuant_EMT.cpp \
  /usr/include/stdc-predef.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/TrQuant_EMT.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/TrQuant_EMT.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/CommonDef.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -168,7 +168,7 @@ source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant_EMT.cpp.o: \
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/limits \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/TypeDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/TypeDef.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
@@ -178,9 +178,9 @@ source/Lib/CommonLib/CMakeFiles/CommonLib.dir/TrQuant_EMT.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/assert.h /usr/include/c++/11/cassert \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/version.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/Rom.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/Common.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/version.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/Rom.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/Common.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/math.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \

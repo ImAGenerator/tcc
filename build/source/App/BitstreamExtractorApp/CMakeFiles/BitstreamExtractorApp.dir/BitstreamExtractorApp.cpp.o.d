@@ -1,5 +1,5 @@
 source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamExtractorApp.cpp.o: \
- /home/dudabosel/VVCSoftware_VTM/source/App/BitstreamExtractorApp/BitstreamExtractorApp.cpp \
+ /home/dudabosel/TCC/TCC/source/App/BitstreamExtractorApp/BitstreamExtractorApp.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/list \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -74,7 +74,7 @@ source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamE
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/CommonDef.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h /usr/include/c++/11/cstdlib \
@@ -182,80 +182,80 @@ source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamE
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/limits \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/TypeDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/TypeDef.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /usr/include/c++/11/cstddef /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/assert.h /usr/include/c++/11/cassert \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/version.h \
- /home/dudabosel/VVCSoftware_VTM/source/App/BitstreamExtractorApp/BitstreamExtractorApp.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/version.h \
+ /home/dudabosel/TCC/TCC/source/App/BitstreamExtractorApp/BitstreamExtractorApp.h \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/dudabosel/VVCSoftware_VTM/source/App/BitstreamExtractorApp/BitstreamExtractorAppCfg.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/ParameterSetManager.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Slice.h \
+ /home/dudabosel/TCC/TCC/source/App/BitstreamExtractorApp/BitstreamExtractorAppCfg.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/ParameterSetManager.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Slice.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/CommonDef.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Rom.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Common.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/ChromaFormat.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/HRD.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/SEI.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../libmd5/MD5.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../libmd5/libmd5.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Rom.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Common.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/ChromaFormat.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/HRD.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/SEI.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../libmd5/MD5.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../libmd5/libmd5.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/AlfParameters.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/MotionInfo.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Mv.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../DecoderLib/NALread.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/BitStream.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/NAL.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/./VLCReader.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Rom.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Slice.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/SampleAdaptiveOffset.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Unit.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/MotionInfo.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Buffer.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/AlfParameters.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/MotionInfo.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Mv.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../DecoderLib/NALread.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/BitStream.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/NAL.h \
+ /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/./VLCReader.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Rom.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Slice.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/SampleAdaptiveOffset.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Unit.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/MotionInfo.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Buffer.h \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Reshape.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Picture.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/CodingStructure.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/UnitPartitioner.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Hash.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Buffer.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/TrQuant.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Contexts.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/ContextModelling.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Reshape.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Picture.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/CodingStructure.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/UnitPartitioner.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Hash.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Buffer.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/TrQuant.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Contexts.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/ContextModelling.h \
  /usr/include/c++/11/bitset \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Quant.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/DepQuant.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/QuantRDOQ.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Unit.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/UnitPartitioner.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/MCTS.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/SEIColourTransform.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Quant.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/DepQuant.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/QuantRDOQ.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Unit.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/UnitPartitioner.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/MCTS.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/SEIColourTransform.h \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/./CABACReader.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/./BinDecoder.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/Contexts.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/ContextModelling.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/EncoderLib/./VLCWriter.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/EncoderLib/./CABACWriter.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/EncoderLib/./BinEncoder.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/dtrace_next.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../CommonLib/dtrace.h \
+ /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/./CABACReader.h \
+ /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/./BinDecoder.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/Contexts.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/ContextModelling.h \
+ /home/dudabosel/TCC/TCC/source/Lib/EncoderLib/./VLCWriter.h \
+ /home/dudabosel/TCC/TCC/source/Lib/EncoderLib/./CABACWriter.h \
+ /home/dudabosel/TCC/TCC/source/Lib/EncoderLib/./BinEncoder.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/dtrace_next.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../CommonLib/dtrace.h \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/cstdarg \
  /usr/include/c++/11/cmath /usr/include/math.h \
@@ -268,11 +268,11 @@ source/App/BitstreamExtractorApp/CMakeFiles/BitstreamExtractorApp.dir/BitstreamE
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/DecoderLib/./SEIread.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/EncoderLib/./SEIwrite.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/EncoderLib/./VLCWriter.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../DecoderLib/AnnexBread.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../EncoderLib/NALwrite.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../DecoderLib/VLCReader.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../EncoderLib/VLCWriter.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../EncoderLib/AnnexBwrite.h
+ /home/dudabosel/TCC/TCC/source/Lib/DecoderLib/./SEIread.h \
+ /home/dudabosel/TCC/TCC/source/Lib/EncoderLib/./SEIwrite.h \
+ /home/dudabosel/TCC/TCC/source/Lib/EncoderLib/./VLCWriter.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../DecoderLib/AnnexBread.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../EncoderLib/NALwrite.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../DecoderLib/VLCReader.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../EncoderLib/VLCWriter.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../EncoderLib/AnnexBwrite.h

@@ -1120,6 +1120,7 @@ source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/DecCu.cpp.o: ../source/Lib/Decod
   ../source/Lib/CommonLib/Picture.h \
   ../source/Lib/CommonLib/UnitTools.h \
   ../source/Lib/CommonLib/InterPrediction.h \
+  ../source/Lib/CommonLib/Coleta.h \
   ../source/Lib/CommonLib/dtrace_buffer.h \
   ../source/Lib/CommonLib/dtrace.h \
   /usr/include/c++/11/set \
@@ -3321,6 +3322,8 @@ source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/VLCReader.cpp.o: ../source/Lib/D
 /usr/include/c++/11/bits/functexcept.h:
 
 ../source/Lib/CommonLib/Common.h:
+
+../source/Lib/CommonLib/Coleta.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
 

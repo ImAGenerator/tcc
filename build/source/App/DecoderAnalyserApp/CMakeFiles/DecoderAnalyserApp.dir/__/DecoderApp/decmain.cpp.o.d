@@ -1,5 +1,5 @@
 source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/decmain.cpp.o: \
- /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/decmain.cpp \
+ /home/dudabosel/TCC/TCC/source/App/DecoderApp/decmain.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/stdlib.h \
  /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -66,8 +66,8 @@ source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/de
  /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/DecApp.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../Utilities/VideoIOYuv.h \
+ /home/dudabosel/TCC/TCC/source/App/DecoderApp/DecApp.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../Utilities/VideoIOYuv.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/stringfwd.h \
@@ -159,7 +159,7 @@ source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/de
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/iostream \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CommonDef.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -176,7 +176,7 @@ source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/de
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/limits \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/TypeDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/TypeDef.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
@@ -186,17 +186,17 @@ source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/de
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/assert.h /usr/include/c++/11/cassert \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/version.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Unit.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CommonDef.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Common.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Mv.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/MotionInfo.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/ChromaFormat.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Rom.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Buffer.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/version.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Unit.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Common.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Mv.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/MotionInfo.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/ChromaFormat.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Rom.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Buffer.h \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Slice.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Slice.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
@@ -204,50 +204,50 @@ source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/de
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/HRD.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/SEI.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../libmd5/MD5.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../libmd5/libmd5.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/HRD.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/SEI.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../libmd5/MD5.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../libmd5/libmd5.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/AlfParameters.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/MotionInfo.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Picture.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Unit.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Slice.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CodingStructure.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/UnitPartitioner.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Hash.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Buffer.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/TrQuant.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Contexts.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/ContextModelling.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/AlfParameters.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/MotionInfo.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Picture.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Unit.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Slice.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CodingStructure.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/UnitPartitioner.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Hash.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Buffer.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/TrQuant.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Contexts.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/ContextModelling.h \
  /usr/include/c++/11/bitset \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Quant.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/DepQuant.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/QuantRDOQ.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/UnitPartitioner.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/MCTS.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/SEIColourTransform.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Quant.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/DepQuant.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/QuantRDOQ.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/UnitPartitioner.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/MCTS.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/SEIColourTransform.h \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/DecLib.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/DecSlice.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/BitStream.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/DecCu.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/CABACReader.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/BinDecoder.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Contexts.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/ContextModelling.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/InterPrediction.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/InterpolationFilter.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CacheModel.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Picture.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/WeightPrediction.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/RdCost.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/RdCostWeightPrediction.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/DecLib.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/DecSlice.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/BitStream.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/DecCu.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/CABACReader.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/BinDecoder.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Contexts.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/ContextModelling.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/InterPrediction.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/InterpolationFilter.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/CacheModel.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Picture.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/WeightPrediction.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/RdCost.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/RdCostWeightPrediction.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -258,19 +258,19 @@ source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/de
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/IntraPrediction.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/MatrixIntraPrediction.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Reshape.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/VLCReader.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Rom.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/SampleAdaptiveOffset.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Reshape.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/ParameterSetManager.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/SEIread.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/./CacheModel.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/DeblockingFilter.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/AdaptiveLoopFilter.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/UnitTools.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/InterPrediction.h \
- /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/DecAppCfg.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/./program_options_lite.h
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/IntraPrediction.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/MatrixIntraPrediction.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Reshape.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/VLCReader.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Rom.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/SampleAdaptiveOffset.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/Reshape.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/ParameterSetManager.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../DecoderLib/SEIread.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/./CacheModel.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/DeblockingFilter.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/AdaptiveLoopFilter.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/UnitTools.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonAnalyserLib/../CommonLib/../CommonLib/InterPrediction.h \
+ /home/dudabosel/TCC/TCC/source/App/DecoderApp/DecAppCfg.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/./program_options_lite.h

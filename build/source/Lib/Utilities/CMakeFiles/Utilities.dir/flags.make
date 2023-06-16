@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/. -I/home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/.. -I/home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/. -I/home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/.. -I/home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/./x86 -I/home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../libmd5
+CXX_INCLUDES = -I/home/dudabosel/TCC/TCC/source/Lib/Utilities/. -I/home/dudabosel/TCC/TCC/source/Lib/Utilities/.. -I/home/dudabosel/TCC/TCC/source/Lib/CommonLib/. -I/home/dudabosel/TCC/TCC/source/Lib/CommonLib/.. -I/home/dudabosel/TCC/TCC/source/Lib/CommonLib/./x86 -I/home/dudabosel/TCC/TCC/source/Lib/CommonLib/../libmd5
 
-CXX_FLAGS = -O3 -DNDEBUG -pg -fPIC -Wall -fdiagnostics-show-option -Werror -Wno-sign-compare -Wno-class-memaccess -msse4.1 -std=gnu++11
+CXX_FLAGS = -O3 -DNDEBUG -fPIC -Wall -fdiagnostics-show-option -Werror -Wno-sign-compare -Wno-class-memaccess -msse4.1 -std=gnu++11
 

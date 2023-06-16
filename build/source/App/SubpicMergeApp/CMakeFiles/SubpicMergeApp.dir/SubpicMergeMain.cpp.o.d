@@ -1,5 +1,5 @@
 source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeMain.cpp.o: \
- /home/dudabosel/VVCSoftware_VTM/source/App/SubpicMergeApp/SubpicMergeMain.cpp \
+ /home/dudabosel/TCC/TCC/source/App/SubpicMergeApp/SubpicMergeMain.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -167,7 +167,7 @@ source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeMain.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/CommonLib/../Utilities/program_options_lite.h \
+ /home/dudabosel/TCC/TCC/source/Lib/CommonLib/../Utilities/program_options_lite.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
@@ -178,4 +178,4 @@ source/App/SubpicMergeApp/CMakeFiles/SubpicMergeApp.dir/SubpicMergeMain.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/dudabosel/VVCSoftware_VTM/source/App/SubpicMergeApp/SubpicMergeApp.h
+ /home/dudabosel/TCC/TCC/source/App/SubpicMergeApp/SubpicMergeApp.h

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles /home/dudabosel/VVCSoftware_VTM/build/source/App/SEIRemovalApp//CMakeFiles/progress.marks
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SEIRemovalApp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles /home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp//CMakeFiles/progress.marks
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SEIRemovalApp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SEIRemovalApp/clean
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SEIRemovalApp/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SEIRemovalApp/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SEIRemovalApp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SEIRemovalApp/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SEIRemovalApp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/rule:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/rule
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/rule
 .PHONY : source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ SEIRemovalApp: source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/rule
 
 # fast build rule for target.
 SEIRemovalApp/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build
 .PHONY : SEIRemovalApp/fast
 
 SEIRemovalApp.o: SEIRemovalApp.cpp.o
@@ -135,7 +135,7 @@ SEIRemovalApp.o: SEIRemovalApp.cpp.o
 
 # target to build an object file
 SEIRemovalApp.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.o
 .PHONY : SEIRemovalApp.cpp.o
 
 SEIRemovalApp.i: SEIRemovalApp.cpp.i
@@ -143,7 +143,7 @@ SEIRemovalApp.i: SEIRemovalApp.cpp.i
 
 # target to preprocess a source file
 SEIRemovalApp.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.i
 .PHONY : SEIRemovalApp.cpp.i
 
 SEIRemovalApp.s: SEIRemovalApp.cpp.s
@@ -151,7 +151,7 @@ SEIRemovalApp.s: SEIRemovalApp.cpp.s
 
 # target to generate assembly for a file
 SEIRemovalApp.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalApp.cpp.s
 .PHONY : SEIRemovalApp.cpp.s
 
 SEIRemovalAppCfg.o: SEIRemovalAppCfg.cpp.o
@@ -159,7 +159,7 @@ SEIRemovalAppCfg.o: SEIRemovalAppCfg.cpp.o
 
 # target to build an object file
 SEIRemovalAppCfg.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.o
 .PHONY : SEIRemovalAppCfg.cpp.o
 
 SEIRemovalAppCfg.i: SEIRemovalAppCfg.cpp.i
@@ -167,7 +167,7 @@ SEIRemovalAppCfg.i: SEIRemovalAppCfg.cpp.i
 
 # target to preprocess a source file
 SEIRemovalAppCfg.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.i
 .PHONY : SEIRemovalAppCfg.cpp.i
 
 SEIRemovalAppCfg.s: SEIRemovalAppCfg.cpp.s
@@ -175,7 +175,7 @@ SEIRemovalAppCfg.s: SEIRemovalAppCfg.cpp.s
 
 # target to generate assembly for a file
 SEIRemovalAppCfg.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/SEIRemovalAppCfg.cpp.s
 .PHONY : SEIRemovalAppCfg.cpp.s
 
 seiremovalmain.o: seiremovalmain.cpp.o
@@ -183,7 +183,7 @@ seiremovalmain.o: seiremovalmain.cpp.o
 
 # target to build an object file
 seiremovalmain.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.o
 .PHONY : seiremovalmain.cpp.o
 
 seiremovalmain.i: seiremovalmain.cpp.i
@@ -191,7 +191,7 @@ seiremovalmain.i: seiremovalmain.cpp.i
 
 # target to preprocess a source file
 seiremovalmain.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.i
 .PHONY : seiremovalmain.cpp.i
 
 seiremovalmain.s: seiremovalmain.cpp.s
@@ -199,7 +199,7 @@ seiremovalmain.s: seiremovalmain.cpp.s
 
 # target to generate assembly for a file
 seiremovalmain.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/build.make source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir/seiremovalmain.cpp.s
 .PHONY : seiremovalmain.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

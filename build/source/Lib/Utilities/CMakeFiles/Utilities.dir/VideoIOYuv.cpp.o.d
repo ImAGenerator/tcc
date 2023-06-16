@@ -1,5 +1,5 @@
 source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o: \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/VideoIOYuv.cpp \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/VideoIOYuv.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -177,8 +177,8 @@ source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o: \
  /usr/include/memory.h /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Rom.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Rom.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/CommonDef.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -195,7 +195,7 @@ source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o: \
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/limits \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/TypeDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/TypeDef.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
@@ -203,18 +203,18 @@ source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o: \
  /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/cstddef \
  /usr/include/c++/11/cstring /usr/include/assert.h \
  /usr/include/c++/11/cassert \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/version.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Common.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/VideoIOYuv.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/CommonDef.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Unit.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Mv.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/MotionInfo.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/ChromaFormat.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Rom.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Buffer.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/version.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Common.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/VideoIOYuv.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/CommonDef.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Unit.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Mv.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/MotionInfo.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/ChromaFormat.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Rom.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Buffer.h \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Slice.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Slice.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
@@ -222,32 +222,32 @@ source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o: \
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/HRD.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/SEI.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../libmd5/MD5.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../libmd5/libmd5.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/HRD.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/SEI.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../libmd5/MD5.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../libmd5/libmd5.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/AlfParameters.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/MotionInfo.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Picture.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Unit.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Slice.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/CodingStructure.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/UnitPartitioner.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Hash.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Buffer.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/TrQuant.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Contexts.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/ContextModelling.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/AlfParameters.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/MotionInfo.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Picture.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Unit.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Slice.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/CodingStructure.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/UnitPartitioner.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Hash.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Buffer.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/TrQuant.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Contexts.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/ContextModelling.h \
  /usr/include/c++/11/bitset \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/Quant.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/DepQuant.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/QuantRDOQ.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/UnitPartitioner.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/MCTS.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/../CommonLib/SEIColourTransform.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/Quant.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/DepQuant.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/QuantRDOQ.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/UnitPartitioner.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/MCTS.h \
+ /home/dudabosel/TCC/TCC/source/Lib/Utilities/../CommonLib/SEIColourTransform.h \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc

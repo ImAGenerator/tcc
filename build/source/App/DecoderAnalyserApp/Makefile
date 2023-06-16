@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderAnalyserApp//CMakeFiles/progress.marks
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/DecoderAnalyserApp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles /home/dudabosel/TCC/TCC/build/source/App/DecoderAnalyserApp//CMakeFiles/progress.marks
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/DecoderAnalyserApp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/DecoderAnalyserApp/clean
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/DecoderAnalyserApp/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/DecoderAnalyserApp/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/DecoderAnalyserApp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/DecoderAnalyserApp/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/DecoderAnalyserApp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/rule:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/rule
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/rule
 .PHONY : source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ DecoderAnalyserApp: source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.
 
 # fast build rule for target.
 DecoderAnalyserApp/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build
 .PHONY : DecoderAnalyserApp/fast
 
 __/DecoderApp/DecApp.o: __/DecoderApp/DecApp.cpp.o
@@ -135,7 +135,7 @@ __/DecoderApp/DecApp.o: __/DecoderApp/DecApp.cpp.o
 
 # target to build an object file
 __/DecoderApp/DecApp.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/DecApp.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/DecApp.cpp.o
 .PHONY : __/DecoderApp/DecApp.cpp.o
 
 __/DecoderApp/DecApp.i: __/DecoderApp/DecApp.cpp.i
@@ -143,7 +143,7 @@ __/DecoderApp/DecApp.i: __/DecoderApp/DecApp.cpp.i
 
 # target to preprocess a source file
 __/DecoderApp/DecApp.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/DecApp.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/DecApp.cpp.i
 .PHONY : __/DecoderApp/DecApp.cpp.i
 
 __/DecoderApp/DecApp.s: __/DecoderApp/DecApp.cpp.s
@@ -151,7 +151,7 @@ __/DecoderApp/DecApp.s: __/DecoderApp/DecApp.cpp.s
 
 # target to generate assembly for a file
 __/DecoderApp/DecApp.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/DecApp.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/DecApp.cpp.s
 .PHONY : __/DecoderApp/DecApp.cpp.s
 
 __/DecoderApp/DecAppCfg.o: __/DecoderApp/DecAppCfg.cpp.o
@@ -159,7 +159,7 @@ __/DecoderApp/DecAppCfg.o: __/DecoderApp/DecAppCfg.cpp.o
 
 # target to build an object file
 __/DecoderApp/DecAppCfg.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/DecAppCfg.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/DecAppCfg.cpp.o
 .PHONY : __/DecoderApp/DecAppCfg.cpp.o
 
 __/DecoderApp/DecAppCfg.i: __/DecoderApp/DecAppCfg.cpp.i
@@ -167,7 +167,7 @@ __/DecoderApp/DecAppCfg.i: __/DecoderApp/DecAppCfg.cpp.i
 
 # target to preprocess a source file
 __/DecoderApp/DecAppCfg.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/DecAppCfg.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/DecAppCfg.cpp.i
 .PHONY : __/DecoderApp/DecAppCfg.cpp.i
 
 __/DecoderApp/DecAppCfg.s: __/DecoderApp/DecAppCfg.cpp.s
@@ -175,7 +175,7 @@ __/DecoderApp/DecAppCfg.s: __/DecoderApp/DecAppCfg.cpp.s
 
 # target to generate assembly for a file
 __/DecoderApp/DecAppCfg.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/DecAppCfg.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/DecAppCfg.cpp.s
 .PHONY : __/DecoderApp/DecAppCfg.cpp.s
 
 __/DecoderApp/decmain.o: __/DecoderApp/decmain.cpp.o
@@ -183,7 +183,7 @@ __/DecoderApp/decmain.o: __/DecoderApp/decmain.cpp.o
 
 # target to build an object file
 __/DecoderApp/decmain.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/decmain.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/decmain.cpp.o
 .PHONY : __/DecoderApp/decmain.cpp.o
 
 __/DecoderApp/decmain.i: __/DecoderApp/decmain.cpp.i
@@ -191,7 +191,7 @@ __/DecoderApp/decmain.i: __/DecoderApp/decmain.cpp.i
 
 # target to preprocess a source file
 __/DecoderApp/decmain.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/decmain.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/decmain.cpp.i
 .PHONY : __/DecoderApp/decmain.cpp.i
 
 __/DecoderApp/decmain.s: __/DecoderApp/decmain.cpp.s
@@ -199,7 +199,7 @@ __/DecoderApp/decmain.s: __/DecoderApp/decmain.cpp.s
 
 # target to generate assembly for a file
 __/DecoderApp/decmain.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/decmain.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/build.make source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir/__/DecoderApp/decmain.cpp.s
 .PHONY : __/DecoderApp/decmain.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

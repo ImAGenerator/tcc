@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles /home/dudabosel/VVCSoftware_VTM/build/source/App/StreamMergeApp//CMakeFiles/progress.marks
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/StreamMergeApp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles /home/dudabosel/TCC/TCC/build/source/App/StreamMergeApp//CMakeFiles/progress.marks
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/StreamMergeApp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/StreamMergeApp/clean
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/StreamMergeApp/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/StreamMergeApp/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/StreamMergeApp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/StreamMergeApp/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/StreamMergeApp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/rule:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/rule
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/rule
 .PHONY : source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ StreamMergeApp: source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/rule
 
 # fast build rule for target.
 StreamMergeApp/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build
 .PHONY : StreamMergeApp/fast
 
 StreamMergeApp.o: StreamMergeApp.cpp.o
@@ -135,7 +135,7 @@ StreamMergeApp.o: StreamMergeApp.cpp.o
 
 # target to build an object file
 StreamMergeApp.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeApp.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeApp.cpp.o
 .PHONY : StreamMergeApp.cpp.o
 
 StreamMergeApp.i: StreamMergeApp.cpp.i
@@ -143,7 +143,7 @@ StreamMergeApp.i: StreamMergeApp.cpp.i
 
 # target to preprocess a source file
 StreamMergeApp.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeApp.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeApp.cpp.i
 .PHONY : StreamMergeApp.cpp.i
 
 StreamMergeApp.s: StreamMergeApp.cpp.s
@@ -151,7 +151,7 @@ StreamMergeApp.s: StreamMergeApp.cpp.s
 
 # target to generate assembly for a file
 StreamMergeApp.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeApp.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeApp.cpp.s
 .PHONY : StreamMergeApp.cpp.s
 
 StreamMergeAppCfg.o: StreamMergeAppCfg.cpp.o
@@ -159,7 +159,7 @@ StreamMergeAppCfg.o: StreamMergeAppCfg.cpp.o
 
 # target to build an object file
 StreamMergeAppCfg.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeAppCfg.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeAppCfg.cpp.o
 .PHONY : StreamMergeAppCfg.cpp.o
 
 StreamMergeAppCfg.i: StreamMergeAppCfg.cpp.i
@@ -167,7 +167,7 @@ StreamMergeAppCfg.i: StreamMergeAppCfg.cpp.i
 
 # target to preprocess a source file
 StreamMergeAppCfg.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeAppCfg.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeAppCfg.cpp.i
 .PHONY : StreamMergeAppCfg.cpp.i
 
 StreamMergeAppCfg.s: StreamMergeAppCfg.cpp.s
@@ -175,7 +175,7 @@ StreamMergeAppCfg.s: StreamMergeAppCfg.cpp.s
 
 # target to generate assembly for a file
 StreamMergeAppCfg.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeAppCfg.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeAppCfg.cpp.s
 .PHONY : StreamMergeAppCfg.cpp.s
 
 StreamMergeMain.o: StreamMergeMain.cpp.o
@@ -183,7 +183,7 @@ StreamMergeMain.o: StreamMergeMain.cpp.o
 
 # target to build an object file
 StreamMergeMain.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeMain.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeMain.cpp.o
 .PHONY : StreamMergeMain.cpp.o
 
 StreamMergeMain.i: StreamMergeMain.cpp.i
@@ -191,7 +191,7 @@ StreamMergeMain.i: StreamMergeMain.cpp.i
 
 # target to preprocess a source file
 StreamMergeMain.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeMain.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeMain.cpp.i
 .PHONY : StreamMergeMain.cpp.i
 
 StreamMergeMain.s: StreamMergeMain.cpp.s
@@ -199,7 +199,7 @@ StreamMergeMain.s: StreamMergeMain.cpp.s
 
 # target to generate assembly for a file
 StreamMergeMain.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeMain.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/build.make source/App/StreamMergeApp/CMakeFiles/StreamMergeApp.dir/StreamMergeMain.cpp.s
 .PHONY : StreamMergeMain.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

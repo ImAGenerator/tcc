@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CommonAnalyserLib.dir/__/CommonLib/ChromaFormat.cpp.o.d"
   "CMakeFiles/CommonAnalyserLib.dir/__/CommonLib/CodingStructure.cpp.o"
   "CMakeFiles/CommonAnalyserLib.dir/__/CommonLib/CodingStructure.cpp.o.d"
+  "CMakeFiles/CommonAnalyserLib.dir/__/CommonLib/Coleta.cpp.o"
+  "CMakeFiles/CommonAnalyserLib.dir/__/CommonLib/Coleta.cpp.o.d"
   "CMakeFiles/CommonAnalyserLib.dir/__/CommonLib/ContextModelling.cpp.o"
   "CMakeFiles/CommonAnalyserLib.dir/__/CommonLib/ContextModelling.cpp.o.d"
   "CMakeFiles/CommonAnalyserLib.dir/__/CommonLib/Contexts.cpp.o"

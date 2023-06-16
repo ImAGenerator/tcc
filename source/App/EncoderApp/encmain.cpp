@@ -220,7 +220,7 @@ int main(int argc, char* argv[])
   std::time_t startTime2 = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
   fprintf(stdout, " started @ %s", std::ctime(&startTime2) );
   clock_t startClock = clock();
-
+  std::cout << "frame" << ", " << "min" << ", " << "max" << ", " << "sum" << ", " << "avg" << std::endl;  
   // call encoding function per layer
   bool eos = false;
 

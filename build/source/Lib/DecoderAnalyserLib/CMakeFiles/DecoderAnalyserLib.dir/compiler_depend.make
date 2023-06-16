@@ -1152,6 +1152,7 @@ source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/De
   ../source/Lib/CommonLib/Picture.h \
   ../source/Lib/CommonLib/UnitTools.h \
   ../source/Lib/CommonLib/InterPrediction.h \
+  ../source/Lib/CommonLib/Coleta.h \
   ../source/Lib/CommonLib/dtrace_buffer.h \
   ../source/Lib/CommonLib/dtrace.h \
   /usr/include/c++/11/set \
@@ -3102,6 +3103,8 @@ source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir/__/DecoderLib/VL
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
 ../source/Lib/CommonLib/Slice.h:
+
+../source/Lib/CommonLib/Coleta.h:
 
 ../source/Lib/libmd5/MD5.h:
 

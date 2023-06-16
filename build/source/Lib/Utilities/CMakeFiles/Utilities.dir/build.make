@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 # Include any dependencies generated for this target.
 include source/Lib/Utilities/CMakeFiles/Utilities.dir/depend.make
@@ -72,30 +72,30 @@ include source/Lib/Utilities/CMakeFiles/Utilities.dir/flags.make
 source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o: source/Lib/Utilities/CMakeFiles/Utilities.dir/flags.make
 source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o: ../source/Lib/Utilities/VideoIOYuv.cpp
 source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o: source/Lib/Utilities/CMakeFiles/Utilities.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/Utilities && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o -MF CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o.d -o CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/VideoIOYuv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/Utilities && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o -MF CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o.d -o CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o -c /home/dudabosel/TCC/TCC/source/Lib/Utilities/VideoIOYuv.cpp
 
 source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Utilities.dir/VideoIOYuv.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/Utilities && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/VideoIOYuv.cpp > CMakeFiles/Utilities.dir/VideoIOYuv.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/Utilities && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/Lib/Utilities/VideoIOYuv.cpp > CMakeFiles/Utilities.dir/VideoIOYuv.cpp.i
 
 source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Utilities.dir/VideoIOYuv.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/Utilities && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/VideoIOYuv.cpp -o CMakeFiles/Utilities.dir/VideoIOYuv.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/Utilities && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/Lib/Utilities/VideoIOYuv.cpp -o CMakeFiles/Utilities.dir/VideoIOYuv.cpp.s
 
 source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o: source/Lib/Utilities/CMakeFiles/Utilities.dir/flags.make
 source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o: ../source/Lib/Utilities/program_options_lite.cpp
 source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o: source/Lib/Utilities/CMakeFiles/Utilities.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/Utilities && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o -MF CMakeFiles/Utilities.dir/program_options_lite.cpp.o.d -o CMakeFiles/Utilities.dir/program_options_lite.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/program_options_lite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/Utilities && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o -MF CMakeFiles/Utilities.dir/program_options_lite.cpp.o.d -o CMakeFiles/Utilities.dir/program_options_lite.cpp.o -c /home/dudabosel/TCC/TCC/source/Lib/Utilities/program_options_lite.cpp
 
 source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Utilities.dir/program_options_lite.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/Utilities && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/program_options_lite.cpp > CMakeFiles/Utilities.dir/program_options_lite.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/Utilities && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/Lib/Utilities/program_options_lite.cpp > CMakeFiles/Utilities.dir/program_options_lite.cpp.i
 
 source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Utilities.dir/program_options_lite.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/Utilities && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities/program_options_lite.cpp -o CMakeFiles/Utilities.dir/program_options_lite.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/Utilities && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/Lib/Utilities/program_options_lite.cpp -o CMakeFiles/Utilities.dir/program_options_lite.cpp.s
 
 # Object files for target Utilities
 Utilities_OBJECTS = \
@@ -109,19 +109,19 @@ Utilities_EXTERNAL_OBJECTS =
 ../lib/umake/gcc-11.3/x86_64/release/libUtilities.a: source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o
 ../lib/umake/gcc-11.3/x86_64/release/libUtilities.a: source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make
 ../lib/umake/gcc-11.3/x86_64/release/libUtilities.a: source/Lib/Utilities/CMakeFiles/Utilities.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../../../lib/umake/gcc-11.3/x86_64/release/libUtilities.a"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/Utilities && $(CMAKE_COMMAND) -P CMakeFiles/Utilities.dir/cmake_clean_target.cmake
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/Utilities && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Utilities.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../../../lib/umake/gcc-11.3/x86_64/release/libUtilities.a"
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/Utilities && $(CMAKE_COMMAND) -P CMakeFiles/Utilities.dir/cmake_clean_target.cmake
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/Utilities && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Utilities.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 source/Lib/Utilities/CMakeFiles/Utilities.dir/build: ../lib/umake/gcc-11.3/x86_64/release/libUtilities.a
 .PHONY : source/Lib/Utilities/CMakeFiles/Utilities.dir/build
 
 source/Lib/Utilities/CMakeFiles/Utilities.dir/clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/Lib/Utilities && $(CMAKE_COMMAND) -P CMakeFiles/Utilities.dir/cmake_clean.cmake
+	cd /home/dudabosel/TCC/TCC/build/source/Lib/Utilities && $(CMAKE_COMMAND) -P CMakeFiles/Utilities.dir/cmake_clean.cmake
 .PHONY : source/Lib/Utilities/CMakeFiles/Utilities.dir/clean
 
 source/Lib/Utilities/CMakeFiles/Utilities.dir/depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dudabosel/VVCSoftware_VTM /home/dudabosel/VVCSoftware_VTM/source/Lib/Utilities /home/dudabosel/VVCSoftware_VTM/build /home/dudabosel/VVCSoftware_VTM/build/source/Lib/Utilities /home/dudabosel/VVCSoftware_VTM/build/source/Lib/Utilities/CMakeFiles/Utilities.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dudabosel/TCC/TCC /home/dudabosel/TCC/TCC/source/Lib/Utilities /home/dudabosel/TCC/TCC/build /home/dudabosel/TCC/TCC/build/source/Lib/Utilities /home/dudabosel/TCC/TCC/build/source/Lib/Utilities/CMakeFiles/Utilities.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : source/Lib/Utilities/CMakeFiles/Utilities.dir/depend
 

@@ -1712,6 +1712,8 @@ source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncGOP.cpp.o: ../source/Lib/Enco
   /usr/include/c++/11/bits/refwrap.h \
   /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
   ../source/Lib/EncoderLib/EncLib.h \
   ../source/Lib/CommonLib/TrQuant.h \
   ../source/Lib/CommonLib/CommonDef.h \
@@ -1969,6 +1971,7 @@ source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncGOP.cpp.o: ../source/Lib/Enco
   ../source/Lib/CommonLib/Common.h \
   ../source/Lib/CommonLib/HRD.h \
   ../source/Lib/EncoderLib/NALwrite.h \
+  ../source/Lib/CommonLib/Coleta.h \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/bits/parse_numbers.h \
@@ -7061,6 +7064,10 @@ source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/WeightPredAnalysis.cpp.o: ../sou
 
 /usr/include/c++/11/ratio:
 
+/usr/include/c++/11/bits/stl_numeric.h:
+
+/usr/include/c++/11/numeric:
+
 /usr/include/c++/11/bits/refwrap.h:
 
 ../source/Lib/EncoderLib/EncGOP.cpp:
@@ -7778,6 +7785,8 @@ source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/WeightPredAnalysis.cpp.o: ../sou
 /usr/include/endian.h:
 
 /usr/include/c++/11/bits/erase_if.h:
+
+../source/Lib/CommonLib/Coleta.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
 

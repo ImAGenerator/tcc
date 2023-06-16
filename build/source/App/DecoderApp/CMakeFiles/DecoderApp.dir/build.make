@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 # Include any dependencies generated for this target.
 include source/App/DecoderApp/CMakeFiles/DecoderApp.dir/depend.make
@@ -72,44 +72,44 @@ include source/App/DecoderApp/CMakeFiles/DecoderApp.dir/flags.make
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecApp.cpp.o: source/App/DecoderApp/CMakeFiles/DecoderApp.dir/flags.make
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecApp.cpp.o: ../source/App/DecoderApp/DecApp.cpp
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecApp.cpp.o: source/App/DecoderApp/CMakeFiles/DecoderApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecApp.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecApp.cpp.o -MF CMakeFiles/DecoderApp.dir/DecApp.cpp.o.d -o CMakeFiles/DecoderApp.dir/DecApp.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/DecApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecApp.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecApp.cpp.o -MF CMakeFiles/DecoderApp.dir/DecApp.cpp.o.d -o CMakeFiles/DecoderApp.dir/DecApp.cpp.o -c /home/dudabosel/TCC/TCC/source/App/DecoderApp/DecApp.cpp
 
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecoderApp.dir/DecApp.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/DecApp.cpp > CMakeFiles/DecoderApp.dir/DecApp.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/App/DecoderApp/DecApp.cpp > CMakeFiles/DecoderApp.dir/DecApp.cpp.i
 
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecoderApp.dir/DecApp.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/DecApp.cpp -o CMakeFiles/DecoderApp.dir/DecApp.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/App/DecoderApp/DecApp.cpp -o CMakeFiles/DecoderApp.dir/DecApp.cpp.s
 
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o: source/App/DecoderApp/CMakeFiles/DecoderApp.dir/flags.make
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o: ../source/App/DecoderApp/DecAppCfg.cpp
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o: source/App/DecoderApp/CMakeFiles/DecoderApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o -MF CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o.d -o CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/DecAppCfg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o -MF CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o.d -o CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.o -c /home/dudabosel/TCC/TCC/source/App/DecoderApp/DecAppCfg.cpp
 
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/DecAppCfg.cpp > CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/App/DecoderApp/DecAppCfg.cpp > CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.i
 
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/DecAppCfg.cpp -o CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/App/DecoderApp/DecAppCfg.cpp -o CMakeFiles/DecoderApp.dir/DecAppCfg.cpp.s
 
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/decmain.cpp.o: source/App/DecoderApp/CMakeFiles/DecoderApp.dir/flags.make
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/decmain.cpp.o: ../source/App/DecoderApp/decmain.cpp
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/decmain.cpp.o: source/App/DecoderApp/CMakeFiles/DecoderApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/App/DecoderApp/CMakeFiles/DecoderApp.dir/decmain.cpp.o"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/App/DecoderApp/CMakeFiles/DecoderApp.dir/decmain.cpp.o -MF CMakeFiles/DecoderApp.dir/decmain.cpp.o.d -o CMakeFiles/DecoderApp.dir/decmain.cpp.o -c /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/decmain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/App/DecoderApp/CMakeFiles/DecoderApp.dir/decmain.cpp.o"
+	cd /home/dudabosel/TCC/TCC/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/App/DecoderApp/CMakeFiles/DecoderApp.dir/decmain.cpp.o -MF CMakeFiles/DecoderApp.dir/decmain.cpp.o.d -o CMakeFiles/DecoderApp.dir/decmain.cpp.o -c /home/dudabosel/TCC/TCC/source/App/DecoderApp/decmain.cpp
 
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/decmain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DecoderApp.dir/decmain.cpp.i"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/decmain.cpp > CMakeFiles/DecoderApp.dir/decmain.cpp.i
+	cd /home/dudabosel/TCC/TCC/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dudabosel/TCC/TCC/source/App/DecoderApp/decmain.cpp > CMakeFiles/DecoderApp.dir/decmain.cpp.i
 
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/decmain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DecoderApp.dir/decmain.cpp.s"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp/decmain.cpp -o CMakeFiles/DecoderApp.dir/decmain.cpp.s
+	cd /home/dudabosel/TCC/TCC/build/source/App/DecoderApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dudabosel/TCC/TCC/source/App/DecoderApp/decmain.cpp -o CMakeFiles/DecoderApp.dir/decmain.cpp.s
 
 # Object files for target DecoderApp
 DecoderApp_OBJECTS = \
@@ -129,19 +129,19 @@ DecoderApp_EXTERNAL_OBJECTS =
 ../bin/umake/gcc-11.3/x86_64/release/DecoderApp: ../lib/umake/gcc-11.3/x86_64/release/libUtilities.a
 ../bin/umake/gcc-11.3/x86_64/release/DecoderApp: ../lib/umake/gcc-11.3/x86_64/release/libCommonLib.a
 ../bin/umake/gcc-11.3/x86_64/release/DecoderApp: source/App/DecoderApp/CMakeFiles/DecoderApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dudabosel/VVCSoftware_VTM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../../bin/umake/gcc-11.3/x86_64/release/DecoderApp"
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DecoderApp.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp && /usr/bin/cmake -E copy  /home/dudabosel/VVCSoftware_VTM/bin/umake/gcc-11.3/x86_64/release/DecoderApp    /home/dudabosel/VVCSoftware_VTM/bin/DecoderAppStatic  
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dudabosel/TCC/TCC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../../bin/umake/gcc-11.3/x86_64/release/DecoderApp"
+	cd /home/dudabosel/TCC/TCC/build/source/App/DecoderApp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DecoderApp.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/dudabosel/TCC/TCC/build/source/App/DecoderApp && /usr/bin/cmake -E copy  /home/dudabosel/TCC/TCC/bin/umake/gcc-11.3/x86_64/release/DecoderApp    /home/dudabosel/TCC/TCC/bin/DecoderAppStatic  
 
 # Rule to build all files generated by this target.
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/build: ../bin/umake/gcc-11.3/x86_64/release/DecoderApp
 .PHONY : source/App/DecoderApp/CMakeFiles/DecoderApp.dir/build
 
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp && $(CMAKE_COMMAND) -P CMakeFiles/DecoderApp.dir/cmake_clean.cmake
+	cd /home/dudabosel/TCC/TCC/build/source/App/DecoderApp && $(CMAKE_COMMAND) -P CMakeFiles/DecoderApp.dir/cmake_clean.cmake
 .PHONY : source/App/DecoderApp/CMakeFiles/DecoderApp.dir/clean
 
 source/App/DecoderApp/CMakeFiles/DecoderApp.dir/depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dudabosel/VVCSoftware_VTM /home/dudabosel/VVCSoftware_VTM/source/App/DecoderApp /home/dudabosel/VVCSoftware_VTM/build /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp /home/dudabosel/VVCSoftware_VTM/build/source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dudabosel/TCC/TCC /home/dudabosel/TCC/TCC/source/App/DecoderApp /home/dudabosel/TCC/TCC/build /home/dudabosel/TCC/TCC/build/source/App/DecoderApp /home/dudabosel/TCC/TCC/build/source/App/DecoderApp/CMakeFiles/DecoderApp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : source/App/DecoderApp/CMakeFiles/DecoderApp.dir/depend
 

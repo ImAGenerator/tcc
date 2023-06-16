@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dudabosel/VVCSoftware_VTM
+CMAKE_SOURCE_DIR = /home/dudabosel/TCC/TCC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dudabosel/VVCSoftware_VTM/build
+CMAKE_BINARY_DIR = /home/dudabosel/TCC/TCC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles /home/dudabosel/VVCSoftware_VTM/build/source/Lib/Utilities//CMakeFiles/progress.marks
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/Utilities/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/VVCSoftware_VTM/build/CMakeFiles 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles /home/dudabosel/TCC/TCC/build/source/Lib/Utilities//CMakeFiles/progress.marks
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/Utilities/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dudabosel/TCC/TCC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/Utilities/clean
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/Utilities/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/Utilities/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/Utilities/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/Utilities/preinstall
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/Utilities/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/Lib/Utilities/CMakeFiles/Utilities.dir/rule:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/Utilities/CMakeFiles/Utilities.dir/rule
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/Lib/Utilities/CMakeFiles/Utilities.dir/rule
 .PHONY : source/Lib/Utilities/CMakeFiles/Utilities.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ Utilities: source/Lib/Utilities/CMakeFiles/Utilities.dir/rule
 
 # fast build rule for target.
 Utilities/fast:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/build
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/build
 .PHONY : Utilities/fast
 
 VideoIOYuv.o: VideoIOYuv.cpp.o
@@ -135,7 +135,7 @@ VideoIOYuv.o: VideoIOYuv.cpp.o
 
 # target to build an object file
 VideoIOYuv.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o
 .PHONY : VideoIOYuv.cpp.o
 
 VideoIOYuv.i: VideoIOYuv.cpp.i
@@ -143,7 +143,7 @@ VideoIOYuv.i: VideoIOYuv.cpp.i
 
 # target to preprocess a source file
 VideoIOYuv.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.i
 .PHONY : VideoIOYuv.cpp.i
 
 VideoIOYuv.s: VideoIOYuv.cpp.s
@@ -151,7 +151,7 @@ VideoIOYuv.s: VideoIOYuv.cpp.s
 
 # target to generate assembly for a file
 VideoIOYuv.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/VideoIOYuv.cpp.s
 .PHONY : VideoIOYuv.cpp.s
 
 program_options_lite.o: program_options_lite.cpp.o
@@ -159,7 +159,7 @@ program_options_lite.o: program_options_lite.cpp.o
 
 # target to build an object file
 program_options_lite.cpp.o:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o
 .PHONY : program_options_lite.cpp.o
 
 program_options_lite.i: program_options_lite.cpp.i
@@ -167,7 +167,7 @@ program_options_lite.i: program_options_lite.cpp.i
 
 # target to preprocess a source file
 program_options_lite.cpp.i:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.i
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.i
 .PHONY : program_options_lite.cpp.i
 
 program_options_lite.s: program_options_lite.cpp.s
@@ -175,7 +175,7 @@ program_options_lite.s: program_options_lite.cpp.s
 
 # target to generate assembly for a file
 program_options_lite.cpp.s:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.s
+	cd /home/dudabosel/TCC/TCC/build && $(MAKE) $(MAKESILENT) -f source/Lib/Utilities/CMakeFiles/Utilities.dir/build.make source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.s
 .PHONY : program_options_lite.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dudabosel/VVCSoftware_VTM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dudabosel/TCC/TCC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

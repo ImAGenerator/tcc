@@ -41,6 +41,7 @@
 #include "CommonLib/IntraPrediction.h"
 #include "CommonLib/Picture.h"
 #include "CommonLib/UnitTools.h"
+#include "CommonLib/Coleta.h"
 
 #include "CommonLib/dtrace_buffer.h"
 

@@ -1,5 +1,5 @@
 source/Lib/CommonLib/CMakeFiles/CommonLib.dir/__/libmd5/libmd5.cpp.o: \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/libmd5/libmd5.cpp \
+ /home/dudabosel/TCC/TCC/source/Lib/libmd5/libmd5.cpp \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -22,4 +22,4 @@ source/Lib/CommonLib/CMakeFiles/CommonLib.dir/__/libmd5/libmd5.cpp.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/dudabosel/VVCSoftware_VTM/source/Lib/libmd5/libmd5.h
+ /home/dudabosel/TCC/TCC/source/Lib/libmd5/libmd5.h
