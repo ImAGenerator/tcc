@@ -4874,23 +4874,6 @@ void EncGOP::xCalculateAddPSNR(Picture* pcPic, PelUnitBuf cPicD, const AccessUni
   _outMax = accumulate(_avgMax.begin(), _avgMax.end(), 0.0) / _avgMax.size();
   _outSum = accumulate(_avgSum.begin(), _avgSum.end(), 0.0) / _avgSum.size();
   _outAvg = accumulate(_avgAvg.begin(), _avgAvg.end(), 0.0) / _avgAvg.size();
-  /*for (int contador = 0; contador < _avgMax.size(); contador++)
-  {
-    std::cout << _avgMax[contador] << ", ";
-  }
-  std::cout << endl;
-  std::cout << endl;
-  std::cout << endl;
-  std::cout << endl;
-  std::cout << endl;
-
-  for (int contador = 0; contador < _avgSum.size(); contador++)
-  {
-    std::cout << _avgSum[contador] << ", ";
-  }*/
-  //std::cout << _avgMin.size() << ", " << _avgMax.size() << ", " << _avgSum.size() << ", " << _avgAvg.size() << std::endl;
-  //std::cout << endl;
-  
   std::cout << pcSlice->getPOC() << ", " << _outMin << ", " << _outMax << ", " << _outSum << ", " << _outAvg << std::endl;
   _avgMin.clear();
   _avgMax.clear();

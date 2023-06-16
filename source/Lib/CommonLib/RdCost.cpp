@@ -2277,8 +2277,7 @@ Distortion RdCost::xCalcHADs8x8( const Pel *piOrg, const Pel *piCur, int iStride
     }
   }
 
-  _avg = _sum / 64;
-  //std::cout << _min << ", " << _max << ", " << _sum << ", " << _avg << std::endl;
+  _avg = _sum / 64.;
   _avgMax.push_back(_max);
   _avgMin.push_back(_min);
   _avgSum.push_back(_sum);
