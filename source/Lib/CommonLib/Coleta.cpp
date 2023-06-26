@@ -1,4 +1,3 @@
 #include <vector>
-#include "CommonDef.h"
 
-std::vector<float> _avgMin, _avgMax, _avgSum, _avgAvg;
+std::vector<float> _avgMin, _avgMax, _avgSum, _avgAvg, _absMin, _absMax, _absSum, _absAvg;

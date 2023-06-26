@@ -62,7 +62,7 @@
 #include "DecoderLib/DecLib.h"
 
 using namespace std;
-float _outMin, _outMax, _outSum, _outAvg;
+float _outMin, _outMax, _outSum, _outAvg, _outAMin, _outAMax, _outASum, _outAAvg;
 
 //! \ingroup EncoderLib
 //! \{
@@ -4874,11 +4874,19 @@ void EncGOP::xCalculateAddPSNR(Picture* pcPic, PelUnitBuf cPicD, const AccessUni
   _outMax = accumulate(_avgMax.begin(), _avgMax.end(), 0.0) / _avgMax.size();
   _outSum = accumulate(_avgSum.begin(), _avgSum.end(), 0.0) / _avgSum.size();
   _outAvg = accumulate(_avgAvg.begin(), _avgAvg.end(), 0.0) / _avgAvg.size();
-  std::cout << pcSlice->getPOC() << ", " << _outMin << ", " << _outMax << ", " << _outSum << ", " << _outAvg << std::endl;
+  _outAMin = accumulate(_absMin.begin(), _absMin.end(), 0.0) / _absMin.size();
+  _outAMax = accumulate(_absMax.begin(), _absMax.end(), 0.0) / _absMax.size();
+  _outASum = accumulate(_absSum.begin(), _absSum.end(), 0.0) / _absSum.size();
+  _outAAvg = accumulate(_absAvg.begin(), _absAvg.end(), 0.0) / _absAvg.size();
+  std::cout << pcSlice->getPOC() << ", " << _outMin << ", " << _outMax << ", " << _outSum << ", " << _outAvg << ", " << _outAMin << ", " << _outAMax << ", " << _outASum << ", " << _outAAvg << std::endl;
   _avgMin.clear();
   _avgMax.clear();
   _avgSum.clear();
   _avgAvg.clear();
+  _absMin.clear();
+  _absMax.clear();
+  _absSum.clear();
+  _absAvg.clear();
 
   if( g_verbosity >= NOTICE )
   {

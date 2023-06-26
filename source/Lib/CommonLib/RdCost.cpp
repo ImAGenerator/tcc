@@ -2253,7 +2253,7 @@ Distortion RdCost::xCalcHADs8x8( const Pel *piOrg, const Pel *piCur, int iStride
   int k, i, j, jj;
   Distortion sad = 0;
   TCoeff diff[64], m1[8][8], m2[8][8], m3[8][8];
-  float _max = -99999999999999999, _min = 9999999999999, _sum = 0, _avg;
+  float _max = -99999999999999999, _min = 9999999999999, _sum = 0, _avg, _aMax = -99999999999999999, _aMin = 9999999999999, _aSum = 0, _aAvg;
   CHECK( iStep != 1, "Invalid step" );
   for( k = 0; k < 64; k += 8 )
   {
@@ -2272,16 +2272,24 @@ Distortion RdCost::xCalcHADs8x8( const Pel *piOrg, const Pel *piCur, int iStride
     for ( j = 0; j < 8; j ++ )
     {
       _max = (diff[k+j] >= _max) * diff[k+j] + (diff[k+j] < _max) * _max;
+      _aMax = (abs(diff[k+j]) >= _aMax) * abs(diff[k+j]) + (abs(diff[k+j]) < _aMax) * _aMax;
       _min = (diff[k+j] <= _min) * diff[k+j] + (diff[k+j] > _min) * _min;
+      _aMin = (abs(diff[k+j]) <= _aMin) * abs(diff[k+j]) + (abs(diff[k+j]) > _aMin) * _aMin;
       _sum += diff[k+j];
+      _aSum += abs(diff[k+j]);
     }
   }
 
   _avg = _sum / 64.;
+  _aAvg = _aSum / 64.;
   _avgMax.push_back(_max);
   _avgMin.push_back(_min);
   _avgSum.push_back(_sum);
   _avgAvg.push_back(_avg);
+  _absMax.push_back(_aMax);
+  _absMin.push_back(_aMin);
+  _absSum.push_back(_aSum);
+  _absAvg.push_back(_aAvg);
 
   //horizontal
   for (j=0; j < 8; j++)
