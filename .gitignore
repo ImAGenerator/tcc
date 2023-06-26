@@ -1,3 +1,4 @@
 *.csv
 *.yuv
 *.o
+*.make
