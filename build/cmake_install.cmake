@@ -1,8 +1,8 @@
-# Install script for directory: /home/dudabosel/TCC/TCC
+# Install script for directory: /home/ebbosel/TCC/TCC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dudabosel/TCC/TCC/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ebbosel/TCC/TCC/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,27 +37,22 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dudabosel/TCC/TCC/build/source/Lib/CommonLib/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/Lib/CommonAnalyserLib/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/Lib/DecoderLib/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/Lib/EncoderLib/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/Lib/Utilities/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/App/DecoderAnalyserApp/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/App/DecoderApp/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/App/EncoderApp/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/App/SEIRemovalApp/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/App/Parcat/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/App/StreamMergeApp/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/App/BitstreamExtractorApp/cmake_install.cmake")
-  include("/home/dudabosel/TCC/TCC/build/source/App/SubpicMergeApp/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/Lib/CommonLib/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/Lib/CommonAnalyserLib/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/Lib/DecoderAnalyserLib/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/Lib/DecoderLib/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/Lib/Utilities/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/App/DecoderAnalyserApp/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/App/DecoderApp/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/App/EncoderApp/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/App/SEIRemovalApp/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/App/Parcat/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/App/StreamMergeApp/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/App/BitstreamExtractorApp/cmake_install.cmake")
+  include("/home/ebbosel/TCC/TCC/build/source/App/SubpicMergeApp/cmake_install.cmake")
 
 endif()
 
@@ -69,5 +64,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dudabosel/TCC/TCC/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ebbosel/TCC/TCC/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

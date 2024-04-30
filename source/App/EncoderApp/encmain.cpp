@@ -221,6 +221,7 @@ int main(int argc, char* argv[])
   fprintf(stdout, " started @ %s", std::ctime(&startTime2) );
   clock_t startClock = clock();
   std::cout << "frame" << ", " << "min" << ", " << "max" << ", " << "sum" << ", " << "avg" << ", " << "abs_min" << ", " << "abs_max" << ", " << "abs_sum" << ", " << "abs_avg" << ", " << "psnr/bit-rate" << std::endl;  
+  // fprintf(stdout, "piOrg, piCur\n");
   // call encoding function per layer
   bool eos = false;
 

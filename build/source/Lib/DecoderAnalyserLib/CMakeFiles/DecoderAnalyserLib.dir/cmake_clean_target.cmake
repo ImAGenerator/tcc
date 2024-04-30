@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../../lib/umake/gcc-11.3/x86_64/release/libDecoderAnalyserLib.a"
+  "../../../../lib/umake/gcc-9.4/x86_64/release/libDecoderAnalyserLib.a"
 )

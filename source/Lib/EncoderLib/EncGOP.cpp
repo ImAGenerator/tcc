@@ -4888,6 +4888,10 @@ void EncGOP::xCalculateAddPSNR(Picture* pcPic, PelUnitBuf cPicD, const AccessUni
   _absSum.clear();
   _absAvg.clear();
 
+
+  //std::cout << pcSlice->getPOC() << ", " << _blocks[0] << ", " << _blocks[1] << std::endl;
+  //_blocks.clear();
+
   if( g_verbosity >= NOTICE )
   {
     msg( NOTICE, "POC %4d LId: %2d TId: %1d ( %s, %c-SLICE, QP %d ) %10d bits",

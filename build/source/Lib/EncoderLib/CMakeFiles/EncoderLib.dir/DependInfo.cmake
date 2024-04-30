@@ -1,40 +1,46 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/AQp.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/AQp.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/BinEncoder.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/BinEncoder.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/CABACWriter.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/CABACWriter.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/EncAdaptiveLoopFilter.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncAdaptiveLoopFilter.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/EncCu.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncCu.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/EncGOP.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncGOP.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/EncHRD.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncHRD.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/EncLib.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLib.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/EncLibCommon.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLibCommon.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/EncModeCtrl.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncModeCtrl.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/EncReshape.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncReshape.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/EncSampleAdaptiveOffset.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSampleAdaptiveOffset.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/EncSlice.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSlice.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/EncTemporalFilter.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncTemporalFilter.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/InterSearch.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/InterSearch.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/IntraSearch.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/IntraSearch.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/NALwrite.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/NALwrite.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/RateCtrl.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/RateCtrl.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/SEIEncoder.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIEncoder.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/SEIwrite.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIwrite.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/VLCWriter.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/VLCWriter.cpp.o"
+  "/home/ebbosel/TCC/TCC/source/Lib/EncoderLib/WeightPredAnalysis.cpp" "/home/ebbosel/TCC/TCC/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/WeightPredAnalysis.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/AQp.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/AQp.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/AQp.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/BinEncoder.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/BinEncoder.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/BinEncoder.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/CABACWriter.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/CABACWriter.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/CABACWriter.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/EncAdaptiveLoopFilter.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncAdaptiveLoopFilter.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncAdaptiveLoopFilter.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/EncCu.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncCu.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncCu.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/EncGOP.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncGOP.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncGOP.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/EncHRD.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncHRD.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncHRD.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/EncLib.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLib.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLib.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/EncLibCommon.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLibCommon.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncLibCommon.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/EncModeCtrl.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncModeCtrl.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncModeCtrl.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/EncReshape.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncReshape.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncReshape.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/EncSampleAdaptiveOffset.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSampleAdaptiveOffset.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSampleAdaptiveOffset.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/EncSlice.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSlice.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncSlice.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/EncTemporalFilter.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncTemporalFilter.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/EncTemporalFilter.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/InterSearch.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/InterSearch.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/InterSearch.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/IntraSearch.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/IntraSearch.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/IntraSearch.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/NALwrite.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/NALwrite.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/NALwrite.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/RateCtrl.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/RateCtrl.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/RateCtrl.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/SEIEncoder.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIEncoder.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIEncoder.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/SEIwrite.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIwrite.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/SEIwrite.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/VLCWriter.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/VLCWriter.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/VLCWriter.cpp.o.d"
-  "/home/dudabosel/TCC/TCC/source/Lib/EncoderLib/WeightPredAnalysis.cpp" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/WeightPredAnalysis.cpp.o" "gcc" "source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir/WeightPredAnalysis.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../source/Lib/EncoderLib/."
+  "../source/Lib/CommonLib/."
+  "../source/Lib/CommonLib/.."
+  "../source/Lib/CommonLib/./x86"
+  "../source/Lib/CommonLib/../libmd5"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/dudabosel/TCC/TCC/build/source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DependInfo.cmake"
+  "/home/ebbosel/TCC/TCC/build/source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
