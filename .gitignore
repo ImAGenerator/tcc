@@ -2,3 +2,4 @@
 *.yuv
 *.o
 *.make
+source/Lib/CommonLib/libonnxruntime.so
