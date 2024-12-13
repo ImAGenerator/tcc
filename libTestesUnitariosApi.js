@@ -113,17 +113,6 @@ function requestObjectCreate(url, token, body) {
         }
     }
 }
-
-module.exports = {
-    codeVerify,
-    successStruct,
-    successMessage,
-    //successResults,
-    failStruct,
-    compareValuesRequestResponse,
-    requestObjectRead,
-    requestObjectCreate
-    };
 // Use module.exports to export the functions that should be
 // available to use from this package.
 // module.exports = { <your_function> }
