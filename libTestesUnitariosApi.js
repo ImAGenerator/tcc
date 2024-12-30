@@ -6,9 +6,7 @@
  * @param {Array} code - Array contendo os códigos aceitos pelo teste.
  */
 function codeVerify(response, code) {
-    pm.test(`Resposta possui um dos códigos: ${code}`, function () {
-        pm.expect(response.code).to.be.oneOf(code)
-    })
+    pm.expect(response.code).to.be.oneOf(code)
 }
 
 // Testes para verificar se a resposta da requisição possui a estrutura padrão de sucesso
@@ -29,17 +27,19 @@ function codeVerify(response, code) {
  * @param {string} message - String da mensagem esperada.
  */
 function successMessage(response, message) {
-    pm.test('Resposta possui a mensagem esperada', function () {
-        pm.expect(response.data.message).to.be.eql(message);
-    });
+    pm.expect(response.data.message).to.be.eql(message);
 };
 
+// Testes para verificar se os dados de resultado da resposta estão iguais aos esperados.
+/**
+ * Testes para verificar se os dados de resultado da resposta estão iguais aos esperados.
+ * @param {object} response - Objeto em formato JSON da resposta.
+ * @param {Array} results - Array contendo o nome dos campos esperados no results da resposta.
+ */
 function successResults(response, results) {
-    results.forEach((property) =>
-        pm.test(`Resposta possui a propriedade results.${property}`, function () {
-            pm.expect(response.data.results).to.have.property(property);
-        })
-    );
+    results.forEach((property) => {
+        pm.expect(response.data.results).to.have.property(property);
+    })
 };
 
 // Testes para verificar se a resposta da requisição possui a estrutura padrão de falha.
@@ -49,28 +49,32 @@ function successResults(response, results) {
  * @param {boolean} [results=false] - Boolean para indicar se a resposta da requisição deve ter ou não o campo "results" (por padrão, definido como "false").
  */
 function failStruct(response, results = false) {
-    pm.test(`Resposta possui a estrutura padrão de sucesso`, function () { // Função de teste
-        pm.expect(response).to.have.property('error'); // Verifica se a resposta possui o elemento desejado
-        pm.expect(response).to.have.nested.property('error.message'); // Verifica se a resposta possui o elemento desejado
-        (results ? pm.expect(response).to.have.nested.property('error.results') : null); // Verifica se a resposta possui o elemento desejado
-    });
+    pm.expect(response).to.have.property('error'); // Verifica se a resposta possui o elemento desejado
+    pm.expect(response).to.have.nested.property('error.message'); // Verifica se a resposta possui o elemento desejado
+    (results ? pm.expect(response).to.have.nested.property('error.results') : null); // Verifica se a resposta possui o elemento desejado
 };
 
-// Testes para verificar se as propriedades e valores do objeto "response" incluem todas as propriedades e valores do objeto "request".
+// Testes para verificar se a mensagem da resposta da requisição está igual a esperada.
 /**
- * Testes para verificar se as propriedades e valores do objeto "response" incluem todas as propriedades e valores do objeto "request".
- * @param {JSON} request - Objeto em formato JSON da requisição enviada.
- * @param {JSON} response - Objeto em formato JSON da resposta da requisição em formato padrão para ser comparado.
+ * Testes para verificar se a mensagem da resposta da requisição está igual a esperada.
+ * @param {object} response - Objeto em formato JSON da resposta.
+ * @param {string} message - String da mensagem esperada.
  */
-function compareValuesRequestResponse (request, response) {
-    const requestProperties = Object.keys(request)
-    const requestValues = Object.values(request)
-    for (let variable = 0; variable < baseProperties.length; variable++) { // Laço para testar todas as variáveis enviadas
-        pm.test(`A variável ${requestProperties[variable]} foi corretamente inserida na tabela`, function () { // Função de teste
-            pm.expect(response.data.results[requestProperties[variable]]).to.be.eql(requestValues[variable]);
-        });
-    }
-}
+function failMessage(response, message) {
+    pm.expect(response.error.message).to.be.eql(message);
+};
+
+// Testes para verificar se os dados de resultado da resposta estão iguais aos esperados.
+/**
+ * Testes para verificar se os dados de resultado da resposta estão iguais aos esperados.
+ * @param {object} response - Objeto em formato JSON da resposta.
+ * @param {Array} results - Array contendo o nome dos campos esperados no results da resposta.
+ */
+function failResults(response, results) {
+    results.forEach((property) => {
+        pm.expect(response.error.results).to.have.property(property);
+    })
+};
 
 // Função que retorna um request object de leitura (Method GET) baseado na URL e o token de autorização passados.
 /**
@@ -113,9 +117,20 @@ function requestObjectCreate(url, token, body) {
         }
     }
 }
-// Use module.exports to export the functions that should be
-// available to use from this package.
-// module.exports = { <your_function> }
 
-// Once exported, use this statement in your scripts to use the package.
-// const myPackage = pm.require('<package_name>')
+// Função para realizar o login de um usuário e retorna a token deste login.
+/**
+ * Função que realiza o login de um usuário e retorna a token deste login.
+ * @param {string} user - String contendo o nome de usuário para utilizar no login.
+ * @param {string} psswd - String contendo a senha do usuário para utilizar no login.
+ * @param {string} url - String contendo a URL para onde se deseja realizar o login.
+ * @param {string} code - String contendo o código de Two Factor Authentication. Por padrão é utilizado o valor "000000"
+ * @returns {string} Retorna um string contendo o token do login do usuário.
+ */
+function getTokenFromLogin(user, psswd, url, code = "000000") {
+    let firstRequest = requestObjectCreate(url, "", {"username":user, "password":psswd})
+    await pm.sendRequest(firstRequest)
+    let secondRequest = requestObjectCreate(url, "", {"username":user, "password":psswd, "code":code})
+    const responseObject = await pm.sendRequest(secondRequest)
+    return responseObject.json().jwtToken
+}
