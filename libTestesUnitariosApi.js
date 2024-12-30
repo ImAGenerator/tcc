@@ -118,6 +118,20 @@ function requestObjectCreate(url, token, body) {
     }
 }
 
+function requestObjectLogin(url, body) {
+    return { // Estrutura utilizada para fazer a requisição de leitura para fins de comparação
+        url: url, // Endpoint de leitura
+        method: 'POST', // Método HTTP utilizado pela leitura
+        header: { // Header da requisiçã de leitura
+            'Content-Type': 'application/json',
+        },
+        body: {
+            mode: 'raw',
+            raw: JSON.stringify(body)
+        }
+    }
+}
+
 // Função para realizar o login de um usuário e retorna a token deste login.
 /**
  * Função que realiza o login de um usuário e retorna a token deste login.
@@ -128,9 +142,9 @@ function requestObjectCreate(url, token, body) {
  * @returns {string} Retorna um string contendo o token do login do usuário.
  */
 async function getTokenFromLogin(user, psswd, url, code = "000000") {
-    let firstRequest = requestObjectCreate(url, null, {"username":user, "password":psswd})
+    let firstRequest = requestObjectLogin(url, {"username":user, "password":psswd})
     await pm.sendRequest(firstRequest)
-    let secondRequest = requestObjectCreate(url, null, {"username":user, "password":psswd, "code":code})
+    let secondRequest = requestObjectLogin(url, {"username":user, "password":psswd, "code":code})
     const responseObject = await pm.sendRequest(secondRequest)
     return responseObject.json().jwtToken
 }
