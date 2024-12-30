@@ -128,9 +128,9 @@ function requestObjectCreate(url, token, body) {
  * @returns {string} Retorna um string contendo o token do login do usuário.
  */
 async function getTokenFromLogin(user, psswd, url, code = "000000") {
-    let firstRequest = requestObjectCreate(url, "", {"username":user, "password":psswd})
+    let firstRequest = requestObjectCreate(url, null, {"username":user, "password":psswd})
     await pm.sendRequest(firstRequest)
-    let secondRequest = requestObjectCreate(url, "", {"username":user, "password":psswd, "code":code})
+    let secondRequest = requestObjectCreate(url, null, {"username":user, "password":psswd, "code":code})
     const responseObject = await pm.sendRequest(secondRequest)
     return responseObject.json().jwtToken
 }
