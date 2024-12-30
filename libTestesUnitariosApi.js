@@ -127,7 +127,7 @@ function requestObjectCreate(url, token, body) {
  * @param {string} code - String contendo o código de Two Factor Authentication. Por padrão é utilizado o valor "000000"
  * @returns {string} Retorna um string contendo o token do login do usuário.
  */
-function getTokenFromLogin(user, psswd, url, code = "000000") {
+async function getTokenFromLogin(user, psswd, url, code = "000000") {
     let firstRequest = requestObjectCreate(url, "", {"username":user, "password":psswd})
     await pm.sendRequest(firstRequest)
     let secondRequest = requestObjectCreate(url, "", {"username":user, "password":psswd, "code":code})
