@@ -148,3 +148,34 @@ async function getTokenFromLogin(user, psswd, url, code = "000000") {
     const responseObject = await pm.sendRequest(secondRequest)
     return responseObject.json().jwtToken
 }
+
+// Função que retorna a data de validade de um token JWT.
+/**
+ * 
+ */
+function getTokenExpirationDate(token) {
+    // Divide o token em três partes: cabeçalho, corpo e assinatura
+    const parts = token.split('.');
+
+    if (parts.length !== 3) {
+        throw new Error('Token inválido');
+    }
+
+    // A parte do corpo (payload) é a segunda parte
+    const payload = parts[1];
+
+    // Decodifica a parte do corpo do token de base64 URL para base64
+    const base64Url = payload.replace(/-/g, '+').replace(/_/g, '/');
+    const base64 = base64Url + '='.repeat((4 - base64Url.length % 4) % 4);
+    
+    // Converte de base64 para JSON
+    const jsonPayload = JSON.parse(atob(base64));
+
+    // Verifica se o campo "exp" existe
+    if (!jsonPayload.exp) {
+        throw new Error('Campo "exp" não encontrado no token');
+    }
+
+    // A data de expiração está no formato de timestamp em segundos, então converte para milissegundos
+    return new Date(jsonPayload.exp * 1000); // Retorna um objeto Date
+}
