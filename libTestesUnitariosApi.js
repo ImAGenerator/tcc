@@ -141,7 +141,7 @@ function requestObjectLogin(url, body) {
  * @returns {string} Retorna um string contendo o token do login do usuário.
  */
 async function getTokenFromLogin(user, psswd, code = "000000") {
-    let codeRequest = requestObjectLogin('https://hml.zipdin.com.br/zipdin-base/services/login/authorize', {"username":user, "password":psswd, "codeChallenge": "sLA4ScispiRAneofzg8CtQeq7WQqNRpTpRVomH-As3E", "codeChallengeMethod": "S256"});
+    let codeRequest = requestObjectLogin('https://hml.zipdin.com.br/zipdin-base/services/login/authorize', {"clientId":user, "codeChallenge": "sLA4ScispiRAneofzg8CtQeq7WQqNRpTpRVomH-As3E", "codeChallengeMethod": "S256"});
     const codeLogin = await pm.sendRequest(codeRequest);
     const authorizationCode = codeLogin.json().data.results.code;
     let firstRequest = requestObjectLogin('https://hml.zipdin.com.br/zipdin-base/services/login/perform_v2', {"username":user, "password":psswd, "authorizationCode":authorizationCode, "codeVerifier":"KqL6c9SNDVZwzJYDdWtlKqarfc_K9tUIniwH70wgbfk"});
