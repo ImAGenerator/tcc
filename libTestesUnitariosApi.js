@@ -137,16 +137,18 @@ function requestObjectLogin(url, body) {
  * Função que realiza o login de um usuário e retorna a token deste login.
  * @param {string} user - String contendo o nome de usuário para utilizar no login.
  * @param {string} psswd - String contendo a senha do usuário para utilizar no login.
- * @param {string} url - String contendo a URL para onde se deseja realizar o login.
  * @param {string} code - String contendo o código de Two Factor Authentication. Por padrão é utilizado o valor "000000"
  * @returns {string} Retorna um string contendo o token do login do usuário.
  */
-async function getTokenFromLogin(user, psswd, url, code = "000000") {
-    let firstRequest = requestObjectLogin(url, {"username":user, "password":psswd})
-    await pm.sendRequest(firstRequest)
-    let secondRequest = requestObjectLogin(url, {"username":user, "password":psswd, "code":code})
-    const responseObject = await pm.sendRequest(secondRequest)
-    return responseObject.json().jwtToken
+async function getTokenFromLogin(user, psswd, code = "000000") {
+    let codeRequest = requestObjectLogin('https://hml.zipdin.com.br/zipdin-base/services/login/authorize', {"username":user, "password":psswd, "codeChallenge": "sLA4ScispiRAneofzg8CtQeq7WQqNRpTpRVomH-As3E", "codeChallengeMethod": "S256"});
+    const codeLogin = await pm.sendRequest(codeRequest);
+    const authorizationCode = codeLogin.json().data.results.code;
+    let firstRequest = requestObjectLogin('https://hml.zipdin.com.br/zipdin-base/services/login/perform_v2', {"username":user, "password":psswd, "authorizationCode":authorizationCode, "codeVerifier":"KqL6c9SNDVZwzJYDdWtlKqarfc_K9tUIniwH70wgbfk"});
+    const firstLogin = await pm.sendRequest(firstRequest);
+    let secondRequest = requestObjectLogin('https://hml.zipdin.com.br/zipdin-base/services/login/perform_v2', {"username":user, "password":psswd, "authorizationCode":authorizationCode, "codeVerifier":"KqL6c9SNDVZwzJYDdWtlKqarfc_K9tUIniwH70wgbfk", "code":code});
+    const responseObject = await pm.sendRequest(secondRequest);
+    return responseObject.json().jwtToken;
 }
 
 // Função que retorna a data de validade de um token JWT.
