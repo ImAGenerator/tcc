@@ -15,32 +15,31 @@ function codeVerify(response, code) {
  * @param {object} response - Objeto em formato JSON da resposta.
  */
  function successStruct(response) {
-    pm.expect(response).to.have.property('data'); // Verifica se a resposta possui o elemento desejado
-    pm.expect(response).to.have.nested.property('data.message'); // Verifica se a resposta possui o elemento desejado
-    pm.expect(response).to.have.nested.property('data.results'); // Verifica se a resposta possui o elemento desejado
+    pm.expect(response).to.have.property('_links'); // Verifica se a resposta possui o elemento desejado
+    pm.expect(response).to.have.nested.property('_links.self'); // Verifica se a resposta possui o elemento desejado
 };
 
-// Testes para verificar se a mensagem da resposta da requisição está igual a esperada.
-/**
- * Testes para verificar se a mensagem da resposta da requisição está igual a esperada.
- * @param {object} response - Objeto em formato JSON da resposta.
- * @param {string} message - String da mensagem esperada.
- */
-function successMessage(response, message) {
-    pm.expect(response.data.message).to.be.eql(message);
-};
+// // Testes para verificar se a mensagem da resposta da requisição está igual a esperada.
+// /**
+//  * Testes para verificar se a mensagem da resposta da requisição está igual a esperada.
+//  * @param {object} response - Objeto em formato JSON da resposta.
+//  * @param {string} message - String da mensagem esperada.
+//  */
+// function successMessage(response, message) {
+//     pm.expect(response.data.message).to.be.eql(message);
+// };
 
-// Testes para verificar se os dados de resultado da resposta estão iguais aos esperados.
-/**
- * Testes para verificar se os dados de resultado da resposta estão iguais aos esperados.
- * @param {object} response - Objeto em formato JSON da resposta.
- * @param {Array} results - Array contendo o nome dos campos esperados no results da resposta.
- */
-function successResults(response, results) {
-    results.forEach((property) => {
-        pm.expect(response.data.results).to.have.property(property);
-    })
-};
+// // Testes para verificar se os dados de resultado da resposta estão iguais aos esperados.
+// /**
+//  * Testes para verificar se os dados de resultado da resposta estão iguais aos esperados.
+//  * @param {object} response - Objeto em formato JSON da resposta.
+//  * @param {Array} results - Array contendo o nome dos campos esperados no results da resposta.
+//  */
+// function successResults(response, results) {
+//     results.forEach((property) => {
+//         pm.expect(response.data.results).to.have.property(property);
+//     })
+// };
 
 // Testes para verificar se a resposta da requisição possui a estrutura padrão de falha.
 /**
@@ -48,33 +47,39 @@ function successResults(response, results) {
  * @param {object} response - Objeto em formato JSON da resposta da requisição.
  * @param {boolean} [results=false] - Boolean para indicar se a resposta da requisição deve ter ou não o campo "results" (por padrão, definido como "false").
  */
-function failStruct(response, results = false) {
-    pm.expect(response).to.have.property('error'); // Verifica se a resposta possui o elemento desejado
-    pm.expect(response).to.have.nested.property('error.message'); // Verifica se a resposta possui o elemento desejado
-    (results ? pm.expect(response).to.have.nested.property('error.results') : null); // Verifica se a resposta possui o elemento desejado
+function failStruct(response, errors = false) {
+    pm.expect(response).to.have.property('type'); // Verifica se a resposta possui o elemento desejado
+    pm.expect(response).to.have.property('title'); // Verifica se a resposta possui o elemento desejado
+    pm.expect(response).to.have.property('detail'); // Verifica se a resposta possui o elemento desejado
+    pm.expect(response).to.have.property('instance'); // Verifica se a resposta possui o elemento desejado
+    pm.expect(response).to.have.property('timestamp'); // Verifica se a resposta possui o elemento desejado
+    pm.expect(response).to.have.property('status'); // Verifica se a resposta possui o elemento desejado
+    pm.expect(response).to.have.property('_links'); // Verifica se a resposta possui o elemento desejado
+    pm.expect(response).to.have.nested.property('_links.self'); // Verifica se a resposta possui o elemento desejado
+    (errors ? pm.expect(response).to.have.property('errors') : null); // Verifica se a resposta possui o elemento desejado
 };
 
-// Testes para verificar se a mensagem da resposta da requisição está igual a esperada.
-/**
- * Testes para verificar se a mensagem da resposta da requisição está igual a esperada.
- * @param {object} response - Objeto em formato JSON da resposta.
- * @param {string} message - String da mensagem esperada.
- */
-function failMessage(response, message) {
-    pm.expect(response.error.message).to.be.eql(message);
-};
+// // Testes para verificar se a mensagem da resposta da requisição está igual a esperada.
+// /**
+//  * Testes para verificar se a mensagem da resposta da requisição está igual a esperada.
+//  * @param {object} response - Objeto em formato JSON da resposta.
+//  * @param {string} message - String da mensagem esperada.
+//  */
+// function failMessage(response, message) {
+//     pm.expect(response.error.message).to.be.eql(message);
+// };
 
-// Testes para verificar se os dados de resultado da resposta estão iguais aos esperados.
-/**
- * Testes para verificar se os dados de resultado da resposta estão iguais aos esperados.
- * @param {object} response - Objeto em formato JSON da resposta.
- * @param {Array} results - Array contendo o nome dos campos esperados no results da resposta.
- */
-function failResults(response, results) {
-    results.forEach((property) => {
-        pm.expect(response.error.results).to.have.property(property);
-    })
-};
+// // Testes para verificar se os dados de resultado da resposta estão iguais aos esperados.
+// /**
+//  * Testes para verificar se os dados de resultado da resposta estão iguais aos esperados.
+//  * @param {object} response - Objeto em formato JSON da resposta.
+//  * @param {Array} results - Array contendo o nome dos campos esperados no results da resposta.
+//  */
+// function failResults(response, results) {
+//     results.forEach((property) => {
+//         pm.expect(response.error.results).to.have.property(property);
+//     })
+// };
 
 // Função que retorna um request object de leitura (Method GET) baseado na URL e o token de autorização passados.
 /**
